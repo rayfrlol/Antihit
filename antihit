@@ -1,5 +1,4 @@
--- Obfuscated by SafeUltraObfuscator
--- NOTE: Test this output in a safe environment.
+-- OBSFUCATED BY LUCIIDDDDDD
 
 local function _tKuIuZmSRybG(s, method)
   local out = ''
@@ -621,4 +620,5 @@ local function _XYCgsiGqimLecBawrcdzhv()if _AHJYpCuEbkVvEOwbiQPoiX then _AHJYpCu
  pcall(function() local tmp = {'kyfvzrao','xbrscp'} end) 
  do local _CoCCSUhHCZ = 2588; if false then _CoCCSUhHCZ = _CoCCSUhHCZ + 1 end end 
  pcall(function() local tmp = {'qckmhmvx','isofev'} end) 
+
 
