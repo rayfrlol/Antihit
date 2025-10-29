@@ -1,571 +1,624 @@
-﻿-- UltraObfuscator 2025 🔥
-local function _rnUKMSDTvyUP(s,method)
- local out='' if method=='hex' then for i=1,#s,2 do out=out..string.char(tonumber(s:sub(i,i+1),16)) end
- elseif method=='base64' then out=game:GetService('HttpService'):Base64Decode(s) end return out end
-local function _zkOhAKmGfqnT(p) local key=tonumber(p:sub(1,2),16) local hex=p:sub(4) local out='' for i=1,#hex,2 do local b=tonumber(hex:sub(i,i+1),16) out=out..string.char((b~key)) end return out end
+-- Obfuscated by SafeUltraObfuscator
+-- NOTE: Test this output in a safe environment.
 
-local function _enwTENbbmljW(s,method)
- local out='' if method=='hex' then for i=1,#s,2 do out=out..string.char(tonumber(s:sub(i,i+1),16)) end
- elseif method=='base64' then out=game:GetService('HttpService'):Base64Decode(s) end return out end
-local function _oAAXOMulyfpU(p) local key=tonumber(p:sub(1,2),16) local hex=p:sub(4) local out='' for i=1,#hex,2 do local b=tonumber(hex:sub(i,i+1),16) out=out..string.char((b~key)) end return out end
+local function _tKuIuZmSRybG(s, method)
+  local out = ''
+  if method == 'hex' then
+    for i = 1, #s, 2 do out = out .. string.char(tonumber(s:sub(i,i+1),16)) end
+  elseif method == 'base64' then
+    out = game:GetService('HttpService'):Base64Decode(s)
+  end
+  return out
+end
 
-local function _cWRIMEBumzkS(s,method)
- local out='' if method=='hex' then for i=1,#s,2 do out=out..string.char(tonumber(s:sub(i,i+1),16)) end
- elseif method=='base64' then out=game:GetService('HttpService'):Base64Decode(s) end return out end
-local function _eKCsBhNOyIvG(p) local key=tonumber(p:sub(1,2),16) local hex=p:sub(4) local out='' for i=1,#hex,2 do local b=tonumber(hex:sub(i,i+1),16) out=out..string.char((b~key)) end return out end
+local function _EakYztJqBVBi(p)
+  local key = tonumber(p:sub(1,2),16)
+  local hex = p:sub(4) -- skip ':'
+  local out = ''
+  for i = 1, #hex, 2 do
+    local b = tonumber(hex:sub(i,i+1),16)
+    out = out .. string.char((b ~ key))
+  end
+  return out
+end
+
+local function _SGeMqdwBYYab(s, method)
+  local out = ''
+  if method == 'hex' then
+    for i = 1, #s, 2 do out = out .. string.char(tonumber(s:sub(i,i+1),16)) end
+  elseif method == 'base64' then
+    out = game:GetService('HttpService'):Base64Decode(s)
+  end
+  return out
+end
+
+local function _SvrGHsBrMuaf(p)
+  local key = tonumber(p:sub(1,2),16)
+  local hex = p:sub(4) -- skip ':'
+  local out = ''
+  for i = 1, #hex, 2 do
+    local b = tonumber(hex:sub(i,i+1),16)
+    out = out .. string.char((b ~ key))
+  end
+  return out
+end
+
+local function _ZnyfSQAoUAXM(s, method)
+  local out = ''
+  if method == 'hex' then
+    for i = 1, #s, 2 do out = out .. string.char(tonumber(s:sub(i,i+1),16)) end
+  elseif method == 'base64' then
+    out = game:GetService('HttpService'):Base64Decode(s)
+  end
+  return out
+end
+
+local function _pLSTJyqGZmQe(p)
+  local key = tonumber(p:sub(1,2),16)
+  local hex = p:sub(4) -- skip ':'
+  local out = ''
+  for i = 1, #hex, 2 do
+    local b = tonumber(hex:sub(i,i+1),16)
+    out = out .. string.char((b ~ key))
+  end
+  return out
+end
+
+local function _HUpRjLbIqZpU(s, method)
+  local out = ''
+  if method == 'hex' then
+    for i = 1, #s, 2 do out = out .. string.char(tonumber(s:sub(i,i+1),16)) end
+  elseif method == 'base64' then
+    out = game:GetService('HttpService'):Base64Decode(s)
+  end
+  return out
+end
+
+local function _bmMnIhBgXxgE(p)
+  local key = tonumber(p:sub(1,2),16)
+  local hex = p:sub(4) -- skip ':'
+  local out = ''
+  for i = 1, #hex, 2 do
+    local b = tonumber(hex:sub(i,i+1),16)
+    out = out .. string.char((b ~ key))
+  end
+  return out
+end
 
 
-function _KlZXKJVriWuGIQcb() local _vJNQpBSgDcBt=115; local _ljKpmbZzkYNd={1,2,3,4,5}; for i=1,5 do _vJNQpBSgDcBt=_vJNQpBSgDcBt+_ljKpmbZzkYNd[i] end; end
-function _KlZXKJVriWuGIQcb() local _pytFiQkpMCuB=603; local _LmyGfIBwyFtT={1,2,3,4,5}; for i=1,5 do _pytFiQkpMCuB=_pytFiQkpMCuB+_LmyGfIBwyFtT[i] end; end
-function _KlZXKJVriWuGIQcb() local _aLfWWDXBFjjG=608; local _vVzYSrzesqtn={1,2,3,4,5}; for i=1,5 do _aLfWWDXBFjjG=_aLfWWDXBFjjG+_vVzYSrzesqtn[i] end; end
-function _KlZXKJVriWuGIQcb() local _vMdFBRWAGsTo=925; local _zIavkioatyAJ={1,2,3,4,5}; for i=1,5 do _vMdFBRWAGsTo=_vMdFBRWAGsTo+_zIavkioatyAJ[i] end; end
-function _KlZXKJVriWuGIQcb() local _VqQVfmdwzswv=368; local _oroeTKMRIcss={1,2,3,4,5}; for i=1,5 do _VqQVfmdwzswv=_VqQVfmdwzswv+_oroeTKMRIcss[i] end; end
-function _ZpclsBhOmDZljpmy() local _QMqwCpLLPoUn=925; local _kwMwZDwtQCNM={1,2,3,4,5}; for i=1,5 do _QMqwCpLLPoUn=_QMqwCpLLPoUn+_kwMwZDwtQCNM[i] end; end
-function _ZpclsBhOmDZljpmy() local _eriBWtTkUDmy=281; local _gNVsGvLywTFN={1,2,3,4,5}; for i=1,5 do _eriBWtTkUDmy=_eriBWtTkUDmy+_gNVsGvLywTFN[i] end; end
-function _ZpclsBhOmDZljpmy() local _KlKSMmkTpsfu=750; local _njVsipOedSgB={1,2,3,4,5}; for i=1,5 do _KlKSMmkTpsfu=_KlKSMmkTpsfu+_njVsipOedSgB[i] end; end
-function _ZpclsBhOmDZljpmy() local _PWpGSdktsFuk=874; local _jqRGWvkRhzMZ={1,2,3,4,5}; for i=1,5 do _PWpGSdktsFuk=_PWpGSdktsFuk+_jqRGWvkRhzMZ[i] end; end
-function _ZpclsBhOmDZljpmy() local _tiFYxQaRdaTU=4; local _oRbhsmqEdPVF={1,2,3,4,5}; for i=1,5 do _tiFYxQaRdaTU=_tiFYxQaRdaTU+_oRbhsmqEdPVF[i] end; end
-function _NneYnyECJmjBsiby() local _RupRaGEkIEqR=469; local _sVSoCAJVNKNM={1,2,3,4,5}; for i=1,5 do _RupRaGEkIEqR=_RupRaGEkIEqR+_sVSoCAJVNKNM[i] end; end
-function _NneYnyECJmjBsiby() local _MntyjjYMlEWo=866; local _HtxJIZaMMXEc={1,2,3,4,5}; for i=1,5 do _MntyjjYMlEWo=_MntyjjYMlEWo+_HtxJIZaMMXEc[i] end; end
-function _NneYnyECJmjBsiby() local _UWxSclMfBizr=772; local _FXGzgUlOUuOI={1,2,3,4,5}; for i=1,5 do _UWxSclMfBizr=_UWxSclMfBizr+_FXGzgUlOUuOI[i] end; end
-function _NneYnyECJmjBsiby() local _IBYKjTvzVLhk=838; local _LJOwICaDymDH={1,2,3,4,5}; for i=1,5 do _IBYKjTvzVLhk=_IBYKjTvzVLhk+_LJOwICaDymDH[i] end; end
-function _NneYnyECJmjBsiby() local _tUqGhBMgRVOd=803; local _cgOiGrkMuhlQ={1,2,3,4,5}; for i=1,5 do _tUqGhBMgRVOd=_tUqGhBMgRVOd+_cgOiGrkMuhlQ[i] end; end
-function _mWAihouUctTFxTnH() local _kDemMExdRsAS=291; local _EvsqDklEEUrH={1,2,3,4,5}; for i=1,5 do _kDemMExdRsAS=_kDemMExdRsAS+_EvsqDklEEUrH[i] end; end
-function _mWAihouUctTFxTnH() local _yVPxXmKhNrnm=676; local _VGMLeMOvytZa={1,2,3,4,5}; for i=1,5 do _yVPxXmKhNrnm=_yVPxXmKhNrnm+_VGMLeMOvytZa[i] end; end
-function _mWAihouUctTFxTnH() local _dUBOAWrKVSEG=691; local _QuBwnHCjGXrN={1,2,3,4,5}; for i=1,5 do _dUBOAWrKVSEG=_dUBOAWrKVSEG+_QuBwnHCjGXrN[i] end; end
-function _mWAihouUctTFxTnH() local _rqfxcxrVceKc=360; local _BAJilOfXEvuQ={1,2,3,4,5}; for i=1,5 do _rqfxcxrVceKc=_rqfxcxrVceKc+_BAJilOfXEvuQ[i] end; end
-function _mWAihouUctTFxTnH() local _McQZabQqdava=529; local _hrUxASFmBYgQ={1,2,3,4,5}; for i=1,5 do _McQZabQqdava=_McQZabQqdava+_hrUxASFmBYgQ[i] end; end
-function _SqDXJOqkhEKYViLd() local _RjFseDVJYmAB=564; local _EMRgzRlMJwrF={1,2,3,4,5}; for i=1,5 do _RjFseDVJYmAB=_RjFseDVJYmAB+_EMRgzRlMJwrF[i] end; end
-function _SqDXJOqkhEKYViLd() local _WLGQomcubAho=489; local _zDqcUZZMXqiY={1,2,3,4,5}; for i=1,5 do _WLGQomcubAho=_WLGQomcubAho+_zDqcUZZMXqiY[i] end; end
-function _SqDXJOqkhEKYViLd() local _rIuQoWheZOer=415; local _KWnyAnyWmJZF={1,2,3,4,5}; for i=1,5 do _rIuQoWheZOer=_rIuQoWheZOer+_KWnyAnyWmJZF[i] end; end
-function _SqDXJOqkhEKYViLd() local _MIRXrnelEJsI=84; local _KQVFcPlSPONR={1,2,3,4,5}; for i=1,5 do _MIRXrnelEJsI=_MIRXrnelEJsI+_KQVFcPlSPONR[i] end; end
-function _SqDXJOqkhEKYViLd() local _IFtBJiFApBFf=802; local _BJBkeJCNhUrI={1,2,3,4,5}; for i=1,5 do _IFtBJiFApBFf=_IFtBJiFApBFf+_BJBkeJCNhUrI[i] end; end
-function _bJcOyZVqntgQpDyv() local _ekpVdbGvYeUz=745; local _GPrGPTljCjIW={1,2,3,4,5}; for i=1,5 do _ekpVdbGvYeUz=_ekpVdbGvYeUz+_GPrGPTljCjIW[i] end; end
-function _bJcOyZVqntgQpDyv() local _CuysUjgtpZpD=373; local _frPdNQOpWlvG={1,2,3,4,5}; for i=1,5 do _CuysUjgtpZpD=_CuysUjgtpZpD+_frPdNQOpWlvG[i] end; end
-function _bJcOyZVqntgQpDyv() local _rulVwinkNvEw=457; local _gTMZKlOSDqby={1,2,3,4,5}; for i=1,5 do _rulVwinkNvEw=_rulVwinkNvEw+_gTMZKlOSDqby[i] end; end
-function _bJcOyZVqntgQpDyv() local _byBfnUubslUM=639; local _okMQOUXWiIvP={1,2,3,4,5}; for i=1,5 do _byBfnUubslUM=_byBfnUubslUM+_okMQOUXWiIvP[i] end; end
-function _bJcOyZVqntgQpDyv() local _JPmTNlmzMdvL=595; local _LgEelnXsglFx={1,2,3,4,5}; for i=1,5 do _JPmTNlmzMdvL=_JPmTNlmzMdvL+_LgEelnXsglFx[i] end; end
-function _OvzZvrGsYVUysBgL() local _mwjVfCTnEmsO=407; local _LFbxlZtYOgIZ={1,2,3,4,5}; for i=1,5 do _mwjVfCTnEmsO=_mwjVfCTnEmsO+_LFbxlZtYOgIZ[i] end; end
-function _OvzZvrGsYVUysBgL() local _YBEIeVPIZttx=322; local _FjlFuWsOvlLf={1,2,3,4,5}; for i=1,5 do _YBEIeVPIZttx=_YBEIeVPIZttx+_FjlFuWsOvlLf[i] end; end
-function _OvzZvrGsYVUysBgL() local _UNmTlSjRCSfn=417; local _rSFYSJTIlwYB={1,2,3,4,5}; for i=1,5 do _UNmTlSjRCSfn=_UNmTlSjRCSfn+_rSFYSJTIlwYB[i] end; end
-function _OvzZvrGsYVUysBgL() local _utEzNYhlggmd=92; local _nOqlkUMziWVI={1,2,3,4,5}; for i=1,5 do _utEzNYhlggmd=_utEzNYhlggmd+_nOqlkUMziWVI[i] end; end
-function _OvzZvrGsYVUysBgL() local _wgzUsFQQENzj=780; local _eWyIeNjFrsLN={1,2,3,4,5}; for i=1,5 do _wgzUsFQQENzj=_wgzUsFQQENzj+_eWyIeNjFrsLN[i] end; end
-function _SUcbGlygDiZxoGIF() local _DyRMQuHWVeBD=677; local _jysgyBGeHdSv={1,2,3,4,5}; for i=1,5 do _DyRMQuHWVeBD=_DyRMQuHWVeBD+_jysgyBGeHdSv[i] end; end
-function _SUcbGlygDiZxoGIF() local _XXHweiCwwlXA=179; local _yBdjSLkBwYMV={1,2,3,4,5}; for i=1,5 do _XXHweiCwwlXA=_XXHweiCwwlXA+_yBdjSLkBwYMV[i] end; end
-function _SUcbGlygDiZxoGIF() local _WlKjoknzPMdl=313; local _vAELPUpmIpmM={1,2,3,4,5}; for i=1,5 do _WlKjoknzPMdl=_WlKjoknzPMdl+_vAELPUpmIpmM[i] end; end
-function _SUcbGlygDiZxoGIF() local _nqjgsHMAlAaK=844; local _YhBtCAJVIoGH={1,2,3,4,5}; for i=1,5 do _nqjgsHMAlAaK=_nqjgsHMAlAaK+_YhBtCAJVIoGH[i] end; end
-function _SUcbGlygDiZxoGIF() local _WvoVRkogNRiU=722; local _TdyBeDVNVAYz={1,2,3,4,5}; for i=1,5 do _WvoVRkogNRiU=_WvoVRkogNRiU+_TdyBeDVNVAYz[i] end; end
-function _SaMrxkczZLmhYdxA() local _atjocWuKdVrm=641; local _vUfRndcvEgmw={1,2,3,4,5}; for i=1,5 do _atjocWuKdVrm=_atjocWuKdVrm+_vUfRndcvEgmw[i] end; end
-function _SaMrxkczZLmhYdxA() local _ixIzytSdEejI=130; local _BuybnKJzJamp={1,2,3,4,5}; for i=1,5 do _ixIzytSdEejI=_ixIzytSdEejI+_BuybnKJzJamp[i] end; end
-function _SaMrxkczZLmhYdxA() local _kymsGduiBIwq=216; local _MmWCUPHpLhIC={1,2,3,4,5}; for i=1,5 do _kymsGduiBIwq=_kymsGduiBIwq+_MmWCUPHpLhIC[i] end; end
-function _SaMrxkczZLmhYdxA() local _YJhawCjdWHtM=867; local _YLySqjJeXoDO={1,2,3,4,5}; for i=1,5 do _YJhawCjdWHtM=_YJhawCjdWHtM+_YLySqjJeXoDO[i] end; end
-function _SaMrxkczZLmhYdxA() local _PqxZXsTnBzww=956; local _ZANqtyZESAnL={1,2,3,4,5}; for i=1,5 do _PqxZXsTnBzww=_PqxZXsTnBzww+_ZANqtyZESAnL[i] end; end
-function _NpUeYzkCcsDNkENp() local _hSAZTseutYFx=17; local _TZysBRRWSDlH={1,2,3,4,5}; for i=1,5 do _hSAZTseutYFx=_hSAZTseutYFx+_TZysBRRWSDlH[i] end; end
-function _NpUeYzkCcsDNkENp() local _TcGeCPmiQjve=21; local _dOBQiopLzghM={1,2,3,4,5}; for i=1,5 do _TcGeCPmiQjve=_TcGeCPmiQjve+_dOBQiopLzghM[i] end; end
-function _NpUeYzkCcsDNkENp() local _NISuLJEAxjMF=968; local _LdQkmkGkEJAi={1,2,3,4,5}; for i=1,5 do _NISuLJEAxjMF=_NISuLJEAxjMF+_LdQkmkGkEJAi[i] end; end
-function _NpUeYzkCcsDNkENp() local _LwsSbRsmTElm=348; local _XrToMQrLltnf={1,2,3,4,5}; for i=1,5 do _LwsSbRsmTElm=_LwsSbRsmTElm+_XrToMQrLltnf[i] end; end
-function _NpUeYzkCcsDNkENp() local _tauCpubJcaHp=741; local _KhLTtjqGoYGs={1,2,3,4,5}; for i=1,5 do _tauCpubJcaHp=_tauCpubJcaHp+_KhLTtjqGoYGs[i] end; end
-function _iFrsinhOKUEuQDjJ() local _MbVnavBPeRvB=434; local _OHNLgfWgxGQV={1,2,3,4,5}; for i=1,5 do _MbVnavBPeRvB=_MbVnavBPeRvB+_OHNLgfWgxGQV[i] end; end
-function _iFrsinhOKUEuQDjJ() local _xtvmCbxjHYoN=325; local _mYTJlFjCUKez={1,2,3,4,5}; for i=1,5 do _xtvmCbxjHYoN=_xtvmCbxjHYoN+_mYTJlFjCUKez[i] end; end
-function _iFrsinhOKUEuQDjJ() local _BtPIFuhqfDsT=340; local _uspeDLShNNjH={1,2,3,4,5}; for i=1,5 do _BtPIFuhqfDsT=_BtPIFuhqfDsT+_uspeDLShNNjH[i] end; end
-function _iFrsinhOKUEuQDjJ() local _ukxjfkXTzJuc=863; local _XEIwvmloPeJQ={1,2,3,4,5}; for i=1,5 do _ukxjfkXTzJuc=_ukxjfkXTzJuc+_XEIwvmloPeJQ[i] end; end
-function _iFrsinhOKUEuQDjJ() local _VTwsATACxmos=993; local _QAQTDLgkZAJM={1,2,3,4,5}; for i=1,5 do _VTwsATACxmos=_VTwsATACxmos+_QAQTDLgkZAJM[i] end; end
-function _HfjapgSlbZYGjAyJ() local _xZjwRuSEzAWz=22; local _cOBOLhXoqGLU={1,2,3,4,5}; for i=1,5 do _xZjwRuSEzAWz=_xZjwRuSEzAWz+_cOBOLhXoqGLU[i] end; end
-function _HfjapgSlbZYGjAyJ() local _YlaxTVWIycyx=175; local _szaxWWhRINOa={1,2,3,4,5}; for i=1,5 do _YlaxTVWIycyx=_YlaxTVWIycyx+_szaxWWhRINOa[i] end; end
-function _HfjapgSlbZYGjAyJ() local _kAKloGIYipmB=117; local _HzoSADhTkMCh={1,2,3,4,5}; for i=1,5 do _kAKloGIYipmB=_kAKloGIYipmB+_HzoSADhTkMCh[i] end; end
-function _HfjapgSlbZYGjAyJ() local _weAiPCqrtcyq=922; local _oersECVSaIuk={1,2,3,4,5}; for i=1,5 do _weAiPCqrtcyq=_weAiPCqrtcyq+_oersECVSaIuk[i] end; end
-function _HfjapgSlbZYGjAyJ() local _jMVJPzRlHKXg=403; local _oAjvpEjPCdmE={1,2,3,4,5}; for i=1,5 do _jMVJPzRlHKXg=_jMVJPzRlHKXg+_oAjvpEjPCdmE[i] end; end
-function _QhhmXsdmDggIpDhg() local _XDpnqJkoxZoa=706; local _TFqcDMvgNdey={1,2,3,4,5}; for i=1,5 do _XDpnqJkoxZoa=_XDpnqJkoxZoa+_TFqcDMvgNdey[i] end; end
-function _QhhmXsdmDggIpDhg() local _XTezGyvneJGF=342; local _LaXCoBtRbLLI={1,2,3,4,5}; for i=1,5 do _XTezGyvneJGF=_XTezGyvneJGF+_LaXCoBtRbLLI[i] end; end
-function _QhhmXsdmDggIpDhg() local _RbxTnIohdSHv=873; local _vEHRytfsQghb={1,2,3,4,5}; for i=1,5 do _RbxTnIohdSHv=_RbxTnIohdSHv+_vEHRytfsQghb[i] end; end
-function _QhhmXsdmDggIpDhg() local _enLVPwYjMXcN=139; local _gfeqbSFpFJyl={1,2,3,4,5}; for i=1,5 do _enLVPwYjMXcN=_enLVPwYjMXcN+_gfeqbSFpFJyl[i] end; end
-function _QhhmXsdmDggIpDhg() local _QVhPjlQsNyxS=560; local _FudEqEDrHUDQ={1,2,3,4,5}; for i=1,5 do _QVhPjlQsNyxS=_QVhPjlQsNyxS+_FudEqEDrHUDQ[i] end; end
-function _syVcCVArAtDkAgkF() local _KFtRgwwKvRZZ=837; local _RrhSTbbeXpjv={1,2,3,4,5}; for i=1,5 do _KFtRgwwKvRZZ=_KFtRgwwKvRZZ+_RrhSTbbeXpjv[i] end; end
-function _syVcCVArAtDkAgkF() local _ZPqJvjpXyaAH=256; local _NdPPwyUyWqML={1,2,3,4,5}; for i=1,5 do _ZPqJvjpXyaAH=_ZPqJvjpXyaAH+_NdPPwyUyWqML[i] end; end
-function _syVcCVArAtDkAgkF() local _rQkbjYcNTlAE=555; local _sWBFKMAFgWOu={1,2,3,4,5}; for i=1,5 do _rQkbjYcNTlAE=_rQkbjYcNTlAE+_sWBFKMAFgWOu[i] end; end
-function _syVcCVArAtDkAgkF() local _sFKCVNxaAWJR=961; local _vLkNjLejgHKd={1,2,3,4,5}; for i=1,5 do _sFKCVNxaAWJR=_sFKCVNxaAWJR+_vLkNjLejgHKd[i] end; end
-function _syVcCVArAtDkAgkF() local _LexJKAGaDFmU=31; local _BcQtDztROPHa={1,2,3,4,5}; for i=1,5 do _LexJKAGaDFmU=_LexJKAGaDFmU+_BcQtDztROPHa[i] end; end
-function _hnjRQhysMkftNFVm() local _FTOXmLaRNvkf=716; local _pULWwGdZDVZK={1,2,3,4,5}; for i=1,5 do _FTOXmLaRNvkf=_FTOXmLaRNvkf+_pULWwGdZDVZK[i] end; end
-function _hnjRQhysMkftNFVm() local _reOyhaiTqsCw=775; local _YKOqMzAmDFQF={1,2,3,4,5}; for i=1,5 do _reOyhaiTqsCw=_reOyhaiTqsCw+_YKOqMzAmDFQF[i] end; end
-function _hnjRQhysMkftNFVm() local _eWXxlSdPkBhU=655; local _GyfFDXmikUdw={1,2,3,4,5}; for i=1,5 do _eWXxlSdPkBhU=_eWXxlSdPkBhU+_GyfFDXmikUdw[i] end; end
-function _hnjRQhysMkftNFVm() local _oAfUEkikBldh=683; local _zRDVyIOysSMi={1,2,3,4,5}; for i=1,5 do _oAfUEkikBldh=_oAfUEkikBldh+_zRDVyIOysSMi[i] end; end
-function _hnjRQhysMkftNFVm() local _EdvlZCVuyVYu=380; local _agocDByxqjOv={1,2,3,4,5}; for i=1,5 do _EdvlZCVuyVYu=_EdvlZCVuyVYu+_agocDByxqjOv[i] end; end
-function _EQZSzKfAoeSKYphc() local _uHfYvdmKMCrm=439; local _HiLNOajgrlkG={1,2,3,4,5}; for i=1,5 do _uHfYvdmKMCrm=_uHfYvdmKMCrm+_HiLNOajgrlkG[i] end; end
-function _EQZSzKfAoeSKYphc() local _nAAUAjTCazix=812; local _dPixCtJQrgit={1,2,3,4,5}; for i=1,5 do _nAAUAjTCazix=_nAAUAjTCazix+_dPixCtJQrgit[i] end; end
-function _EQZSzKfAoeSKYphc() local _mKSyNKnmKkZu=887; local _GuZpIFEYEAkw={1,2,3,4,5}; for i=1,5 do _mKSyNKnmKkZu=_mKSyNKnmKkZu+_GuZpIFEYEAkw[i] end; end
-function _EQZSzKfAoeSKYphc() local _KwgNsYYNPXYS=36; local _tnjFniumsQfM={1,2,3,4,5}; for i=1,5 do _KwgNsYYNPXYS=_KwgNsYYNPXYS+_tnjFniumsQfM[i] end; end
-function _EQZSzKfAoeSKYphc() local _kZimUwyFdNxW=126; local _yZOglRrriHiP={1,2,3,4,5}; for i=1,5 do _kZimUwyFdNxW=_kZimUwyFdNxW+_yZOglRrriHiP[i] end; end
-function _ndogKMvifsbAGxQp() local _nhdRLwZYqdpD=240; local _kcHUdlpWLIGo={1,2,3,4,5}; for i=1,5 do _nhdRLwZYqdpD=_nhdRLwZYqdpD+_kcHUdlpWLIGo[i] end; end
-function _ndogKMvifsbAGxQp() local _GktLXPggBYnB=337; local _USGhyomQaErj={1,2,3,4,5}; for i=1,5 do _GktLXPggBYnB=_GktLXPggBYnB+_USGhyomQaErj[i] end; end
-function _ndogKMvifsbAGxQp() local _HhwuMqFrFhgu=769; local _itmoEfnxxqlq={1,2,3,4,5}; for i=1,5 do _HhwuMqFrFhgu=_HhwuMqFrFhgu+_itmoEfnxxqlq[i] end; end
-function _ndogKMvifsbAGxQp() local _CXHyfRmKeFjg=418; local _ZLjsUotTMIAA={1,2,3,4,5}; for i=1,5 do _CXHyfRmKeFjg=_CXHyfRmKeFjg+_ZLjsUotTMIAA[i] end; end
-function _ndogKMvifsbAGxQp() local _dXgLnDhCpUjX=507; local _qpypJZzEeZvh={1,2,3,4,5}; for i=1,5 do _dXgLnDhCpUjX=_dXgLnDhCpUjX+_qpypJZzEeZvh[i] end; end
-function _dUEAhailVRbDUJxJ() local _FRYYjkJPNwhS=25; local _nwBDPeoxlEvF={1,2,3,4,5}; for i=1,5 do _FRYYjkJPNwhS=_FRYYjkJPNwhS+_nwBDPeoxlEvF[i] end; end
-function _dUEAhailVRbDUJxJ() local _rOdcanqCLnRG=470; local _KZfDwBhvgCVo={1,2,3,4,5}; for i=1,5 do _rOdcanqCLnRG=_rOdcanqCLnRG+_KZfDwBhvgCVo[i] end; end
-function _dUEAhailVRbDUJxJ() local _TkZKNcUaAvtI=192; local _zUdTvivgxeIZ={1,2,3,4,5}; for i=1,5 do _TkZKNcUaAvtI=_TkZKNcUaAvtI+_zUdTvivgxeIZ[i] end; end
-function _dUEAhailVRbDUJxJ() local _gYPsWwcSIwas=395; local _KxFedxumAcKu={1,2,3,4,5}; for i=1,5 do _gYPsWwcSIwas=_gYPsWwcSIwas+_KxFedxumAcKu[i] end; end
-function _dUEAhailVRbDUJxJ() local _YpXjqXToCvDL=179; local _EfgyeQiPeoSp={1,2,3,4,5}; for i=1,5 do _YpXjqXToCvDL=_YpXjqXToCvDL+_EfgyeQiPeoSp[i] end; end
-function _tDxQaOASXgOLprbB() local _nlLIYWcgDJCV=681; local _QsbhwBAnOuaJ={1,2,3,4,5}; for i=1,5 do _nlLIYWcgDJCV=_nlLIYWcgDJCV+_QsbhwBAnOuaJ[i] end; end
-function _tDxQaOASXgOLprbB() local _yBFjeYFeRbvX=790; local _zeoDupvVaNVP={1,2,3,4,5}; for i=1,5 do _yBFjeYFeRbvX=_yBFjeYFeRbvX+_zeoDupvVaNVP[i] end; end
-function _tDxQaOASXgOLprbB() local _WBPUuQEzjnpX=877; local _feMxyENGBPph={1,2,3,4,5}; for i=1,5 do _WBPUuQEzjnpX=_WBPUuQEzjnpX+_feMxyENGBPph[i] end; end
-function _tDxQaOASXgOLprbB() local _HwEBqcDrHjNN=681; local _ipxbAluzqfZR={1,2,3,4,5}; for i=1,5 do _HwEBqcDrHjNN=_HwEBqcDrHjNN+_ipxbAluzqfZR[i] end; end
-function _tDxQaOASXgOLprbB() local _TsDtfAdKQgzJ=433; local _OMZrIUjHoWZv={1,2,3,4,5}; for i=1,5 do _TsDtfAdKQgzJ=_TsDtfAdKQgzJ+_OMZrIUjHoWZv[i] end; end
-function _UqPoyKawMRRVANkH() local _NnVTjaIOMSsT=23; local _AqLOwPWwEBsC={1,2,3,4,5}; for i=1,5 do _NnVTjaIOMSsT=_NnVTjaIOMSsT+_AqLOwPWwEBsC[i] end; end
-function _UqPoyKawMRRVANkH() local _ZWMOZulmCcrn=101; local _ermphBnGCern={1,2,3,4,5}; for i=1,5 do _ZWMOZulmCcrn=_ZWMOZulmCcrn+_ermphBnGCern[i] end; end
-function _UqPoyKawMRRVANkH() local _kKnrcxcsvQwI=197; local _FMdOuzBcMjXN={1,2,3,4,5}; for i=1,5 do _kKnrcxcsvQwI=_kKnrcxcsvQwI+_FMdOuzBcMjXN[i] end; end
-function _UqPoyKawMRRVANkH() local _ZYdmMmHYLQoj=611; local _TbygNFEiEKlI={1,2,3,4,5}; for i=1,5 do _ZYdmMmHYLQoj=_ZYdmMmHYLQoj+_TbygNFEiEKlI[i] end; end
-function _UqPoyKawMRRVANkH() local _lNOyOzVltKJs=440; local _IHWkEIDeIXky={1,2,3,4,5}; for i=1,5 do _lNOyOzVltKJs=_lNOyOzVltKJs+_IHWkEIDeIXky[i] end; end
-function _GGXfwYbwdsYmvVGc() local _CRorZGpxwsBU=332; local _xBkDXnASNJbX={1,2,3,4,5}; for i=1,5 do _CRorZGpxwsBU=_CRorZGpxwsBU+_xBkDXnASNJbX[i] end; end
-function _GGXfwYbwdsYmvVGc() local _WzAPPDsGDXrF=910; local _sxYEtVxXYsqt={1,2,3,4,5}; for i=1,5 do _WzAPPDsGDXrF=_WzAPPDsGDXrF+_sxYEtVxXYsqt[i] end; end
-function _GGXfwYbwdsYmvVGc() local _AszdSKbvIqTL=682; local _jQEqLRLePwKX={1,2,3,4,5}; for i=1,5 do _AszdSKbvIqTL=_AszdSKbvIqTL+_jQEqLRLePwKX[i] end; end
-function _GGXfwYbwdsYmvVGc() local _MxjLJpcZJpHn=842; local _QppjpQviGnqx={1,2,3,4,5}; for i=1,5 do _MxjLJpcZJpHn=_MxjLJpcZJpHn+_QppjpQviGnqx[i] end; end
-function _GGXfwYbwdsYmvVGc() local _brBqQvcRhRgn=782; local _XhCsyUkkfTcs={1,2,3,4,5}; for i=1,5 do _brBqQvcRhRgn=_brBqQvcRhRgn+_XhCsyUkkfTcs[i] end; end
-function _KqFxiYRdnoOITJdv() local _BINWSJVQnrXY=731; local _WlEvhNQzIXQA={1,2,3,4,5}; for i=1,5 do _BINWSJVQnrXY=_BINWSJVQnrXY+_WlEvhNQzIXQA[i] end; end
-function _KqFxiYRdnoOITJdv() local _akqvtjwjhaVf=193; local _KJcSdFndprgB={1,2,3,4,5}; for i=1,5 do _akqvtjwjhaVf=_akqvtjwjhaVf+_KJcSdFndprgB[i] end; end
-function _KqFxiYRdnoOITJdv() local _IXIvOBcunYHi=278; local _WcfVVdVHhSgb={1,2,3,4,5}; for i=1,5 do _IXIvOBcunYHi=_IXIvOBcunYHi+_WcfVVdVHhSgb[i] end; end
-function _KqFxiYRdnoOITJdv() local _YJxQqgqYOvUt=797; local _dgmuxaDhEzyU={1,2,3,4,5}; for i=1,5 do _YJxQqgqYOvUt=_YJxQqgqYOvUt+_dgmuxaDhEzyU[i] end; end
-function _KqFxiYRdnoOITJdv() local _ZaouaTWPoneQ=64; local _DHWddBUrhWnf={1,2,3,4,5}; for i=1,5 do _ZaouaTWPoneQ=_ZaouaTWPoneQ+_DHWddBUrhWnf[i] end; end
-function _QRqqABDvSlFJFpTH() local _qXkOtDhWkyiF=611; local _xmIlwnlCNXEN={1,2,3,4,5}; for i=1,5 do _qXkOtDhWkyiF=_qXkOtDhWkyiF+_xmIlwnlCNXEN[i] end; end
-function _QRqqABDvSlFJFpTH() local _dvFqWkbIkkzo=785; local _YjUqsmkMxFsx={1,2,3,4,5}; for i=1,5 do _dvFqWkbIkkzo=_dvFqWkbIkkzo+_YjUqsmkMxFsx[i] end; end
-function _QRqqABDvSlFJFpTH() local _vSMGukghWeZF=139; local _zvPtkpohNwRa={1,2,3,4,5}; for i=1,5 do _vSMGukghWeZF=_vSMGukghWeZF+_zvPtkpohNwRa[i] end; end
-function _QRqqABDvSlFJFpTH() local _bfhrBeiXlwto=237; local _GhsycwiVvYKl={1,2,3,4,5}; for i=1,5 do _bfhrBeiXlwto=_bfhrBeiXlwto+_GhsycwiVvYKl[i] end; end
-function _QRqqABDvSlFJFpTH() local _LrblWIIpiDix=466; local _EZtboKuJTeYR={1,2,3,4,5}; for i=1,5 do _LrblWIIpiDix=_LrblWIIpiDix+_EZtboKuJTeYR[i] end; end
-function _jOUmKZhYJIbkSeSB() local _vcnAjBGWdLxC=970; local _ixIsAXDxdmow={1,2,3,4,5}; for i=1,5 do _vcnAjBGWdLxC=_vcnAjBGWdLxC+_ixIsAXDxdmow[i] end; end
-function _jOUmKZhYJIbkSeSB() local _DqWZAApwevDL=91; local _RkftAOlmrpkC={1,2,3,4,5}; for i=1,5 do _DqWZAApwevDL=_DqWZAApwevDL+_RkftAOlmrpkC[i] end; end
-function _jOUmKZhYJIbkSeSB() local _OVJnZaZlEQuF=554; local _sIMIoKgWaZyJ={1,2,3,4,5}; for i=1,5 do _OVJnZaZlEQuF=_OVJnZaZlEQuF+_sIMIoKgWaZyJ[i] end; end
-function _jOUmKZhYJIbkSeSB() local _bMFTungnsQID=837; local _TKTdlczLeLVV={1,2,3,4,5}; for i=1,5 do _bMFTungnsQID=_bMFTungnsQID+_TKTdlczLeLVV[i] end; end
-function _jOUmKZhYJIbkSeSB() local _BLaMQcKDtPTX=87; local _rJoiqcxpAJuJ={1,2,3,4,5}; for i=1,5 do _BLaMQcKDtPTX=_BLaMQcKDtPTX+_rJoiqcxpAJuJ[i] end; end
-function _qPHWeUBjHfxMnSTl() local _UvFudIndEzOY=281; local _XeuaFRBqzHrc={1,2,3,4,5}; for i=1,5 do _UvFudIndEzOY=_UvFudIndEzOY+_XeuaFRBqzHrc[i] end; end
-function _qPHWeUBjHfxMnSTl() local _dnGuMvUCqxZN=182; local _UwjpJvtYgXNO={1,2,3,4,5}; for i=1,5 do _dnGuMvUCqxZN=_dnGuMvUCqxZN+_UwjpJvtYgXNO[i] end; end
-function _qPHWeUBjHfxMnSTl() local _hMPHOAaokrWI=163; local _BcXgUOkMTPDg={1,2,3,4,5}; for i=1,5 do _hMPHOAaokrWI=_hMPHOAaokrWI+_BcXgUOkMTPDg[i] end; end
-function _qPHWeUBjHfxMnSTl() local _GCnEBfsBGOyk=611; local _XcZmkvUhJGJr={1,2,3,4,5}; for i=1,5 do _GCnEBfsBGOyk=_GCnEBfsBGOyk+_XcZmkvUhJGJr[i] end; end
-function _qPHWeUBjHfxMnSTl() local _LwCtPVojbLnU=594; local _RRGPAlOvTMBx={1,2,3,4,5}; for i=1,5 do _LwCtPVojbLnU=_LwCtPVojbLnU+_RRGPAlOvTMBx[i] end; end
-function _HnwpiRoORBNWSPeb() local _SEErKwvblxHC=895; local _ASZUaiobZQzO={1,2,3,4,5}; for i=1,5 do _SEErKwvblxHC=_SEErKwvblxHC+_ASZUaiobZQzO[i] end; end
-function _HnwpiRoORBNWSPeb() local _GDtMwGUSjTWA=745; local _RFxaZedyfdPg={1,2,3,4,5}; for i=1,5 do _GDtMwGUSjTWA=_GDtMwGUSjTWA+_RFxaZedyfdPg[i] end; end
-function _HnwpiRoORBNWSPeb() local _vzpQVgHtOckQ=186; local _SgoPrjuvXUYG={1,2,3,4,5}; for i=1,5 do _vzpQVgHtOckQ=_vzpQVgHtOckQ+_SgoPrjuvXUYG[i] end; end
-function _HnwpiRoORBNWSPeb() local _NKVwDtJhHshI=633; local _oVnehIEvbqgd={1,2,3,4,5}; for i=1,5 do _NKVwDtJhHshI=_NKVwDtJhHshI+_oVnehIEvbqgd[i] end; end
-function _HnwpiRoORBNWSPeb() local _tZSPImaSjdyA=68; local _ImkxWuMUYifP={1,2,3,4,5}; for i=1,5 do _tZSPImaSjdyA=_tZSPImaSjdyA+_ImkxWuMUYifP[i] end; end
-function _yocFiABCJAQtLyYt() local _RkAwfFeDcgjP=300; local _zcoQyvQeTOEt={1,2,3,4,5}; for i=1,5 do _RkAwfFeDcgjP=_RkAwfFeDcgjP+_zcoQyvQeTOEt[i] end; end
-function _yocFiABCJAQtLyYt() local _BuvjmnDAitaO=652; local _ATHaMySsYnxZ={1,2,3,4,5}; for i=1,5 do _BuvjmnDAitaO=_BuvjmnDAitaO+_ATHaMySsYnxZ[i] end; end
-function _yocFiABCJAQtLyYt() local _tIQDTaEKZPlx=687; local _EiqtLnMmLyfR={1,2,3,4,5}; for i=1,5 do _tIQDTaEKZPlx=_tIQDTaEKZPlx+_EiqtLnMmLyfR[i] end; end
-function _yocFiABCJAQtLyYt() local _MNXpOawcEtAj=51; local _BUjgSWMZixNU={1,2,3,4,5}; for i=1,5 do _MNXpOawcEtAj=_MNXpOawcEtAj+_BUjgSWMZixNU[i] end; end
-function _yocFiABCJAQtLyYt() local _lqTOnkPHruAI=679; local _PWdxACFGErby={1,2,3,4,5}; for i=1,5 do _lqTOnkPHruAI=_lqTOnkPHruAI+_PWdxACFGErby[i] end; end
-function _bUXGRrKYTScxZxlU() local _osBvRheNeIaI=609; local _ATBeIsMNtpYq={1,2,3,4,5}; for i=1,5 do _osBvRheNeIaI=_osBvRheNeIaI+_ATBeIsMNtpYq[i] end; end
-function _bUXGRrKYTScxZxlU() local _oaouBUDUXXcE=819; local _ZLjqqOTzxHLk={1,2,3,4,5}; for i=1,5 do _oaouBUDUXXcE=_oaouBUDUXXcE+_ZLjqqOTzxHLk[i] end; end
-function _bUXGRrKYTScxZxlU() local _sKuJKAsPWPaS=458; local _TpUxyFYzcykF={1,2,3,4,5}; for i=1,5 do _sKuJKAsPWPaS=_sKuJKAsPWPaS+_TpUxyFYzcykF[i] end; end
-function _bUXGRrKYTScxZxlU() local _ddBJGjbCUAmv=441; local _CBxmKrrEBvmw={1,2,3,4,5}; for i=1,5 do _ddBJGjbCUAmv=_ddBJGjbCUAmv+_CBxmKrrEBvmw[i] end; end
-function _bUXGRrKYTScxZxlU() local _UcKevCKhnnMz=956; local _DKAqcYLiLGyV={1,2,3,4,5}; for i=1,5 do _UcKevCKhnnMz=_UcKevCKhnnMz+_DKAqcYLiLGyV[i] end; end
-function _SxcAaOUlqymvyyiH() local _RnRDWZpCSzFZ=280; local _YtvEcGaSPfqh={1,2,3,4,5}; for i=1,5 do _RnRDWZpCSzFZ=_RnRDWZpCSzFZ+_YtvEcGaSPfqh[i] end; end
-function _SxcAaOUlqymvyyiH() local _bCEieIXjYkjn=414; local _iIwtlYrZYuUV={1,2,3,4,5}; for i=1,5 do _bCEieIXjYkjn=_bCEieIXjYkjn+_iIwtlYrZYuUV[i] end; end
-function _SxcAaOUlqymvyyiH() local _QWaicHFDMfed=149; local _YPdedYunYOTh={1,2,3,4,5}; for i=1,5 do _QWaicHFDMfed=_QWaicHFDMfed+_YPdedYunYOTh[i] end; end
-function _SxcAaOUlqymvyyiH() local _ROqhqhEaPRVX=584; local _FBqXVxAJgHWG={1,2,3,4,5}; for i=1,5 do _ROqhqhEaPRVX=_ROqhqhEaPRVX+_FBqXVxAJgHWG[i] end; end
-function _SxcAaOUlqymvyyiH() local _swrVoRScYsGV=550; local _jZjAiFFfiGuZ={1,2,3,4,5}; for i=1,5 do _swrVoRScYsGV=_swrVoRScYsGV+_jZjAiFFfiGuZ[i] end; end
-function _yEudrkEXItLfJUKC() local _euvJAfocSmVe=948; local _UNytwHIcQKbs={1,2,3,4,5}; for i=1,5 do _euvJAfocSmVe=_euvJAfocSmVe+_UNytwHIcQKbs[i] end; end
-function _yEudrkEXItLfJUKC() local _LIINwzhLTcQY=670; local _NBdrbepToAcm={1,2,3,4,5}; for i=1,5 do _LIINwzhLTcQY=_LIINwzhLTcQY+_NBdrbepToAcm[i] end; end
-function _yEudrkEXItLfJUKC() local _RkwCDdxCxEgb=402; local _KyLoUYuXTtQj={1,2,3,4,5}; for i=1,5 do _RkwCDdxCxEgb=_RkwCDdxCxEgb+_KyLoUYuXTtQj[i] end; end
-function _yEudrkEXItLfJUKC() local _REuuAXFDHsvc=417; local _rdSDIcGIduSp={1,2,3,4,5}; for i=1,5 do _REuuAXFDHsvc=_REuuAXFDHsvc+_rdSDIcGIduSp[i] end; end
-function _yEudrkEXItLfJUKC() local _MqRbhYHlCIJJ=278; local _XXmJAdgMAveU={1,2,3,4,5}; for i=1,5 do _MqRbhYHlCIJJ=_MqRbhYHlCIJJ+_XXmJAdgMAveU[i] end; end
-function _cKZeQrUmnMMQyzIz() local _ZDMsNamFHHBw=599; local _KxHCcZMirvbm={1,2,3,4,5}; for i=1,5 do _ZDMsNamFHHBw=_ZDMsNamFHHBw+_KxHCcZMirvbm[i] end; end
-function _cKZeQrUmnMMQyzIz() local _EYgiGJuiYoxW=241; local _xHdSizDhpsfn={1,2,3,4,5}; for i=1,5 do _EYgiGJuiYoxW=_EYgiGJuiYoxW+_xHdSizDhpsfn[i] end; end
-function _cKZeQrUmnMMQyzIz() local _FtUWeUuEETfB=945; local _DxeqSkIbURPg={1,2,3,4,5}; for i=1,5 do _FtUWeUuEETfB=_FtUWeUuEETfB+_DxeqSkIbURPg[i] end; end
-function _cKZeQrUmnMMQyzIz() local _nSbCWSvjDtRv=133; local _oNENNIyhwEbb={1,2,3,4,5}; for i=1,5 do _nSbCWSvjDtRv=_nSbCWSvjDtRv+_oNENNIyhwEbb[i] end; end
-function _cKZeQrUmnMMQyzIz() local _xOrMTjMIMaEa=519; local _bbqSTtyTeSFm={1,2,3,4,5}; for i=1,5 do _xOrMTjMIMaEa=_xOrMTjMIMaEa+_bbqSTtyTeSFm[i] end; end
-function _FuFFNNKuaQxGuXkt() local _SkHFIPWfpFaZ=20; local _gyCgQadUXzRY={1,2,3,4,5}; for i=1,5 do _SkHFIPWfpFaZ=_SkHFIPWfpFaZ+_gyCgQadUXzRY[i] end; end
-function _FuFFNNKuaQxGuXkt() local _QAGKOdwCQfeG=138; local _SwcSGmhvJYkZ={1,2,3,4,5}; for i=1,5 do _QAGKOdwCQfeG=_QAGKOdwCQfeG+_SwcSGmhvJYkZ[i] end; end
-function _FuFFNNKuaQxGuXkt() local _yyYxdgVdEgDh=236; local _TjlHzeAYOyGc={1,2,3,4,5}; for i=1,5 do _yyYxdgVdEgDh=_yyYxdgVdEgDh+_TjlHzeAYOyGc[i] end; end
-function _FuFFNNKuaQxGuXkt() local _IAliwTOjIrZm=51; local _jzbYcUIKJUxe={1,2,3,4,5}; for i=1,5 do _IAliwTOjIrZm=_IAliwTOjIrZm+_jzbYcUIKJUxe[i] end; end
-function _FuFFNNKuaQxGuXkt() local _VoECCjfFKSRP=278; local _GkFBCTncsKfB={1,2,3,4,5}; for i=1,5 do _VoECCjfFKSRP=_VoECCjfFKSRP+_GkFBCTncsKfB[i] end; end
-function _jHABHrTvlxiJoNRz() local _dWugkyNeGaqe=378; local _qseAqcQXjuna={1,2,3,4,5}; for i=1,5 do _dWugkyNeGaqe=_dWugkyNeGaqe+_qseAqcQXjuna[i] end; end
-function _jHABHrTvlxiJoNRz() local _xBlwmBGFQWgC=285; local _RvshyzNmgpQA={1,2,3,4,5}; for i=1,5 do _xBlwmBGFQWgC=_xBlwmBGFQWgC+_RvshyzNmgpQA[i] end; end
-function _jHABHrTvlxiJoNRz() local _UHgDDTkbzoqA=395; local _kzIwPTBIdqDT={1,2,3,4,5}; for i=1,5 do _UHgDDTkbzoqA=_UHgDDTkbzoqA+_kzIwPTBIdqDT[i] end; end
-function _jHABHrTvlxiJoNRz() local _FQIclheeYGvl=745; local _rQkLORCzQkXS={1,2,3,4,5}; for i=1,5 do _FQIclheeYGvl=_FQIclheeYGvl+_rQkLORCzQkXS[i] end; end
-function _jHABHrTvlxiJoNRz() local _NmqCAPRAyICO=523; local _YtNORhzXYmBE={1,2,3,4,5}; for i=1,5 do _NmqCAPRAyICO=_NmqCAPRAyICO+_YtNORhzXYmBE[i] end; end
-function _KHpgxPfriwgThmZt() local _acBjPFZvGPQT=501; local _RRRCxitsXBYl={1,2,3,4,5}; for i=1,5 do _acBjPFZvGPQT=_acBjPFZvGPQT+_RRRCxitsXBYl[i] end; end
-function _KHpgxPfriwgThmZt() local _vgfLzbKcPeST=320; local _LNckqmaHqZMt={1,2,3,4,5}; for i=1,5 do _vgfLzbKcPeST=_vgfLzbKcPeST+_LNckqmaHqZMt[i] end; end
-function _KHpgxPfriwgThmZt() local _XMBldetKJDUM=643; local _fhUWKStXvMeP={1,2,3,4,5}; for i=1,5 do _XMBldetKJDUM=_XMBldetKJDUM+_fhUWKStXvMeP[i] end; end
-function _KHpgxPfriwgThmZt() local _WFqJKBwrmVFh=587; local _OyaogvwXBpzP={1,2,3,4,5}; for i=1,5 do _WFqJKBwrmVFh=_WFqJKBwrmVFh+_OyaogvwXBpzP[i] end; end
-function _KHpgxPfriwgThmZt() local _tJuqTSNyHMJK=936; local _AiVncOMrgVDR={1,2,3,4,5}; for i=1,5 do _tJuqTSNyHMJK=_tJuqTSNyHMJK+_AiVncOMrgVDR[i] end; end
-function _NDKasCNUsjCfJEeN() local _ERPcbeiSsLBy=259; local _jaxkCiCjkNKV={1,2,3,4,5}; for i=1,5 do _ERPcbeiSsLBy=_ERPcbeiSsLBy+_jaxkCiCjkNKV[i] end; end
-function _NDKasCNUsjCfJEeN() local _fMFsNBaSnjUT=184; local _GXLvEvshsEsr={1,2,3,4,5}; for i=1,5 do _fMFsNBaSnjUT=_fMFsNBaSnjUT+_GXLvEvshsEsr[i] end; end
-function _NDKasCNUsjCfJEeN() local _rJUkpUAddmrm=246; local _dcHsfFzkDpFY={1,2,3,4,5}; for i=1,5 do _rJUkpUAddmrm=_rJUkpUAddmrm+_dcHsfFzkDpFY[i] end; end
-function _NDKasCNUsjCfJEeN() local _konfbCLZLctN=355; local _nFWaicVhjCDW={1,2,3,4,5}; for i=1,5 do _konfbCLZLctN=_konfbCLZLctN+_nFWaicVhjCDW[i] end; end
-function _NDKasCNUsjCfJEeN() local _nSNVZUSnPySh=434; local _FnbDOLSNXvcN={1,2,3,4,5}; for i=1,5 do _nSNVZUSnPySh=_nSNVZUSnPySh+_FnbDOLSNXvcN[i] end; end
-function _BtgccdUpQCIKvbte() local _JchryFlXvvFk=434; local _ZGigJusIeLwq={1,2,3,4,5}; for i=1,5 do _JchryFlXvvFk=_JchryFlXvvFk+_ZGigJusIeLwq[i] end; end
-function _BtgccdUpQCIKvbte() local _JtsjtvlcyRJq=247; local _nfUiHgEfcJfG={1,2,3,4,5}; for i=1,5 do _JtsjtvlcyRJq=_JtsjtvlcyRJq+_nfUiHgEfcJfG[i] end; end
-function _BtgccdUpQCIKvbte() local _HFkPFLJKeKAi=743; local _VIZbqOaIsyJq={1,2,3,4,5}; for i=1,5 do _HFkPFLJKeKAi=_HFkPFLJKeKAi+_VIZbqOaIsyJq[i] end; end
-function _BtgccdUpQCIKvbte() local _xuHhceSXYYVH=474; local _QDzvPFaJKUYs={1,2,3,4,5}; for i=1,5 do _xuHhceSXYYVH=_xuHhceSXYYVH+_QDzvPFaJKUYs[i] end; end
-function _BtgccdUpQCIKvbte() local _pNudgeuRoQnq=797; local _qXIhqbgFiCDB={1,2,3,4,5}; for i=1,5 do _pNudgeuRoQnq=_pNudgeuRoQnq+_qXIhqbgFiCDB[i] end; end
-function _twhwqHFmGNvJcksu() local _ficxdjmNiMIr=287; local _ugliAmAJBhDX={1,2,3,4,5}; for i=1,5 do _ficxdjmNiMIr=_ficxdjmNiMIr+_ugliAmAJBhDX[i] end; end
-function _twhwqHFmGNvJcksu() local _ihBpzXWozmKI=424; local _pghQQKvxkJLH={1,2,3,4,5}; for i=1,5 do _ihBpzXWozmKI=_ihBpzXWozmKI+_pghQQKvxkJLH[i] end; end
-function _twhwqHFmGNvJcksu() local _zLSBQXgNOBoC=933; local _yYnNPrLEcNJJ={1,2,3,4,5}; for i=1,5 do _zLSBQXgNOBoC=_zLSBQXgNOBoC+_yYnNPrLEcNJJ[i] end; end
-function _twhwqHFmGNvJcksu() local _RncAtwgaLpKh=653; local _AeKXPlRfhBQi={1,2,3,4,5}; for i=1,5 do _RncAtwgaLpKh=_RncAtwgaLpKh+_AeKXPlRfhBQi[i] end; end
-function _twhwqHFmGNvJcksu() local _jmUpJiwdYEcq=588; local _SiVciXXigPvF={1,2,3,4,5}; for i=1,5 do _jmUpJiwdYEcq=_jmUpJiwdYEcq+_SiVciXXigPvF[i] end; end
-function _yUZwitwPgHonhhSn() local _lEjivdfkbSwv=50; local _ORHQTVtoZQYU={1,2,3,4,5}; for i=1,5 do _lEjivdfkbSwv=_lEjivdfkbSwv+_ORHQTVtoZQYU[i] end; end
-function _yUZwitwPgHonhhSn() local _SLOnOHPJtFeo=304; local _tIwbskUVTJNL={1,2,3,4,5}; for i=1,5 do _SLOnOHPJtFeo=_SLOnOHPJtFeo+_tIwbskUVTJNL[i] end; end
-function _yUZwitwPgHonhhSn() local _PJTEqwRDCgMd=238; local _zbluXcIQwFvA={1,2,3,4,5}; for i=1,5 do _PJTEqwRDCgMd=_PJTEqwRDCgMd+_zbluXcIQwFvA[i] end; end
-function _yUZwitwPgHonhhSn() local _nvrmCzsSWYks=503; local _SrDLTIFbUMlF={1,2,3,4,5}; for i=1,5 do _nvrmCzsSWYks=_nvrmCzsSWYks+_SrDLTIFbUMlF[i] end; end
-function _yUZwitwPgHonhhSn() local _rheCsghyJmbD=81; local _QRxPLLLcLYYR={1,2,3,4,5}; for i=1,5 do _rheCsghyJmbD=_rheCsghyJmbD+_QRxPLLLcLYYR[i] end; end
-function _cMREHPixCQlkxIFe() local _UceZdvAFgZqI=13; local _WIBjieYOTBiM={1,2,3,4,5}; for i=1,5 do _UceZdvAFgZqI=_UceZdvAFgZqI+_WIBjieYOTBiM[i] end; end
-function _cMREHPixCQlkxIFe() local _YsupMTEecTBO=553; local _IwwfatsrIjYd={1,2,3,4,5}; for i=1,5 do _YsupMTEecTBO=_YsupMTEecTBO+_IwwfatsrIjYd[i] end; end
-function _cMREHPixCQlkxIFe() local _pXOeAQZEgxAZ=813; local _KCZctTAmCFMo={1,2,3,4,5}; for i=1,5 do _pXOeAQZEgxAZ=_pXOeAQZEgxAZ+_KCZctTAmCFMo[i] end; end
-function _cMREHPixCQlkxIFe() local _ycSMfoDbYwsV=722; local _baTUTNvCkJdH={1,2,3,4,5}; for i=1,5 do _ycSMfoDbYwsV=_ycSMfoDbYwsV+_baTUTNvCkJdH[i] end; end
-function _cMREHPixCQlkxIFe() local _DocbHObYqxnO=449; local _VzaQcClhmZLZ={1,2,3,4,5}; for i=1,5 do _DocbHObYqxnO=_DocbHObYqxnO+_VzaQcClhmZLZ[i] end; end
-function _bLlSafNTsRqANCAI() local _yGfEESsgJJdp=558; local _LQsSwFrqbtJv={1,2,3,4,5}; for i=1,5 do _yGfEESsgJJdp=_yGfEESsgJJdp+_LQsSwFrqbtJv[i] end; end
-function _bLlSafNTsRqANCAI() local _QOLVcwfokiaR=992; local _eqkrcwLTCepZ={1,2,3,4,5}; for i=1,5 do _QOLVcwfokiaR=_QOLVcwfokiaR+_eqkrcwLTCepZ[i] end; end
-function _bLlSafNTsRqANCAI() local _dyLgsZtqMinH=847; local _DNSbVTIgpneK={1,2,3,4,5}; for i=1,5 do _dyLgsZtqMinH=_dyLgsZtqMinH+_DNSbVTIgpneK[i] end; end
-function _bLlSafNTsRqANCAI() local _KmZqoDDndHqB=707; local _CKwSNQppxisv={1,2,3,4,5}; for i=1,5 do _KmZqoDDndHqB=_KmZqoDDndHqB+_CKwSNQppxisv[i] end; end
-function _bLlSafNTsRqANCAI() local _BwFjogLoUDYP=293; local _QCQuWBmptvBe={1,2,3,4,5}; for i=1,5 do _BwFjogLoUDYP=_BwFjogLoUDYP+_QCQuWBmptvBe[i] end; end
-function _xcHcFKMepGgbKDYF() local _ybKkCeCVgLkC=829; local _SwdnJuWqptjd={1,2,3,4,5}; for i=1,5 do _ybKkCeCVgLkC=_ybKkCeCVgLkC+_SwdnJuWqptjd[i] end; end
-function _xcHcFKMepGgbKDYF() local _mNDmSrFgWDab=457; local _mkyErZHhkbNj={1,2,3,4,5}; for i=1,5 do _mNDmSrFgWDab=_mNDmSrFgWDab+_mkyErZHhkbNj[i] end; end
-function _xcHcFKMepGgbKDYF() local _dhuZgzOSTQRN=361; local _TOegLFNGXZjP={1,2,3,4,5}; for i=1,5 do _dhuZgzOSTQRN=_dhuZgzOSTQRN+_TOegLFNGXZjP[i] end; end
-function _xcHcFKMepGgbKDYF() local _YPQmLUtwnXZw=370; local _hEwyaREsFwJE={1,2,3,4,5}; for i=1,5 do _YPQmLUtwnXZw=_YPQmLUtwnXZw+_hEwyaREsFwJE[i] end; end
-function _xcHcFKMepGgbKDYF() local _SwwXKGkInBRh=140; local _VkguZAIjrNjA={1,2,3,4,5}; for i=1,5 do _SwwXKGkInBRh=_SwwXKGkInBRh+_VkguZAIjrNjA[i] end; end
-function _zXPjfsHQMvCTVozm() local _hlgjxFQBcKTc=645; local _QEGTyePTIclx={1,2,3,4,5}; for i=1,5 do _hlgjxFQBcKTc=_hlgjxFQBcKTc+_QEGTyePTIclx[i] end; end
-function _zXPjfsHQMvCTVozm() local _pkNyCtneGUEl=288; local _lnLZbGbohVSK={1,2,3,4,5}; for i=1,5 do _pkNyCtneGUEl=_pkNyCtneGUEl+_lnLZbGbohVSK[i] end; end
-function _zXPjfsHQMvCTVozm() local _rdXBArUymXdl=626; local _iIshMrSZnwgf={1,2,3,4,5}; for i=1,5 do _rdXBArUymXdl=_rdXBArUymXdl+_iIshMrSZnwgf[i] end; end
-function _zXPjfsHQMvCTVozm() local _ueGxPivQGEUE=876; local _ayAOZpVyMzIy={1,2,3,4,5}; for i=1,5 do _ueGxPivQGEUE=_ueGxPivQGEUE+_ayAOZpVyMzIy[i] end; end
-function _zXPjfsHQMvCTVozm() local _LdZlRTldtaGa=491; local _VOhgmyhjDrJB={1,2,3,4,5}; for i=1,5 do _LdZlRTldtaGa=_LdZlRTldtaGa+_VOhgmyhjDrJB[i] end; end
-function _daMyscJGJdsdaQAw() local _LyEPzzPtTIOu=564; local _SYsbGtDnochf={1,2,3,4,5}; for i=1,5 do _LyEPzzPtTIOu=_LyEPzzPtTIOu+_SYsbGtDnochf[i] end; end
-function _daMyscJGJdsdaQAw() local _iUtRtntyjDgl=81; local _zPwbTgZFuflR={1,2,3,4,5}; for i=1,5 do _iUtRtntyjDgl=_iUtRtntyjDgl+_zPwbTgZFuflR[i] end; end
-function _daMyscJGJdsdaQAw() local _WTDQrFpsrTrt=661; local _igrZoycfcQwi={1,2,3,4,5}; for i=1,5 do _WTDQrFpsrTrt=_WTDQrFpsrTrt+_igrZoycfcQwi[i] end; end
-function _daMyscJGJdsdaQAw() local _twgPTGGeisqZ=149; local _UmOHWeJloOkE={1,2,3,4,5}; for i=1,5 do _twgPTGGeisqZ=_twgPTGGeisqZ+_UmOHWeJloOkE[i] end; end
-function _daMyscJGJdsdaQAw() local _lpyEETeYLDre=436; local _czeGomgkGNxd={1,2,3,4,5}; for i=1,5 do _lpyEETeYLDre=_lpyEETeYLDre+_czeGomgkGNxd[i] end; end
-function _bQYiTHeCEhpmMkqj() local _gLQEPCjnDott=378; local _KxTTEZgkNCYI={1,2,3,4,5}; for i=1,5 do _gLQEPCjnDott=_gLQEPCjnDott+_KxTTEZgkNCYI[i] end; end
-function _bQYiTHeCEhpmMkqj() local _LKNpIhTysRKr=643; local _WxIlrnjNUjrv={1,2,3,4,5}; for i=1,5 do _LKNpIhTysRKr=_LKNpIhTysRKr+_WxIlrnjNUjrv[i] end; end
-function _bQYiTHeCEhpmMkqj() local _olfwCSpRNocp=478; local _ruAdivJtPmxh={1,2,3,4,5}; for i=1,5 do _olfwCSpRNocp=_olfwCSpRNocp+_ruAdivJtPmxh[i] end; end
-function _bQYiTHeCEhpmMkqj() local _EIfxhAJoITbv=878; local _ijFIyOeQXhEi={1,2,3,4,5}; for i=1,5 do _EIfxhAJoITbv=_EIfxhAJoITbv+_ijFIyOeQXhEi[i] end; end
-function _bQYiTHeCEhpmMkqj() local _dRkTAKjNHdUW=704; local _mrOYsvYxWqzw={1,2,3,4,5}; for i=1,5 do _dRkTAKjNHdUW=_dRkTAKjNHdUW+_mrOYsvYxWqzw[i] end; end
-function _BmRikoojsZAFSreP() local _qOWfcbkGMhYd=180; local _sijrOPrOMcgy={1,2,3,4,5}; for i=1,5 do _qOWfcbkGMhYd=_qOWfcbkGMhYd+_sijrOPrOMcgy[i] end; end
-function _BmRikoojsZAFSreP() local _layxQLexFuAp=404; local _LXbNeNCiSLRV={1,2,3,4,5}; for i=1,5 do _layxQLexFuAp=_layxQLexFuAp+_LXbNeNCiSLRV[i] end; end
-function _BmRikoojsZAFSreP() local _ttutIlTOfQZm=122; local _wAcbKCHjNdJI={1,2,3,4,5}; for i=1,5 do _ttutIlTOfQZm=_ttutIlTOfQZm+_wAcbKCHjNdJI[i] end; end
-function _BmRikoojsZAFSreP() local _KaYhGFmMsbGr=666; local _RhMVezlHCjGd={1,2,3,4,5}; for i=1,5 do _KaYhGFmMsbGr=_KaYhGFmMsbGr+_RhMVezlHCjGd[i] end; end
-function _BmRikoojsZAFSreP() local _pjZXONJhokOo=682; local _xRhRTzGhyxWX={1,2,3,4,5}; for i=1,5 do _pjZXONJhokOo=_pjZXONJhokOo+_xRhRTzGhyxWX[i] end; end
-function _LDIYAcQWpjbWynoa() local _kvDZvayiCwRX=346; local _ESMkDTmIMMvZ={1,2,3,4,5}; for i=1,5 do _kvDZvayiCwRX=_kvDZvayiCwRX+_ESMkDTmIMMvZ[i] end; end
-function _LDIYAcQWpjbWynoa() local _cpXNuUZmNmSS=270; local _MIuKqBBPBHfV={1,2,3,4,5}; for i=1,5 do _cpXNuUZmNmSS=_cpXNuUZmNmSS+_MIuKqBBPBHfV[i] end; end
-function _LDIYAcQWpjbWynoa() local _EuzuwdKbGNFe=513; local _vCucnbpMzHHe={1,2,3,4,5}; for i=1,5 do _EuzuwdKbGNFe=_EuzuwdKbGNFe+_vCucnbpMzHHe[i] end; end
-function _LDIYAcQWpjbWynoa() local _CBwXvLfrkFuV=252; local _rqJhdsErxKXl={1,2,3,4,5}; for i=1,5 do _CBwXvLfrkFuV=_CBwXvLfrkFuV+_rqJhdsErxKXl[i] end; end
-function _LDIYAcQWpjbWynoa() local _gSFIbpVMDTRC=395; local _FrkXIDrcfLwr={1,2,3,4,5}; for i=1,5 do _gSFIbpVMDTRC=_gSFIbpVMDTRC+_FrkXIDrcfLwr[i] end; end
-function _nwqGdwDAfEvDBBXN() local _PEnxfogwaIJJ=303; local _KAdYtxxdFqOW={1,2,3,4,5}; for i=1,5 do _PEnxfogwaIJJ=_PEnxfogwaIJJ+_KAdYtxxdFqOW[i] end; end
-function _nwqGdwDAfEvDBBXN() local _nKZTCDVHPxxv=880; local _qXwkYUhhtGvO={1,2,3,4,5}; for i=1,5 do _nKZTCDVHPxxv=_nKZTCDVHPxxv+_qXwkYUhhtGvO[i] end; end
-function _nwqGdwDAfEvDBBXN() local _SkdUCHdzdFqV=415; local _XLoakPjWwAjy={1,2,3,4,5}; for i=1,5 do _SkdUCHdzdFqV=_SkdUCHdzdFqV+_XLoakPjWwAjy[i] end; end
-function _nwqGdwDAfEvDBBXN() local _aYchLaovVZtc=849; local _SihpecoWCPAD={1,2,3,4,5}; for i=1,5 do _aYchLaovVZtc=_aYchLaovVZtc+_SihpecoWCPAD[i] end; end
-function _nwqGdwDAfEvDBBXN() local _YWjRNOBqpwWn=215; local _bNBOlQSGtezM={1,2,3,4,5}; for i=1,5 do _YWjRNOBqpwWn=_YWjRNOBqpwWn+_bNBOlQSGtezM[i] end; end
-function _DkLkyKUddrulBQug() local _ThhYHWhJOmUP=754; local _PoesCqvdeOqc={1,2,3,4,5}; for i=1,5 do _ThhYHWhJOmUP=_ThhYHWhJOmUP+_PoesCqvdeOqc[i] end; end
-function _DkLkyKUddrulBQug() local _eruLLHKbMYeJ=268; local _YVRoxfHzzMFD={1,2,3,4,5}; for i=1,5 do _eruLLHKbMYeJ=_eruLLHKbMYeJ+_YVRoxfHzzMFD[i] end; end
-function _DkLkyKUddrulBQug() local _CeuAMJByroLR=620; local _yGrTxqPvtPwa={1,2,3,4,5}; for i=1,5 do _CeuAMJByroLR=_CeuAMJByroLR+_yGrTxqPvtPwa[i] end; end
-function _DkLkyKUddrulBQug() local _doAAPKAvvkdd=264; local _bgzSBwPhwLlm={1,2,3,4,5}; for i=1,5 do _doAAPKAvvkdd=_doAAPKAvvkdd+_bgzSBwPhwLlm[i] end; end
-function _DkLkyKUddrulBQug() local _kzyrTOSEYKRO=386; local _jGrXrEmHqKgr={1,2,3,4,5}; for i=1,5 do _kzyrTOSEYKRO=_kzyrTOSEYKRO+_jGrXrEmHqKgr[i] end; end
-function _XkkczthqlcnRMbvc() local _IawqWThkiuyE=90; local _WlILnjAMMLct={1,2,3,4,5}; for i=1,5 do _IawqWThkiuyE=_IawqWThkiuyE+_WlILnjAMMLct[i] end; end
-function _XkkczthqlcnRMbvc() local _VehQdSJGjPrk=794; local _XdfNsVeTKcMb={1,2,3,4,5}; for i=1,5 do _VehQdSJGjPrk=_VehQdSJGjPrk+_XdfNsVeTKcMb[i] end; end
-function _XkkczthqlcnRMbvc() local _nqKDMCCVWBGZ=451; local _ayzTDIhPdySQ={1,2,3,4,5}; for i=1,5 do _nqKDMCCVWBGZ=_nqKDMCCVWBGZ+_ayzTDIhPdySQ[i] end; end
-function _XkkczthqlcnRMbvc() local _nLXTyAFyXaba=517; local _hfRSwIPBPFmz={1,2,3,4,5}; for i=1,5 do _nLXTyAFyXaba=_nLXTyAFyXaba+_hfRSwIPBPFmz[i] end; end
-function _XkkczthqlcnRMbvc() local _VDwbUGOwnlys=706; local _MQciRdxkNUyl={1,2,3,4,5}; for i=1,5 do _VDwbUGOwnlys=_VDwbUGOwnlys+_MQciRdxkNUyl[i] end; end
-function _OCpDSJyWRrhmALGq() local _YCiNFEguEEaN=294; local _jtQisbVmDTKT={1,2,3,4,5}; for i=1,5 do _YCiNFEguEEaN=_YCiNFEguEEaN+_jtQisbVmDTKT[i] end; end
-function _OCpDSJyWRrhmALGq() local _vSWVoTuAkMwd=52; local _gwiSQqbFGxfq={1,2,3,4,5}; for i=1,5 do _vSWVoTuAkMwd=_vSWVoTuAkMwd+_gwiSQqbFGxfq[i] end; end
-function _OCpDSJyWRrhmALGq() local _cBIKKvkamhIO=599; local _HLxzwGgIcYyi={1,2,3,4,5}; for i=1,5 do _cBIKKvkamhIO=_cBIKKvkamhIO+_HLxzwGgIcYyi[i] end; end
-function _OCpDSJyWRrhmALGq() local _HwEcazpohCHj=183; local _buZxbxPtaiTf={1,2,3,4,5}; for i=1,5 do _HwEcazpohCHj=_HwEcazpohCHj+_buZxbxPtaiTf[i] end; end
-function _OCpDSJyWRrhmALGq() local _tiZwgVGZCZlm=110; local _spaqRydKJqWh={1,2,3,4,5}; for i=1,5 do _tiZwgVGZCZlm=_tiZwgVGZCZlm+_spaqRydKJqWh[i] end; end
+function _ihthwiJEGSnkpd()  local _zUYtOxxLPq = 384; local _ewoyrWXSPU = {1,2,3,4}; for i=1,3 do _zUYtOxxLPq = _zUYtOxxLPq + _ewoyrWXSPU[1] end;  local _SgBzyZOwUh = 712; local _lijsSlmUDs = {1,2,3,4}; for i=1,3 do _SgBzyZOwUh = _SgBzyZOwUh + _lijsSlmUDs[1] end;  local _tmcCyxTVfa = 842; local _qIBBPbSuuC = {1,2,3,4}; for i=1,3 do _tmcCyxTVfa = _tmcCyxTVfa + _qIBBPbSuuC[1] end;  local _VguRNefABH = 848; local _vQjqgPpsJe = {1,2,3,4}; for i=1,3 do _VguRNefABH = _VguRNefABH + _vQjqgPpsJe[1] end;  local _LNEECRUUYN = 263; local _VmphXVGzFj = {1,2,3,4}; for i=1,3 do _LNEECRUUYN = _LNEECRUUYN + _VmphXVGzFj[1] end;  local _ByibcghUZa = 138; local _kkeHxuvRhs = {1,2,3,4}; for i=1,3 do _ByibcghUZa = _ByibcghUZa + _kkeHxuvRhs[1] end;  end
+function _ekPbkWUVgpmzIr()  local _MsWfuoRjJO = 15; local _FlpihdXJTD = {1,2,3,4}; for i=1,3 do _MsWfuoRjJO = _MsWfuoRjJO + _FlpihdXJTD[1] end;  local _MJsrtbgEtd = 583; local _VxQQjfCNQe = {1,2,3,4}; for i=1,3 do _MJsrtbgEtd = _MJsrtbgEtd + _VxQQjfCNQe[1] end;  local _DXogxwQesq = 597; local _zDIawVnFAi = {1,2,3,4}; for i=1,3 do _DXogxwQesq = _DXogxwQesq + _zDIawVnFAi[1] end;  local _RsxramJFgk = 982; local _wSUSinwLeF = {1,2,3,4}; for i=1,3 do _RsxramJFgk = _RsxramJFgk + _wSUSinwLeF[1] end;  local _CGcAmlXUsg = 672; local _YWALiBZeFy = {1,2,3,4}; for i=1,3 do _CGcAmlXUsg = _CGcAmlXUsg + _YWALiBZeFy[1] end;  local _AYlYJdwODo = 914; local _iRfJHyMxPb = {1,2,3,4}; for i=1,3 do _AYlYJdwODo = _AYlYJdwODo + _iRfJHyMxPb[1] end;  end
+function _GJVoCpkihAsyJS()  local _eZgzBUevCM = 157; local _KzNaAGiVdw = {1,2,3,4}; for i=1,3 do _eZgzBUevCM = _eZgzBUevCM + _KzNaAGiVdw[1] end;  local _nGzMKXDkFU = 926; local _OFBQcyobpr = {1,2,3,4}; for i=1,3 do _nGzMKXDkFU = _nGzMKXDkFU + _OFBQcyobpr[1] end;  local _UaXfKewbEw = 448; local _OdvafbCMur = {1,2,3,4}; for i=1,3 do _UaXfKewbEw = _UaXfKewbEw + _OdvafbCMur[1] end;  local _qRHCAHlaBV = 560; local _PzYnNuuhXS = {1,2,3,4}; for i=1,3 do _qRHCAHlaBV = _qRHCAHlaBV + _PzYnNuuhXS[1] end;  local _BvmjEqQlSw = 385; local _CFMbJYqrVE = {1,2,3,4}; for i=1,3 do _BvmjEqQlSw = _BvmjEqQlSw + _CFMbJYqrVE[1] end;  local _NEUsOfJrZe = 153; local _keZYafsNBq = {1,2,3,4}; for i=1,3 do _NEUsOfJrZe = _NEUsOfJrZe + _keZYafsNBq[1] end;  end
+function _jaohOvxGLDzBXy()  local _nzORFRjRFE = 668; local _EzPcvAIitF = {1,2,3,4}; for i=1,3 do _nzORFRjRFE = _nzORFRjRFE + _EzPcvAIitF[1] end;  local _IwjGeEEkSX = 961; local _CqHEKnybLN = {1,2,3,4}; for i=1,3 do _IwjGeEEkSX = _IwjGeEEkSX + _CqHEKnybLN[1] end;  local _JenqMUsGWB = 283; local _LrRBZuBFYH = {1,2,3,4}; for i=1,3 do _JenqMUsGWB = _JenqMUsGWB + _LrRBZuBFYH[1] end;  local _eJxXSaLYGb = 405; local _SEwpKHxyPj = {1,2,3,4}; for i=1,3 do _eJxXSaLYGb = _eJxXSaLYGb + _SEwpKHxyPj[1] end;  local _hektcGDALK = 683; local _EVHrGlchCA = {1,2,3,4}; for i=1,3 do _hektcGDALK = _hektcGDALK + _EVHrGlchCA[1] end;  local _fbwCuCPxNR = 819; local _hCYcbSRqjp = {1,2,3,4}; for i=1,3 do _fbwCuCPxNR = _fbwCuCPxNR + _hCYcbSRqjp[1] end;  end
+function _lSUpOwAImpkAST()  local _zgkdorWdAQ = 953; local _tmLPZDTfdT = {1,2,3,4}; for i=1,3 do _zgkdorWdAQ = _zgkdorWdAQ + _tmLPZDTfdT[1] end;  local _RjHteUGgBj = 883; local _JlFWrklSdl = {1,2,3,4}; for i=1,3 do _RjHteUGgBj = _RjHteUGgBj + _JlFWrklSdl[1] end;  local _HaFCvACILJ = 709; local _YvQEdXSlEz = {1,2,3,4}; for i=1,3 do _HaFCvACILJ = _HaFCvACILJ + _YvQEdXSlEz[1] end;  local _tKMRYdCZDL = 580; local _EVCYeAwPDL = {1,2,3,4}; for i=1,3 do _tKMRYdCZDL = _tKMRYdCZDL + _EVCYeAwPDL[1] end;  local _azksiyTyFo = 765; local _GHXWYBrzHA = {1,2,3,4}; for i=1,3 do _azksiyTyFo = _azksiyTyFo + _GHXWYBrzHA[1] end;  local _jktYeVBNOC = 204; local _PLOdmodKIN = {1,2,3,4}; for i=1,3 do _jktYeVBNOC = _jktYeVBNOC + _PLOdmodKIN[1] end;  end
+function _sWieRophljCDeK()  local _OgUSbQEJnh = 871; local _MfPEUBWQAS = {1,2,3,4}; for i=1,3 do _OgUSbQEJnh = _OgUSbQEJnh + _MfPEUBWQAS[1] end;  local _iexXyyxXUr = 544; local _MNiPkKxaJE = {1,2,3,4}; for i=1,3 do _iexXyyxXUr = _iexXyyxXUr + _MNiPkKxaJE[1] end;  local _lLZaGicCmh = 34; local _EzvgPhAeTr = {1,2,3,4}; for i=1,3 do _lLZaGicCmh = _lLZaGicCmh + _EzvgPhAeTr[1] end;  local _JWyAYGXqWL = 116; local _SSvlAHwrhl = {1,2,3,4}; for i=1,3 do _JWyAYGXqWL = _JWyAYGXqWL + _SSvlAHwrhl[1] end;  local _lHdDvYjuGf = 74; local _mBSaDvvQjD = {1,2,3,4}; for i=1,3 do _lHdDvYjuGf = _lHdDvYjuGf + _mBSaDvvQjD[1] end;  local _ayGjTbPDzJ = 868; local _GyTgoZmElj = {1,2,3,4}; for i=1,3 do _ayGjTbPDzJ = _ayGjTbPDzJ + _GyTgoZmElj[1] end;  end
+function _uNKAOZiNdySvVK()  local _QaMpZBbBMb = 903; local _JiBcXspoQH = {1,2,3,4}; for i=1,3 do _QaMpZBbBMb = _QaMpZBbBMb + _JiBcXspoQH[1] end;  local _OHDyWwzoNn = 399; local _nntwNuJxmo = {1,2,3,4}; for i=1,3 do _OHDyWwzoNn = _OHDyWwzoNn + _nntwNuJxmo[1] end;  local _lWqCLkntaY = 501; local _xHyCQLYAZJ = {1,2,3,4}; for i=1,3 do _lWqCLkntaY = _lWqCLkntaY + _xHyCQLYAZJ[1] end;  local _EhUrtgZZMW = 22; local _nslrlXJdog = {1,2,3,4}; for i=1,3 do _EhUrtgZZMW = _EhUrtgZZMW + _nslrlXJdog[1] end;  local _OfirhexKCv = 212; local _OISBhgOAAQ = {1,2,3,4}; for i=1,3 do _OfirhexKCv = _OfirhexKCv + _OISBhgOAAQ[1] end;  local _lVPzJbhPZF = 884; local _VMBUhlMXzW = {1,2,3,4}; for i=1,3 do _lVPzJbhPZF = _lVPzJbhPZF + _VMBUhlMXzW[1] end;  end
+function _dFRqhGQUpSdxuC()  local _HkwFWJTADV = 706; local _iDfXbCroxy = {1,2,3,4}; for i=1,3 do _HkwFWJTADV = _HkwFWJTADV + _iDfXbCroxy[1] end;  local _dvHjjoTQiD = 47; local _MxPyPjvLdl = {1,2,3,4}; for i=1,3 do _dvHjjoTQiD = _dvHjjoTQiD + _MxPyPjvLdl[1] end;  local _qOzFVJCFuQ = 49; local _MIowbiFujA = {1,2,3,4}; for i=1,3 do _qOzFVJCFuQ = _qOzFVJCFuQ + _MIowbiFujA[1] end;  local _ODrUwpaCqI = 942; local _sYIODWiVlM = {1,2,3,4}; for i=1,3 do _ODrUwpaCqI = _ODrUwpaCqI + _sYIODWiVlM[1] end;  local _FtNTKHxzkJ = 95; local _sCCEHRDWnY = {1,2,3,4}; for i=1,3 do _FtNTKHxzkJ = _FtNTKHxzkJ + _sCCEHRDWnY[1] end;  local _mBTBZXSieH = 625; local _NYAldUwYDr = {1,2,3,4}; for i=1,3 do _mBTBZXSieH = _mBTBZXSieH + _NYAldUwYDr[1] end;  end
+function _TPokUoXSJmaqIa()  local _yTBHqMpDJM = 930; local _ehMPQFFWae = {1,2,3,4}; for i=1,3 do _yTBHqMpDJM = _yTBHqMpDJM + _ehMPQFFWae[1] end;  local _BmOGCfANsN = 911; local _CZGqJSaEni = {1,2,3,4}; for i=1,3 do _BmOGCfANsN = _BmOGCfANsN + _CZGqJSaEni[1] end;  local _mhwtUlQJlj = 145; local _DGcMqEWGPz = {1,2,3,4}; for i=1,3 do _mhwtUlQJlj = _mhwtUlQJlj + _DGcMqEWGPz[1] end;  local _jnELNbafmW = 618; local _AtfNbmNrWO = {1,2,3,4}; for i=1,3 do _jnELNbafmW = _jnELNbafmW + _AtfNbmNrWO[1] end;  local _wPGMxGdMoU = 619; local _VIVmVIQSzC = {1,2,3,4}; for i=1,3 do _wPGMxGdMoU = _wPGMxGdMoU + _VIVmVIQSzC[1] end;  local _mqeKhyGlyu = 152; local _AeJEbIuLGy = {1,2,3,4}; for i=1,3 do _mqeKhyGlyu = _mqeKhyGlyu + _AeJEbIuLGy[1] end;  end
+function _LKoRsSJbsBZoqQ()  local _uXNoRfihtE = 739; local _TbDwCZuEfg = {1,2,3,4}; for i=1,3 do _uXNoRfihtE = _uXNoRfihtE + _TbDwCZuEfg[1] end;  local _UPEBdDPxTR = 835; local _RlMfxKBVIT = {1,2,3,4}; for i=1,3 do _UPEBdDPxTR = _UPEBdDPxTR + _RlMfxKBVIT[1] end;  local _VNvOguVLmD = 435; local _WtcRKQIRjN = {1,2,3,4}; for i=1,3 do _VNvOguVLmD = _VNvOguVLmD + _WtcRKQIRjN[1] end;  local _uNRRFvZRsf = 707; local _yIlFqrHcLB = {1,2,3,4}; for i=1,3 do _uNRRFvZRsf = _uNRRFvZRsf + _yIlFqrHcLB[1] end;  local _iyjeSgcAxG = 589; local _TtRQiFElqW = {1,2,3,4}; for i=1,3 do _iyjeSgcAxG = _iyjeSgcAxG + _TtRQiFElqW[1] end;  local _HiZClUsbmW = 241; local _BFbCAAwPfj = {1,2,3,4}; for i=1,3 do _HiZClUsbmW = _HiZClUsbmW + _BFbCAAwPfj[1] end;  end
+function _RHBZQENNnimduK()  local _ciQnpAOiaK = 495; local _klyqDgYPgV = {1,2,3,4}; for i=1,3 do _ciQnpAOiaK = _ciQnpAOiaK + _klyqDgYPgV[1] end;  local _EoxHCKTBDY = 988; local _KBqKRivLzf = {1,2,3,4}; for i=1,3 do _EoxHCKTBDY = _EoxHCKTBDY + _KBqKRivLzf[1] end;  local _ZNcXmeXxfj = 277; local _OfZXyCYYrB = {1,2,3,4}; for i=1,3 do _ZNcXmeXxfj = _ZNcXmeXxfj + _OfZXyCYYrB[1] end;  local _obzKmRYQhk = 809; local _vhDNBYIrbB = {1,2,3,4}; for i=1,3 do _obzKmRYQhk = _obzKmRYQhk + _vhDNBYIrbB[1] end;  local _zSWhOiOAMR = 350; local _cRGZwWCeyQ = {1,2,3,4}; for i=1,3 do _zSWhOiOAMR = _zSWhOiOAMR + _cRGZwWCeyQ[1] end;  local _UJBpCMyszf = 876; local _ElOHblifNT = {1,2,3,4}; for i=1,3 do _UJBpCMyszf = _UJBpCMyszf + _ElOHblifNT[1] end;  end
+function _nHuRPqNefyvvze()  local _TRpUFFjqON = 236; local _qCgpkXTMAk = {1,2,3,4}; for i=1,3 do _TRpUFFjqON = _TRpUFFjqON + _qCgpkXTMAk[1] end;  local _qFqEhlYQHT = 116; local _JXzHfEQFTZ = {1,2,3,4}; for i=1,3 do _qFqEhlYQHT = _qFqEhlYQHT + _JXzHfEQFTZ[1] end;  local _RWOsghtevm = 348; local _vyeIQVRhKb = {1,2,3,4}; for i=1,3 do _RWOsghtevm = _RWOsghtevm + _vyeIQVRhKb[1] end;  local _YbtZgirSJp = 711; local _PQyJyRPSzL = {1,2,3,4}; for i=1,3 do _YbtZgirSJp = _YbtZgirSJp + _PQyJyRPSzL[1] end;  local _eaAsRvMPpi = 114; local _HBtFKhuFru = {1,2,3,4}; for i=1,3 do _eaAsRvMPpi = _eaAsRvMPpi + _HBtFKhuFru[1] end;  local _sBVIKXZiZC = 401; local _BnnHfCPKVU = {1,2,3,4}; for i=1,3 do _sBVIKXZiZC = _sBVIKXZiZC + _BnnHfCPKVU[1] end;  end
+function _qWjdXyoMyuHPtk()  local _eylUDAYgCP = 204; local _RWptYGyJjA = {1,2,3,4}; for i=1,3 do _eylUDAYgCP = _eylUDAYgCP + _RWptYGyJjA[1] end;  local _BcuzmemHBV = 965; local _QikAJnBcmC = {1,2,3,4}; for i=1,3 do _BcuzmemHBV = _BcuzmemHBV + _QikAJnBcmC[1] end;  local _NnMRbjtclm = 827; local _TZFAdZHOGM = {1,2,3,4}; for i=1,3 do _NnMRbjtclm = _NnMRbjtclm + _TZFAdZHOGM[1] end;  local _GrFxWqfOXl = 401; local _hpiteJbfkK = {1,2,3,4}; for i=1,3 do _GrFxWqfOXl = _GrFxWqfOXl + _hpiteJbfkK[1] end;  local _gtFVRVLiOP = 144; local _TelwiPKetz = {1,2,3,4}; for i=1,3 do _gtFVRVLiOP = _gtFVRVLiOP + _TelwiPKetz[1] end;  local _xqObNJnpNU = 732; local _oeTxSFLJWs = {1,2,3,4}; for i=1,3 do _xqObNJnpNU = _xqObNJnpNU + _oeTxSFLJWs[1] end;  end
+function _QKwdlJYKsKQmBX()  local _dMiCEUSTaF = 327; local _TzuhcIfVEG = {1,2,3,4}; for i=1,3 do _dMiCEUSTaF = _dMiCEUSTaF + _TzuhcIfVEG[1] end;  local _JSvrPnjCAg = 452; local _alAijlZdti = {1,2,3,4}; for i=1,3 do _JSvrPnjCAg = _JSvrPnjCAg + _alAijlZdti[1] end;  local _NxEdRRPnsF = 176; local _xpWMxwNhJw = {1,2,3,4}; for i=1,3 do _NxEdRRPnsF = _NxEdRRPnsF + _xpWMxwNhJw[1] end;  local _UdpAnvBUyV = 286; local _CEbmsWimbk = {1,2,3,4}; for i=1,3 do _UdpAnvBUyV = _UdpAnvBUyV + _CEbmsWimbk[1] end;  local _plaXusaBkU = 932; local _NmgOZAyPcF = {1,2,3,4}; for i=1,3 do _plaXusaBkU = _plaXusaBkU + _NmgOZAyPcF[1] end;  local _QrhRlsZgeS = 742; local _NXmzxTwIVT = {1,2,3,4}; for i=1,3 do _QrhRlsZgeS = _QrhRlsZgeS + _NXmzxTwIVT[1] end;  end
+function _RAQkPGuEutsUvQ()  local _QtuGnheZyX = 450; local _goUiEJfnfF = {1,2,3,4}; for i=1,3 do _QtuGnheZyX = _QtuGnheZyX + _goUiEJfnfF[1] end;  local _JCSEMOLqwt = 168; local _cFsOSgRJlV = {1,2,3,4}; for i=1,3 do _JCSEMOLqwt = _JCSEMOLqwt + _cFsOSgRJlV[1] end;  local _KcOUeDbIhY = 853; local _gSZknPTwiQ = {1,2,3,4}; for i=1,3 do _KcOUeDbIhY = _KcOUeDbIhY + _gSZknPTwiQ[1] end;  local _wPVyBZuweJ = 303; local _VczrjLOJse = {1,2,3,4}; for i=1,3 do _wPVyBZuweJ = _wPVyBZuweJ + _VczrjLOJse[1] end;  local _InGEpMyBMq = 550; local _WecWEYgUzv = {1,2,3,4}; for i=1,3 do _InGEpMyBMq = _InGEpMyBMq + _WecWEYgUzv[1] end;  local _RueBmgMMNq = 884; local _oIMXSbocKc = {1,2,3,4}; for i=1,3 do _RueBmgMMNq = _RueBmgMMNq + _oIMXSbocKc[1] end;  end
+function _sjQlHCYIODJJwc()  local _JczQHTjcnh = 386; local _HrjGSTQMJk = {1,2,3,4}; for i=1,3 do _JczQHTjcnh = _JczQHTjcnh + _HrjGSTQMJk[1] end;  local _CGefeYrNVE = 621; local _lCfaLwWaKT = {1,2,3,4}; for i=1,3 do _CGefeYrNVE = _CGefeYrNVE + _lCfaLwWaKT[1] end;  local _BRhulhArHq = 164; local _UfYpDuGZsX = {1,2,3,4}; for i=1,3 do _BRhulhArHq = _BRhulhArHq + _UfYpDuGZsX[1] end;  local _PTFkKOQFyN = 584; local _yQTkXryeIE = {1,2,3,4}; for i=1,3 do _PTFkKOQFyN = _PTFkKOQFyN + _yQTkXryeIE[1] end;  local _MdmaqLsziE = 347; local _DKISxhlvvh = {1,2,3,4}; for i=1,3 do _MdmaqLsziE = _MdmaqLsziE + _DKISxhlvvh[1] end;  local _ljaSObPNol = 341; local _xPRtTlptiV = {1,2,3,4}; for i=1,3 do _ljaSObPNol = _ljaSObPNol + _xPRtTlptiV[1] end;  end
+function _dtIFAhoVHylJcL()  local _nWgazxPQoc = 826; local _gUWbmRruuN = {1,2,3,4}; for i=1,3 do _nWgazxPQoc = _nWgazxPQoc + _gUWbmRruuN[1] end;  local _egraNNsXzY = 215; local _PmtXSMSBAj = {1,2,3,4}; for i=1,3 do _egraNNsXzY = _egraNNsXzY + _PmtXSMSBAj[1] end;  local _nlVAWnWrTv = 658; local _PcIGfmQdCB = {1,2,3,4}; for i=1,3 do _nlVAWnWrTv = _nlVAWnWrTv + _PcIGfmQdCB[1] end;  local _KdHrjCoMvg = 593; local _ieUSaFzEYM = {1,2,3,4}; for i=1,3 do _KdHrjCoMvg = _KdHrjCoMvg + _ieUSaFzEYM[1] end;  local _PgvCyDeonc = 935; local _ejWiYTmBCP = {1,2,3,4}; for i=1,3 do _PgvCyDeonc = _PgvCyDeonc + _ejWiYTmBCP[1] end;  local _veOWGrnczt = 727; local _ZqeuauPCcY = {1,2,3,4}; for i=1,3 do _veOWGrnczt = _veOWGrnczt + _ZqeuauPCcY[1] end;  end
+function _gChqdimoYUqDeF()  local _SgPLZpKgVV = 529; local _wWVpxKYaMN = {1,2,3,4}; for i=1,3 do _SgPLZpKgVV = _SgPLZpKgVV + _wWVpxKYaMN[1] end;  local _JGIvfbTbul = 679; local _CWOkMpgGlA = {1,2,3,4}; for i=1,3 do _JGIvfbTbul = _JGIvfbTbul + _CWOkMpgGlA[1] end;  local _SidswKsstW = 461; local _IVEcGZZruv = {1,2,3,4}; for i=1,3 do _SidswKsstW = _SidswKsstW + _IVEcGZZruv[1] end;  local _mrgYjehpmR = 566; local _XMJCQEUims = {1,2,3,4}; for i=1,3 do _mrgYjehpmR = _mrgYjehpmR + _XMJCQEUims[1] end;  local _QHEFyjbDTF = 678; local _TUGMvDtVYy = {1,2,3,4}; for i=1,3 do _QHEFyjbDTF = _QHEFyjbDTF + _TUGMvDtVYy[1] end;  local _MxjlGeJKeV = 350; local _IMSNJDBqri = {1,2,3,4}; for i=1,3 do _MxjlGeJKeV = _MxjlGeJKeV + _IMSNJDBqri[1] end;  end
+function _GbdcixlWCTsuKB()  local _EDBbNxwUsG = 639; local _EyTUVdSvqz = {1,2,3,4}; for i=1,3 do _EDBbNxwUsG = _EDBbNxwUsG + _EyTUVdSvqz[1] end;  local _PbRBykvLsC = 689; local _aCAmMvggdZ = {1,2,3,4}; for i=1,3 do _PbRBykvLsC = _PbRBykvLsC + _aCAmMvggdZ[1] end;  local _rpWOSaPFgo = 503; local _IaLGouuKJc = {1,2,3,4}; for i=1,3 do _rpWOSaPFgo = _rpWOSaPFgo + _IaLGouuKJc[1] end;  local _goeKKiawzS = 262; local _URbkVKzVJW = {1,2,3,4}; for i=1,3 do _goeKKiawzS = _goeKKiawzS + _URbkVKzVJW[1] end;  local _JqUglkEnhZ = 180; local _rRZOWfGCPi = {1,2,3,4}; for i=1,3 do _JqUglkEnhZ = _JqUglkEnhZ + _rRZOWfGCPi[1] end;  local _BYfRFwkNFc = 234; local _FsalaWslSB = {1,2,3,4}; for i=1,3 do _BYfRFwkNFc = _BYfRFwkNFc + _FsalaWslSB[1] end;  end
+function _EvxBlXZmJbihsX()  local _KcDYRAlRIm = 867; local _ekEMfdhHIH = {1,2,3,4}; for i=1,3 do _KcDYRAlRIm = _KcDYRAlRIm + _ekEMfdhHIH[1] end;  local _ilIwdHxDcy = 821; local _QtUQqMjGFZ = {1,2,3,4}; for i=1,3 do _ilIwdHxDcy = _ilIwdHxDcy + _QtUQqMjGFZ[1] end;  local _RrgfQiUUvw = 613; local _hJZAqAUCdF = {1,2,3,4}; for i=1,3 do _RrgfQiUUvw = _RrgfQiUUvw + _hJZAqAUCdF[1] end;  local _TRFoopRIru = 120; local _vZVZVIyhbg = {1,2,3,4}; for i=1,3 do _TRFoopRIru = _TRFoopRIru + _vZVZVIyhbg[1] end;  local _GxkBZsRIgP = 676; local _okHZlXRGYW = {1,2,3,4}; for i=1,3 do _GxkBZsRIgP = _GxkBZsRIgP + _okHZlXRGYW[1] end;  local _xpDhkzgfDY = 1; local _oOJcTLAbbf = {1,2,3,4}; for i=1,3 do _xpDhkzgfDY = _xpDhkzgfDY + _oOJcTLAbbf[1] end;  end
+function _WdlgdMshfrXRJh()  local _yteGUBqZMe = 634; local _FIAoaxVeKB = {1,2,3,4}; for i=1,3 do _yteGUBqZMe = _yteGUBqZMe + _FIAoaxVeKB[1] end;  local _vClwfIHgvG = 584; local _zUqlepyiFm = {1,2,3,4}; for i=1,3 do _vClwfIHgvG = _vClwfIHgvG + _zUqlepyiFm[1] end;  local _CKDaRLhDTz = 416; local _xCMPZkBotf = {1,2,3,4}; for i=1,3 do _CKDaRLhDTz = _CKDaRLhDTz + _xCMPZkBotf[1] end;  local _cTtVnezVds = 916; local _ntcndOScdW = {1,2,3,4}; for i=1,3 do _cTtVnezVds = _cTtVnezVds + _ntcndOScdW[1] end;  local _WZscqjBJfD = 873; local _jztoZkvoQN = {1,2,3,4}; for i=1,3 do _WZscqjBJfD = _WZscqjBJfD + _jztoZkvoQN[1] end;  local _nQCClbavfn = 649; local _ouKQRWradZ = {1,2,3,4}; for i=1,3 do _nQCClbavfn = _nQCClbavfn + _ouKQRWradZ[1] end;  end
+function _uQADgmyAPTQdRe()  local _uhILhcNHTN = 970; local _IpeewJueIx = {1,2,3,4}; for i=1,3 do _uhILhcNHTN = _uhILhcNHTN + _IpeewJueIx[1] end;  local _zVmGUAvebT = 783; local _oBcpoVWAtr = {1,2,3,4}; for i=1,3 do _zVmGUAvebT = _zVmGUAvebT + _oBcpoVWAtr[1] end;  local _bsCpzXEJAS = 259; local _dMsBaDuFIY = {1,2,3,4}; for i=1,3 do _bsCpzXEJAS = _bsCpzXEJAS + _dMsBaDuFIY[1] end;  local _XwLMimhCne = 932; local _VwvMwGvuiy = {1,2,3,4}; for i=1,3 do _XwLMimhCne = _XwLMimhCne + _VwvMwGvuiy[1] end;  local _cQDEirQZQB = 982; local _rnqQFbHntg = {1,2,3,4}; for i=1,3 do _cQDEirQZQB = _cQDEirQZQB + _rnqQFbHntg[1] end;  local _DQbZipwgKI = 451; local _FnmynpAsqJ = {1,2,3,4}; for i=1,3 do _DQbZipwgKI = _DQbZipwgKI + _FnmynpAsqJ[1] end;  end
+function _OiuvNRqAyHTctb()  local _tjumvZRGlU = 483; local _YzueZMHPhn = {1,2,3,4}; for i=1,3 do _tjumvZRGlU = _tjumvZRGlU + _YzueZMHPhn[1] end;  local _PUTjlGbyYj = 597; local _naZrydzzwT = {1,2,3,4}; for i=1,3 do _PUTjlGbyYj = _PUTjlGbyYj + _naZrydzzwT[1] end;  local _qrMAbJbCIx = 773; local _bQnCOyyXeR = {1,2,3,4}; for i=1,3 do _qrMAbJbCIx = _qrMAbJbCIx + _bQnCOyyXeR[1] end;  local _PwGmRQoVwu = 830; local _eoqXVmrHur = {1,2,3,4}; for i=1,3 do _PwGmRQoVwu = _PwGmRQoVwu + _eoqXVmrHur[1] end;  local _MJEDJHkAPx = 323; local _YIGxnDWUZL = {1,2,3,4}; for i=1,3 do _MJEDJHkAPx = _MJEDJHkAPx + _YIGxnDWUZL[1] end;  local _IVRhctuwpd = 583; local _wQoHrvaCrb = {1,2,3,4}; for i=1,3 do _IVRhctuwpd = _IVRhctuwpd + _wQoHrvaCrb[1] end;  end
+function _ySWkZmBsSXaKUn()  local _WEQDHQMwLF = 737; local _YUJoXAjGLQ = {1,2,3,4}; for i=1,3 do _WEQDHQMwLF = _WEQDHQMwLF + _YUJoXAjGLQ[1] end;  local _oGTAJPDQNX = 190; local _CgmaqCvOaC = {1,2,3,4}; for i=1,3 do _oGTAJPDQNX = _oGTAJPDQNX + _CgmaqCvOaC[1] end;  local _ENMTAmMBiw = 864; local _CcggjIaTPe = {1,2,3,4}; for i=1,3 do _ENMTAmMBiw = _ENMTAmMBiw + _CcggjIaTPe[1] end;  local _ysehTEDMno = 93; local _RYlGqybDIl = {1,2,3,4}; for i=1,3 do _ysehTEDMno = _ysehTEDMno + _RYlGqybDIl[1] end;  local _GZAEPBABZH = 348; local _QZPsEQVkNj = {1,2,3,4}; for i=1,3 do _GZAEPBABZH = _GZAEPBABZH + _QZPsEQVkNj[1] end;  local _KNMfIMTGUT = 550; local _QixVAhKIor = {1,2,3,4}; for i=1,3 do _KNMfIMTGUT = _KNMfIMTGUT + _QixVAhKIor[1] end;  end
+function _nDpXsztYkAnkkU()  local _lEDDaxhiiy = 628; local _pyCCRHBBNE = {1,2,3,4}; for i=1,3 do _lEDDaxhiiy = _lEDDaxhiiy + _pyCCRHBBNE[1] end;  local _fyNMoCqoER = 36; local _HpWSrlsAEu = {1,2,3,4}; for i=1,3 do _fyNMoCqoER = _fyNMoCqoER + _HpWSrlsAEu[1] end;  local _WSrmcATeBs = 210; local _eTznlEjjTo = {1,2,3,4}; for i=1,3 do _WSrmcATeBs = _WSrmcATeBs + _eTznlEjjTo[1] end;  local _PVSqRgydJL = 946; local _BODpcHhzoC = {1,2,3,4}; for i=1,3 do _PVSqRgydJL = _PVSqRgydJL + _BODpcHhzoC[1] end;  local _jmemhUKXus = 980; local _gpfCIrwcCv = {1,2,3,4}; for i=1,3 do _jmemhUKXus = _jmemhUKXus + _gpfCIrwcCv[1] end;  local _FrEBqGSHdd = 209; local _TeQdAINKmb = {1,2,3,4}; for i=1,3 do _FrEBqGSHdd = _FrEBqGSHdd + _TeQdAINKmb[1] end;  end
+function _NtXkdjCHvCuCcs()  local _UERVfnBjht = 7; local _KvWqqPBNax = {1,2,3,4}; for i=1,3 do _UERVfnBjht = _UERVfnBjht + _KvWqqPBNax[1] end;  local _RCiEbMWrns = 980; local _AYUFPsHRko = {1,2,3,4}; for i=1,3 do _RCiEbMWrns = _RCiEbMWrns + _AYUFPsHRko[1] end;  local _ixuOPDYkGg = 784; local _EbYiGowAxF = {1,2,3,4}; for i=1,3 do _ixuOPDYkGg = _ixuOPDYkGg + _EbYiGowAxF[1] end;  local _OjErRWoqRl = 704; local _PBBWIycRbc = {1,2,3,4}; for i=1,3 do _OjErRWoqRl = _OjErRWoqRl + _PBBWIycRbc[1] end;  local _HefpKeATzH = 856; local _LJkxJBxjHG = {1,2,3,4}; for i=1,3 do _HefpKeATzH = _HefpKeATzH + _LJkxJBxjHG[1] end;  local _HiVmSSwjXM = 4; local _wYvYVXdetb = {1,2,3,4}; for i=1,3 do _HiVmSSwjXM = _HiVmSSwjXM + _wYvYVXdetb[1] end;  end
+function _ObXaHLlCihQpZF()  local _iaUNJgUJCQ = 921; local _pACyKDAIZw = {1,2,3,4}; for i=1,3 do _iaUNJgUJCQ = _iaUNJgUJCQ + _pACyKDAIZw[1] end;  local _BFqhHTAARz = 86; local _kuZUCxcnRD = {1,2,3,4}; for i=1,3 do _BFqhHTAARz = _BFqhHTAARz + _kuZUCxcnRD[1] end;  local _gyHzrNTbjb = 839; local _ezroUVKtOf = {1,2,3,4}; for i=1,3 do _gyHzrNTbjb = _gyHzrNTbjb + _ezroUVKtOf[1] end;  local _QbseeIwZnt = 872; local _mJLuPqwEzP = {1,2,3,4}; for i=1,3 do _QbseeIwZnt = _QbseeIwZnt + _mJLuPqwEzP[1] end;  local _CRpisDyALi = 59; local _TxpTmzRDVi = {1,2,3,4}; for i=1,3 do _CRpisDyALi = _CRpisDyALi + _TxpTmzRDVi[1] end;  local _HJmVCHsCPV = 916; local _bRNaDyDvPP = {1,2,3,4}; for i=1,3 do _HJmVCHsCPV = _HJmVCHsCPV + _bRNaDyDvPP[1] end;  end
+function _dVwyAudeWbsVSn()  local _UTPgfcXFif = 490; local _ziEQPeGGCx = {1,2,3,4}; for i=1,3 do _UTPgfcXFif = _UTPgfcXFif + _ziEQPeGGCx[1] end;  local _XvGxIKebDy = 176; local _ZGhVRkJAvt = {1,2,3,4}; for i=1,3 do _XvGxIKebDy = _XvGxIKebDy + _ZGhVRkJAvt[1] end;  local _bJlEsndfzs = 541; local _jGHyVWCXWE = {1,2,3,4}; for i=1,3 do _bJlEsndfzs = _bJlEsndfzs + _jGHyVWCXWE[1] end;  local _SueVuqtlDY = 155; local _UeLIvJvBVJ = {1,2,3,4}; for i=1,3 do _SueVuqtlDY = _SueVuqtlDY + _UeLIvJvBVJ[1] end;  local _YnLcwoHVYp = 369; local _axpQOxFWRy = {1,2,3,4}; for i=1,3 do _YnLcwoHVYp = _YnLcwoHVYp + _axpQOxFWRy[1] end;  local _kRhdhupxhS = 46; local _EjhUwEbddf = {1,2,3,4}; for i=1,3 do _kRhdhupxhS = _kRhdhupxhS + _EjhUwEbddf[1] end;  end
+function _NxMZqGDzJlOheX()  local _YfOAsChFKl = 484; local _XvQPfuNcYh = {1,2,3,4}; for i=1,3 do _YfOAsChFKl = _YfOAsChFKl + _XvQPfuNcYh[1] end;  local _meiNAPpmBI = 223; local _xUevMXzxNo = {1,2,3,4}; for i=1,3 do _meiNAPpmBI = _meiNAPpmBI + _xUevMXzxNo[1] end;  local _xjdISCnsVd = 414; local _KJkGVQbDAo = {1,2,3,4}; for i=1,3 do _xjdISCnsVd = _xjdISCnsVd + _KJkGVQbDAo[1] end;  local _jzOmsYVHrg = 805; local _BPLzABWKlJ = {1,2,3,4}; for i=1,3 do _jzOmsYVHrg = _jzOmsYVHrg + _BPLzABWKlJ[1] end;  local _cgaiYqHNte = 817; local _HOxbLhukpj = {1,2,3,4}; for i=1,3 do _cgaiYqHNte = _cgaiYqHNte + _HOxbLhukpj[1] end;  local _xUzFjuHVNe = 667; local _cJyJrSLxHd = {1,2,3,4}; for i=1,3 do _xUzFjuHVNe = _xUzFjuHVNe + _cJyJrSLxHd[1] end;  end
+function _LSkoGAQpxIygdQ()  local _MVJFoHdYnz = 84; local _SmJERcggKh = {1,2,3,4}; for i=1,3 do _MVJFoHdYnz = _MVJFoHdYnz + _SmJERcggKh[1] end;  local _vTULiKPPkO = 63; local _iPqSVIRpce = {1,2,3,4}; for i=1,3 do _vTULiKPPkO = _vTULiKPPkO + _iPqSVIRpce[1] end;  local _pVIqOeMHFU = 752; local _FNcxFhAJIJ = {1,2,3,4}; for i=1,3 do _pVIqOeMHFU = _pVIqOeMHFU + _FNcxFhAJIJ[1] end;  local _oEAMOKGLjC = 657; local _AEYZZaGIGn = {1,2,3,4}; for i=1,3 do _oEAMOKGLjC = _oEAMOKGLjC + _AEYZZaGIGn[1] end;  local _GIcoyyIfAo = 56; local _HdKJBWipaX = {1,2,3,4}; for i=1,3 do _GIcoyyIfAo = _GIcoyyIfAo + _HdKJBWipaX[1] end;  local _LqtrwjkFPK = 730; local _XQnJbppCIo = {1,2,3,4}; for i=1,3 do _LqtrwjkFPK = _LqtrwjkFPK + _XQnJbppCIo[1] end;  end
+function _kTAmBCCLUqlvOg()  local _EumYIUpzpf = 926; local _WGtTqyutsB = {1,2,3,4}; for i=1,3 do _EumYIUpzpf = _EumYIUpzpf + _WGtTqyutsB[1] end;  local _EuhBLCGEea = 875; local _jUUQZLZzYX = {1,2,3,4}; for i=1,3 do _EuhBLCGEea = _EuhBLCGEea + _jUUQZLZzYX[1] end;  local _eFuvUlpaDG = 598; local _DjjbaoXtaS = {1,2,3,4}; for i=1,3 do _eFuvUlpaDG = _eFuvUlpaDG + _DjjbaoXtaS[1] end;  local _LpOVtampMg = 588; local _yvUDcomJjQ = {1,2,3,4}; for i=1,3 do _LpOVtampMg = _LpOVtampMg + _yvUDcomJjQ[1] end;  local _CSICvplcJL = 837; local _HqezitMqec = {1,2,3,4}; for i=1,3 do _CSICvplcJL = _CSICvplcJL + _HqezitMqec[1] end;  local _kpqirncWop = 43; local _uGCgSQAyec = {1,2,3,4}; for i=1,3 do _kpqirncWop = _kpqirncWop + _uGCgSQAyec[1] end;  end
+function _yGuJTZlJpBdmUf()  local _HlRfofhjdi = 830; local _hOfwYXeotw = {1,2,3,4}; for i=1,3 do _HlRfofhjdi = _HlRfofhjdi + _hOfwYXeotw[1] end;  local _MpayamGVoC = 462; local _RcGPuiMvar = {1,2,3,4}; for i=1,3 do _MpayamGVoC = _MpayamGVoC + _RcGPuiMvar[1] end;  local _NxYspqlyxz = 35; local _rXgMkCDFkw = {1,2,3,4}; for i=1,3 do _NxYspqlyxz = _NxYspqlyxz + _rXgMkCDFkw[1] end;  local _PynioAmrnW = 119; local _VSJfXSFJEk = {1,2,3,4}; for i=1,3 do _PynioAmrnW = _PynioAmrnW + _VSJfXSFJEk[1] end;  local _aVyJmJBQUc = 401; local _UBlALfVrnt = {1,2,3,4}; for i=1,3 do _aVyJmJBQUc = _aVyJmJBQUc + _UBlALfVrnt[1] end;  local _fqpWbtxMMs = 941; local _sudVTMmQKy = {1,2,3,4}; for i=1,3 do _fqpWbtxMMs = _fqpWbtxMMs + _sudVTMmQKy[1] end;  end
+function _tVUvgfkcCtjiQK()  local _psWycXmkjc = 362; local _AJDVKwGRjj = {1,2,3,4}; for i=1,3 do _psWycXmkjc = _psWycXmkjc + _AJDVKwGRjj[1] end;  local _JjRzWSHcuC = 546; local _AajrmdvANG = {1,2,3,4}; for i=1,3 do _JjRzWSHcuC = _JjRzWSHcuC + _AajrmdvANG[1] end;  local _KHOpeIgDfl = 382; local _sPiPAaatMP = {1,2,3,4}; for i=1,3 do _KHOpeIgDfl = _KHOpeIgDfl + _sPiPAaatMP[1] end;  local _yHqDnDoiMJ = 61; local _KkWjaZSsty = {1,2,3,4}; for i=1,3 do _yHqDnDoiMJ = _yHqDnDoiMJ + _KkWjaZSsty[1] end;  local _EefOIvaRQC = 337; local _bjLSoTKMLU = {1,2,3,4}; for i=1,3 do _EefOIvaRQC = _EefOIvaRQC + _bjLSoTKMLU[1] end;  local _otVrsGjqjl = 860; local _AoTyygxvVT = {1,2,3,4}; for i=1,3 do _otVrsGjqjl = _otVrsGjqjl + _AoTyygxvVT[1] end;  end
+function _HLDwztvtlJPZwf()  local _DviKLoukaK = 340; local _WlFHluiAxP = {1,2,3,4}; for i=1,3 do _DviKLoukaK = _DviKLoukaK + _WlFHluiAxP[1] end;  local _wwNxoexLYU = 639; local _YWHfdofNFH = {1,2,3,4}; for i=1,3 do _wwNxoexLYU = _wwNxoexLYU + _YWHfdofNFH[1] end;  local _cbEecmQhQM = 444; local _HqyyPXPydv = {1,2,3,4}; for i=1,3 do _cbEecmQhQM = _cbEecmQhQM + _HqyyPXPydv[1] end;  local _CMIVtDlyjt = 18; local _XbdKLeqvhg = {1,2,3,4}; for i=1,3 do _CMIVtDlyjt = _CMIVtDlyjt + _XbdKLeqvhg[1] end;  local _lsNTuhDziI = 460; local _DZnIAdoQLt = {1,2,3,4}; for i=1,3 do _lsNTuhDziI = _lsNTuhDziI + _DZnIAdoQLt[1] end;  local _GzfiYbxDWE = 663; local _UFtPZcpCQv = {1,2,3,4}; for i=1,3 do _GzfiYbxDWE = _GzfiYbxDWE + _UFtPZcpCQv[1] end;  end
+function _cSaivYAGYWiWUu()  local _hlsduoINhu = 910; local _hlWEhuzzWS = {1,2,3,4}; for i=1,3 do _hlsduoINhu = _hlsduoINhu + _hlWEhuzzWS[1] end;  local _BmVDUHYvLg = 758; local _dOXzrptkRf = {1,2,3,4}; for i=1,3 do _BmVDUHYvLg = _BmVDUHYvLg + _dOXzrptkRf[1] end;  local _LhaUwEgeGL = 441; local _DOioAqgqif = {1,2,3,4}; for i=1,3 do _LhaUwEgeGL = _LhaUwEgeGL + _DOioAqgqif[1] end;  local _EleUXgMdyW = 937; local _cXBPcDvheV = {1,2,3,4}; for i=1,3 do _EleUXgMdyW = _EleUXgMdyW + _cXBPcDvheV[1] end;  local _kBpiUjALiF = 627; local _UTBGTuoMZG = {1,2,3,4}; for i=1,3 do _kBpiUjALiF = _kBpiUjALiF + _UTBGTuoMZG[1] end;  local _TkLgsvgsLB = 777; local _YrlQaPRcKl = {1,2,3,4}; for i=1,3 do _TkLgsvgsLB = _TkLgsvgsLB + _YrlQaPRcKl[1] end;  end
+function _LaksEzFFLMQgLx()  local _SNxgKhTkTI = 447; local _JUvsLdYEVE = {1,2,3,4}; for i=1,3 do _SNxgKhTkTI = _SNxgKhTkTI + _JUvsLdYEVE[1] end;  local _AJBOmdKyCS = 572; local _QlHwQnoTSE = {1,2,3,4}; for i=1,3 do _AJBOmdKyCS = _AJBOmdKyCS + _QlHwQnoTSE[1] end;  local _xJVUUohSDI = 325; local _ssJGidxfWC = {1,2,3,4}; for i=1,3 do _xJVUUohSDI = _xJVUUohSDI + _ssJGidxfWC[1] end;  local _ySSwnvAKvm = 671; local _KGXxfUnMhf = {1,2,3,4}; for i=1,3 do _ySSwnvAKvm = _ySSwnvAKvm + _KGXxfUnMhf[1] end;  local _MmWBRAHTVS = 788; local _lfgDVcnPOQ = {1,2,3,4}; for i=1,3 do _MmWBRAHTVS = _MmWBRAHTVS + _lfgDVcnPOQ[1] end;  local _rzgpZvmdzP = 982; local _vAgjLSHaOX = {1,2,3,4}; for i=1,3 do _rzgpZvmdzP = _rzgpZvmdzP + _vAgjLSHaOX[1] end;  end
+function _TmwhCbmmkbjoZR()  local _KpQtMawVbS = 609; local _PWGzdRQvDY = {1,2,3,4}; for i=1,3 do _KpQtMawVbS = _KpQtMawVbS + _PWGzdRQvDY[1] end;  local _VjgczlxrYK = 930; local _FZWkvuaAyG = {1,2,3,4}; for i=1,3 do _VjgczlxrYK = _VjgczlxrYK + _FZWkvuaAyG[1] end;  local _hvxHDfKEot = 415; local _cNPhyhGLCr = {1,2,3,4}; for i=1,3 do _hvxHDfKEot = _hvxHDfKEot + _cNPhyhGLCr[1] end;  local _CeMZWjTsLt = 123; local _fIVQgfYhZq = {1,2,3,4}; for i=1,3 do _CeMZWjTsLt = _CeMZWjTsLt + _fIVQgfYhZq[1] end;  local _NOOBtAqiul = 891; local _fcPYgtAIEB = {1,2,3,4}; for i=1,3 do _NOOBtAqiul = _NOOBtAqiul + _fcPYgtAIEB[1] end;  local _AWjmnyRDzf = 208; local _WOyGFjiVoP = {1,2,3,4}; for i=1,3 do _AWjmnyRDzf = _AWjmnyRDzf + _WOyGFjiVoP[1] end;  end
+function _zbCpMTMkvuWsFm()  local _KGcgJbhoHt = 978; local _zCSRIhvDLM = {1,2,3,4}; for i=1,3 do _KGcgJbhoHt = _KGcgJbhoHt + _zCSRIhvDLM[1] end;  local _kQHbTXQUtw = 671; local _HqEhzTsTeX = {1,2,3,4}; for i=1,3 do _kQHbTXQUtw = _kQHbTXQUtw + _HqEhzTsTeX[1] end;  local _ISNFnlYMky = 28; local _xnlCprQCdQ = {1,2,3,4}; for i=1,3 do _ISNFnlYMky = _ISNFnlYMky + _xnlCprQCdQ[1] end;  local _aTcUAZCyHL = 339; local _qtzmBTDeyy = {1,2,3,4}; for i=1,3 do _aTcUAZCyHL = _aTcUAZCyHL + _qtzmBTDeyy[1] end;  local _tZfcjdRqsg = 767; local _wmxaAYnTgD = {1,2,3,4}; for i=1,3 do _tZfcjdRqsg = _tZfcjdRqsg + _wmxaAYnTgD[1] end;  local _NQFvunwMog = 951; local _uCrhLcVFwI = {1,2,3,4}; for i=1,3 do _NQFvunwMog = _NQFvunwMog + _uCrhLcVFwI[1] end;  end
+function _aOnSfWbvscUvmF()  local _RFqgrRjQfJ = 478; local _pvShFvqlzv = {1,2,3,4}; for i=1,3 do _RFqgrRjQfJ = _RFqgrRjQfJ + _pvShFvqlzv[1] end;  local _SAKnvIIGxN = 444; local _tZxRQUirdW = {1,2,3,4}; for i=1,3 do _SAKnvIIGxN = _SAKnvIIGxN + _tZxRQUirdW[1] end;  local _SjBMFnbBHL = 153; local _cweibGwkbg = {1,2,3,4}; for i=1,3 do _SjBMFnbBHL = _SjBMFnbBHL + _cweibGwkbg[1] end;  local _XQQSpvVgzv = 940; local _UlxbSJNTln = {1,2,3,4}; for i=1,3 do _XQQSpvVgzv = _XQQSpvVgzv + _UlxbSJNTln[1] end;  local _TWEaCThVZl = 357; local _OiiOVXQcRQ = {1,2,3,4}; for i=1,3 do _TWEaCThVZl = _TWEaCThVZl + _OiiOVXQcRQ[1] end;  local _pOyLBVfoye = 19; local _RNsQgcchuA = {1,2,3,4}; for i=1,3 do _pOyLBVfoye = _pOyLBVfoye + _RNsQgcchuA[1] end;  end
+function _llylVFgZirHHfj()  local _ymTILqmRNx = 308; local _rVXnKKURik = {1,2,3,4}; for i=1,3 do _ymTILqmRNx = _ymTILqmRNx + _rVXnKKURik[1] end;  local _uuquntPUre = 646; local _DueUTyxwAO = {1,2,3,4}; for i=1,3 do _uuquntPUre = _uuquntPUre + _DueUTyxwAO[1] end;  local _CKDBKJXxoG = 695; local _ldXGCdJMCr = {1,2,3,4}; for i=1,3 do _CKDBKJXxoG = _CKDBKJXxoG + _ldXGCdJMCr[1] end;  local _UtMHXaAgQK = 356; local _JmJXEPKPZt = {1,2,3,4}; for i=1,3 do _UtMHXaAgQK = _UtMHXaAgQK + _JmJXEPKPZt[1] end;  local _MoBSWaJiYq = 443; local _mHRrJzAccl = {1,2,3,4}; for i=1,3 do _MoBSWaJiYq = _MoBSWaJiYq + _mHRrJzAccl[1] end;  local _OJzewiEmZk = 606; local _oZVgFYIiUI = {1,2,3,4}; for i=1,3 do _OJzewiEmZk = _OJzewiEmZk + _oZVgFYIiUI[1] end;  end
+function _FlnaHizYxnEwGp()  local _GtkCcgbISV = 444; local _sBNYAihRSd = {1,2,3,4}; for i=1,3 do _GtkCcgbISV = _GtkCcgbISV + _sBNYAihRSd[1] end;  local _lOXhIrcmet = 457; local _zSIlnWzrMu = {1,2,3,4}; for i=1,3 do _lOXhIrcmet = _lOXhIrcmet + _zSIlnWzrMu[1] end;  local _VFQHhdQwtP = 74; local _SVbGIcPklu = {1,2,3,4}; for i=1,3 do _VFQHhdQwtP = _VFQHhdQwtP + _SVbGIcPklu[1] end;  local _AYztgGXXRj = 775; local _ONuOhjTcKx = {1,2,3,4}; for i=1,3 do _AYztgGXXRj = _AYztgGXXRj + _ONuOhjTcKx[1] end;  local _httcQywFSI = 279; local _mQHdtdLGDT = {1,2,3,4}; for i=1,3 do _httcQywFSI = _httcQywFSI + _mQHdtdLGDT[1] end;  local _dUaqGvKMkk = 190; local _UKkGNshmoT = {1,2,3,4}; for i=1,3 do _dUaqGvKMkk = _dUaqGvKMkk + _UKkGNshmoT[1] end;  end
+function _JKjlVWfsAHVtKb()  local _tPceYMtpeh = 727; local _ZoEGbmCLKK = {1,2,3,4}; for i=1,3 do _tPceYMtpeh = _tPceYMtpeh + _ZoEGbmCLKK[1] end;  local _zKkyzvvAvo = 472; local _rpVVaWIPdo = {1,2,3,4}; for i=1,3 do _zKkyzvvAvo = _zKkyzvvAvo + _rpVVaWIPdo[1] end;  local _DrsoRPIRMA = 189; local _GGVcJfydGU = {1,2,3,4}; for i=1,3 do _DrsoRPIRMA = _DrsoRPIRMA + _GGVcJfydGU[1] end;  local _jhdUMJJxhl = 454; local _vCoNmTmqBS = {1,2,3,4}; for i=1,3 do _jhdUMJJxhl = _jhdUMJJxhl + _vCoNmTmqBS[1] end;  local _lyOdjiUHNK = 863; local _EeIMzjnCGW = {1,2,3,4}; for i=1,3 do _lyOdjiUHNK = _lyOdjiUHNK + _EeIMzjnCGW[1] end;  local _OjJFcWyKWU = 466; local _aCzDLLjqVA = {1,2,3,4}; for i=1,3 do _OjJFcWyKWU = _OjJFcWyKWU + _aCzDLLjqVA[1] end;  end
+function _wXHZgJFSCQaIPW()  local _kgUhqyrihL = 988; local _PfzPlidmNn = {1,2,3,4}; for i=1,3 do _kgUhqyrihL = _kgUhqyrihL + _PfzPlidmNn[1] end;  local _vEtKmcaMGe = 370; local _feaeBlPLuh = {1,2,3,4}; for i=1,3 do _vEtKmcaMGe = _vEtKmcaMGe + _feaeBlPLuh[1] end;  local _ZlChkfcHBp = 575; local _LPCiEawqNd = {1,2,3,4}; for i=1,3 do _ZlChkfcHBp = _ZlChkfcHBp + _LPCiEawqNd[1] end;  local _MwKBPualIE = 816; local _xVuoVFIGVM = {1,2,3,4}; for i=1,3 do _MwKBPualIE = _MwKBPualIE + _xVuoVFIGVM[1] end;  local _gfYpxIUqXH = 865; local _aSTbguBWSD = {1,2,3,4}; for i=1,3 do _gfYpxIUqXH = _gfYpxIUqXH + _aSTbguBWSD[1] end;  local _JYTbCDVZOr = 277; local _bBsECgYFTk = {1,2,3,4}; for i=1,3 do _JYTbCDVZOr = _JYTbCDVZOr + _bBsECgYFTk[1] end;  end
+function _cnRPezgxrESBHz()  local _zSiceTvHvN = 549; local _TsAkUdoIKK = {1,2,3,4}; for i=1,3 do _zSiceTvHvN = _zSiceTvHvN + _TsAkUdoIKK[1] end;  local _suaPtXaUfx = 56; local _boyHqQGmFX = {1,2,3,4}; for i=1,3 do _suaPtXaUfx = _suaPtXaUfx + _boyHqQGmFX[1] end;  local _DHJyzrldTE = 591; local _IiXgYwDIaO = {1,2,3,4}; for i=1,3 do _DHJyzrldTE = _DHJyzrldTE + _IiXgYwDIaO[1] end;  local _yiSzFdirbk = 419; local _kkPABIFbXp = {1,2,3,4}; for i=1,3 do _yiSzFdirbk = _yiSzFdirbk + _kkPABIFbXp[1] end;  local _RXQMLeTMuQ = 17; local _dPDUwWHYsF = {1,2,3,4}; for i=1,3 do _RXQMLeTMuQ = _RXQMLeTMuQ + _dPDUwWHYsF[1] end;  local _esQpfLBntn = 416; local _neSMgGKbpb = {1,2,3,4}; for i=1,3 do _esQpfLBntn = _esQpfLBntn + _neSMgGKbpb[1] end;  end
+function _sHBBkVPqcWQzcZ()  local _NmSpmFmjiu = 338; local _NCKnOrLxaj = {1,2,3,4}; for i=1,3 do _NmSpmFmjiu = _NmSpmFmjiu + _NCKnOrLxaj[1] end;  local _HAatGKvTmL = 239; local _prCYTHxOWn = {1,2,3,4}; for i=1,3 do _HAatGKvTmL = _HAatGKvTmL + _prCYTHxOWn[1] end;  local _KlKwIrOGiC = 137; local _gmNFenwSSu = {1,2,3,4}; for i=1,3 do _KlKwIrOGiC = _KlKwIrOGiC + _gmNFenwSSu[1] end;  local _yomoNtMEOu = 380; local _lFztOOfWOo = {1,2,3,4}; for i=1,3 do _yomoNtMEOu = _yomoNtMEOu + _lFztOOfWOo[1] end;  local _YxyHkcuTnR = 503; local _ysfjtzZoyq = {1,2,3,4}; for i=1,3 do _YxyHkcuTnR = _YxyHkcuTnR + _ysfjtzZoyq[1] end;  local _VTyyrfYmpf = 386; local _qywmqujmuS = {1,2,3,4}; for i=1,3 do _VTyyrfYmpf = _VTyyrfYmpf + _qywmqujmuS[1] end;  end
+function _rFAgySlAiUlmLQ()  local _gmhXCUPBkF = 886; local _ITvMcdzJCa = {1,2,3,4}; for i=1,3 do _gmhXCUPBkF = _gmhXCUPBkF + _ITvMcdzJCa[1] end;  local _zflleXTcDH = 421; local _VBVdghKRlk = {1,2,3,4}; for i=1,3 do _zflleXTcDH = _zflleXTcDH + _VBVdghKRlk[1] end;  local _JcfnCHLtiJ = 260; local _EvhucTbVmj = {1,2,3,4}; for i=1,3 do _JcfnCHLtiJ = _JcfnCHLtiJ + _EvhucTbVmj[1] end;  local _vNqrIvxgrf = 290; local _hdtSdfsMOF = {1,2,3,4}; for i=1,3 do _vNqrIvxgrf = _vNqrIvxgrf + _hdtSdfsMOF[1] end;  local _zxWlINOEKW = 530; local _ldjTibhPaZ = {1,2,3,4}; for i=1,3 do _zxWlINOEKW = _zxWlINOEKW + _ldjTibhPaZ[1] end;  local _czBjzJcCPh = 457; local _nVqGtnmRDg = {1,2,3,4}; for i=1,3 do _czBjzJcCPh = _czBjzJcCPh + _nVqGtnmRDg[1] end;  end
+function _RLiXWeCHbcZJAS()  local _soKLcQiioN = 599; local _neIclHLMWz = {1,2,3,4}; for i=1,3 do _soKLcQiioN = _soKLcQiioN + _neIclHLMWz[1] end;  local _ZOPJMmpXPU = 98; local _osTKlPwWGn = {1,2,3,4}; for i=1,3 do _ZOPJMmpXPU = _ZOPJMmpXPU + _osTKlPwWGn[1] end;  local _jeMJciFIuS = 880; local _QjuQXMFygv = {1,2,3,4}; for i=1,3 do _jeMJciFIuS = _jeMJciFIuS + _QjuQXMFygv[1] end;  local _deDEJYPRxp = 464; local _VDmKbZMBiq = {1,2,3,4}; for i=1,3 do _deDEJYPRxp = _deDEJYPRxp + _VDmKbZMBiq[1] end;  local _KibHTpyQoV = 829; local _HPvQaUQiWi = {1,2,3,4}; for i=1,3 do _KibHTpyQoV = _KibHTpyQoV + _HPvQaUQiWi[1] end;  local _IGtmBHViPj = 682; local _lllnRbbevE = {1,2,3,4}; for i=1,3 do _IGtmBHViPj = _IGtmBHViPj + _lllnRbbevE[1] end;  end
+function _dsKlLEjLKxcAnh()  local _ocpmhUwnjn = 86; local _pynWGjmhYq = {1,2,3,4}; for i=1,3 do _ocpmhUwnjn = _ocpmhUwnjn + _pynWGjmhYq[1] end;  local _NaVkpZhWYq = 956; local _AqaYgkZULE = {1,2,3,4}; for i=1,3 do _NaVkpZhWYq = _NaVkpZhWYq + _AqaYgkZULE[1] end;  local _gzPbqWxGKu = 38; local _CniQaVLRxh = {1,2,3,4}; for i=1,3 do _gzPbqWxGKu = _gzPbqWxGKu + _CniQaVLRxh[1] end;  local _QDkiEJtqxr = 799; local _CDKITvQBAE = {1,2,3,4}; for i=1,3 do _QDkiEJtqxr = _QDkiEJtqxr + _CDKITvQBAE[1] end;  local _JzXCzDOWls = 326; local _FvqXKGcTaZ = {1,2,3,4}; for i=1,3 do _JzXCzDOWls = _JzXCzDOWls + _FvqXKGcTaZ[1] end;  local _MJDxMbQAce = 813; local _GmLDkPhSPv = {1,2,3,4}; for i=1,3 do _MJDxMbQAce = _MJDxMbQAce + _GmLDkPhSPv[1] end;  end
+function _YSMTOjKNlfEcye()  local _aZUTZnMchB = 628; local _zeodxkwhQS = {1,2,3,4}; for i=1,3 do _aZUTZnMchB = _aZUTZnMchB + _zeodxkwhQS[1] end;  local _UVvWJFuOme = 920; local _IxEJonqsdU = {1,2,3,4}; for i=1,3 do _UVvWJFuOme = _UVvWJFuOme + _IxEJonqsdU[1] end;  local _paQBPTqhgs = 99; local _KqbsTxClTd = {1,2,3,4}; for i=1,3 do _paQBPTqhgs = _paQBPTqhgs + _KqbsTxClTd[1] end;  local _FsQCGbmqkW = 14; local _eVZxYDZBZV = {1,2,3,4}; for i=1,3 do _FsQCGbmqkW = _FsQCGbmqkW + _eVZxYDZBZV[1] end;  local _EhrWfAvuaL = 438; local _xANkYIbwra = {1,2,3,4}; for i=1,3 do _EhrWfAvuaL = _EhrWfAvuaL + _xANkYIbwra[1] end;  local _SDOxIvtaUf = 82; local _iDBdkxijKQ = {1,2,3,4}; for i=1,3 do _SDOxIvtaUf = _SDOxIvtaUf + _iDBdkxijKQ[1] end;  end
+function _HEJwNWCpVbOjtP()  local _hPxPXIeUyE = 104; local _noFOBIrdZY = {1,2,3,4}; for i=1,3 do _hPxPXIeUyE = _hPxPXIeUyE + _noFOBIrdZY[1] end;  local _yXMfBfGrxX = 360; local _IJSlgADTee = {1,2,3,4}; for i=1,3 do _yXMfBfGrxX = _yXMfBfGrxX + _IJSlgADTee[1] end;  local _KOLWuRjsmd = 46; local _fHqhjRnVrs = {1,2,3,4}; for i=1,3 do _KOLWuRjsmd = _KOLWuRjsmd + _fHqhjRnVrs[1] end;  local _nITHaFfWrH = 217; local _YPVCoszaht = {1,2,3,4}; for i=1,3 do _nITHaFfWrH = _nITHaFfWrH + _YPVCoszaht[1] end;  local _RKhrSFcHNj = 165; local _XwkCRRdCRY = {1,2,3,4}; for i=1,3 do _RKhrSFcHNj = _RKhrSFcHNj + _XwkCRRdCRY[1] end;  local _jutFJJcbnv = 927; local _STxhIASyWh = {1,2,3,4}; for i=1,3 do _jutFJJcbnv = _jutFJJcbnv + _STxhIASyWh[1] end;  end
+function _gGGtOWMkzGuZTb()  local _HVBHfucYEM = 536; local _FFLByuznUC = {1,2,3,4}; for i=1,3 do _HVBHfucYEM = _HVBHfucYEM + _FFLByuznUC[1] end;  local _mLQOyGjMVs = 494; local _lfSADXCWeu = {1,2,3,4}; for i=1,3 do _mLQOyGjMVs = _mLQOyGjMVs + _lfSADXCWeu[1] end;  local _FKmxZaBiUK = 293; local _MheGekLLfi = {1,2,3,4}; for i=1,3 do _FKmxZaBiUK = _FKmxZaBiUK + _MheGekLLfi[1] end;  local _oxIgHnkknp = 899; local _SjjwUxqEYw = {1,2,3,4}; for i=1,3 do _oxIgHnkknp = _oxIgHnkknp + _SjjwUxqEYw[1] end;  local _ezJLzTCeqs = 886; local _AuvJoEWlBZ = {1,2,3,4}; for i=1,3 do _ezJLzTCeqs = _ezJLzTCeqs + _AuvJoEWlBZ[1] end;  local _nMWmaUbflJ = 129; local _fqhCVICvkj = {1,2,3,4}; for i=1,3 do _nMWmaUbflJ = _nMWmaUbflJ + _fqhCVICvkj[1] end;  end
+function _knHafSamNOiVJr()  local _rWXmVfBGiU = 957; local _QyideRSuTx = {1,2,3,4}; for i=1,3 do _rWXmVfBGiU = _rWXmVfBGiU + _QyideRSuTx[1] end;  local _mapVoIILYT = 407; local _IBLmhOWgWu = {1,2,3,4}; for i=1,3 do _mapVoIILYT = _mapVoIILYT + _IBLmhOWgWu[1] end;  local _KkaudURwar = 779; local _NOFSqTecsl = {1,2,3,4}; for i=1,3 do _KkaudURwar = _KkaudURwar + _NOFSqTecsl[1] end;  local _WQlQOCRiQU = 119; local _GPVGcAsoKx = {1,2,3,4}; for i=1,3 do _WQlQOCRiQU = _WQlQOCRiQU + _GPVGcAsoKx[1] end;  local _dyfDUxvKzr = 764; local _zdiPWNxwXv = {1,2,3,4}; for i=1,3 do _dyfDUxvKzr = _dyfDUxvKzr + _zdiPWNxwXv[1] end;  local _OZHzmGBThb = 622; local _JleGEnIGBI = {1,2,3,4}; for i=1,3 do _OZHzmGBThb = _OZHzmGBThb + _JleGEnIGBI[1] end;  end
+function _VyESGLXkROScIg()  local _fevzYjRVjd = 565; local _IYTUqqrxUN = {1,2,3,4}; for i=1,3 do _fevzYjRVjd = _fevzYjRVjd + _IYTUqqrxUN[1] end;  local _VSNdKMdTIJ = 199; local _yRBpIKRltf = {1,2,3,4}; for i=1,3 do _VSNdKMdTIJ = _VSNdKMdTIJ + _yRBpIKRltf[1] end;  local _VvcaIpNYtS = 706; local _RNVmEEMYwI = {1,2,3,4}; for i=1,3 do _VvcaIpNYtS = _VvcaIpNYtS + _RNVmEEMYwI[1] end;  local _wnzlIjXVyn = 573; local _EEBSUHcbJz = {1,2,3,4}; for i=1,3 do _wnzlIjXVyn = _wnzlIjXVyn + _EEBSUHcbJz[1] end;  local _qNbtLgSAdb = 198; local _TmOynFTkwI = {1,2,3,4}; for i=1,3 do _qNbtLgSAdb = _qNbtLgSAdb + _TmOynFTkwI[1] end;  local _hCBOaFkMJU = 418; local _fFyeJvUcUW = {1,2,3,4}; for i=1,3 do _hCBOaFkMJU = _hCBOaFkMJU + _fFyeJvUcUW[1] end;  end
+function _MxMzTlTIbddYYo()  local _WTfDfhlNaF = 355; local _YuoOkSeUWH = {1,2,3,4}; for i=1,3 do _WTfDfhlNaF = _WTfDfhlNaF + _YuoOkSeUWH[1] end;  local _LqUaThMxNV = 840; local _HiIXaEVYsx = {1,2,3,4}; for i=1,3 do _LqUaThMxNV = _LqUaThMxNV + _HiIXaEVYsx[1] end;  local _aGbzXjxpOQ = 900; local _xOVUxSErWW = {1,2,3,4}; for i=1,3 do _aGbzXjxpOQ = _aGbzXjxpOQ + _xOVUxSErWW[1] end;  local _HlCllrYnSA = 46; local _xduJxzBGFT = {1,2,3,4}; for i=1,3 do _HlCllrYnSA = _HlCllrYnSA + _xduJxzBGFT[1] end;  local _msSdONYRql = 361; local _QaTPWashtw = {1,2,3,4}; for i=1,3 do _msSdONYRql = _msSdONYRql + _QaTPWashtw[1] end;  local _AZYFLHBXvZ = 315; local _gnXsLmuVHc = {1,2,3,4}; for i=1,3 do _AZYFLHBXvZ = _AZYFLHBXvZ + _gnXsLmuVHc[1] end;  end
+function _ZXUERuipRblrdk()  local _PUpAjzfObH = 662; local _LxXHNJtflS = {1,2,3,4}; for i=1,3 do _PUpAjzfObH = _PUpAjzfObH + _LxXHNJtflS[1] end;  local _fCoAczdFgK = 966; local _IFYVbJszIW = {1,2,3,4}; for i=1,3 do _fCoAczdFgK = _fCoAczdFgK + _IFYVbJszIW[1] end;  local _slkCjPJbAI = 692; local _rUUVuUrTcP = {1,2,3,4}; for i=1,3 do _slkCjPJbAI = _slkCjPJbAI + _rUUVuUrTcP[1] end;  local _yXHDLYivQG = 910; local _mrdpfIMXpR = {1,2,3,4}; for i=1,3 do _yXHDLYivQG = _yXHDLYivQG + _mrdpfIMXpR[1] end;  local _iGyjbUzvzm = 299; local _HSKzEjqCyQ = {1,2,3,4}; for i=1,3 do _iGyjbUzvzm = _iGyjbUzvzm + _HSKzEjqCyQ[1] end;  local _BkuKbedOHh = 265; local _VpmpHKIlVC = {1,2,3,4}; for i=1,3 do _BkuKbedOHh = _BkuKbedOHh + _VpmpHKIlVC[1] end;  end
+function _bRtNdKtHTpRsmz()  local _fHIANLkWCa = 336; local _CJKzfxOTcB = {1,2,3,4}; for i=1,3 do _fHIANLkWCa = _fHIANLkWCa + _CJKzfxOTcB[1] end;  local _SMMeiArKcv = 277; local _hsuceIvVQN = {1,2,3,4}; for i=1,3 do _SMMeiArKcv = _SMMeiArKcv + _hsuceIvVQN[1] end;  local _HXxxaFdfWS = 773; local _hBOTNBkcjm = {1,2,3,4}; for i=1,3 do _HXxxaFdfWS = _HXxxaFdfWS + _hBOTNBkcjm[1] end;  local _fVFMmhgtjP = 681; local _ExjvRQKgdC = {1,2,3,4}; for i=1,3 do _fVFMmhgtjP = _fVFMmhgtjP + _ExjvRQKgdC[1] end;  local _EbTQAKiYDq = 920; local _xkcLashhCe = {1,2,3,4}; for i=1,3 do _EbTQAKiYDq = _EbTQAKiYDq + _xkcLashhCe[1] end;  local _PGmiRtBgGs = 712; local _siUoOBxdwD = {1,2,3,4}; for i=1,3 do _PGmiRtBgGs = _PGmiRtBgGs + _siUoOBxdwD[1] end;  end
+function _InXEsxpLgfsSGt()  local _GtXzGVJMPB = 851; local _goZrTtHhqP = {1,2,3,4}; for i=1,3 do _GtXzGVJMPB = _GtXzGVJMPB + _goZrTtHhqP[1] end;  local _bfNXBLNgRf = 134; local _xgYoowvOTk = {1,2,3,4}; for i=1,3 do _bfNXBLNgRf = _bfNXBLNgRf + _xgYoowvOTk[1] end;  local _lnJiEIwTIJ = 780; local _kbqlmYymGM = {1,2,3,4}; for i=1,3 do _lnJiEIwTIJ = _lnJiEIwTIJ + _kbqlmYymGM[1] end;  local _BCcqoNsfra = 469; local _ugzfLkTouP = {1,2,3,4}; for i=1,3 do _BCcqoNsfra = _BCcqoNsfra + _ugzfLkTouP[1] end;  local _QLdbbsmWrq = 118; local _DKzvoNRWpC = {1,2,3,4}; for i=1,3 do _QLdbbsmWrq = _QLdbbsmWrq + _DKzvoNRWpC[1] end;  local _vCytKitqFY = 332; local _WacWGTvHcF = {1,2,3,4}; for i=1,3 do _vCytKitqFY = _vCytKitqFY + _WacWGTvHcF[1] end;  end
+function _sFFVwsTYtDiYWf()  local _RbzCgDNKmu = 147; local _gmslxytNYv = {1,2,3,4}; for i=1,3 do _RbzCgDNKmu = _RbzCgDNKmu + _gmslxytNYv[1] end;  local _KpXdPelQwV = 146; local _xvahduxsQH = {1,2,3,4}; for i=1,3 do _KpXdPelQwV = _KpXdPelQwV + _xvahduxsQH[1] end;  local _vTgLOrOBow = 436; local _BjOMlukCTM = {1,2,3,4}; for i=1,3 do _vTgLOrOBow = _vTgLOrOBow + _BjOMlukCTM[1] end;  local _GRklKleJuF = 784; local _WvyJLaAQEd = {1,2,3,4}; for i=1,3 do _GRklKleJuF = _GRklKleJuF + _WvyJLaAQEd[1] end;  local _tMMgJwDJxm = 264; local _fYhCiqrCge = {1,2,3,4}; for i=1,3 do _tMMgJwDJxm = _tMMgJwDJxm + _fYhCiqrCge[1] end;  local _FyzvQIoIou = 746; local _LTrLYWYTDm = {1,2,3,4}; for i=1,3 do _FyzvQIoIou = _FyzvQIoIou + _LTrLYWYTDm[1] end;  end
+function _LjuPbPxTRitGNY()  local _NVlJtOwWLc = 453; local _EIWnthFYOX = {1,2,3,4}; for i=1,3 do _NVlJtOwWLc = _NVlJtOwWLc + _EIWnthFYOX[1] end;  local _ayiLsYpqqC = 680; local _FbSyUSROBk = {1,2,3,4}; for i=1,3 do _ayiLsYpqqC = _ayiLsYpqqC + _FbSyUSROBk[1] end;  local _kPjXWcTvvX = 722; local _kBWOrAAumA = {1,2,3,4}; for i=1,3 do _kPjXWcTvvX = _kPjXWcTvvX + _kBWOrAAumA[1] end;  local _lRcMdbIoYx = 60; local _XKKQIlgPwe = {1,2,3,4}; for i=1,3 do _lRcMdbIoYx = _lRcMdbIoYx + _XKKQIlgPwe[1] end;  local _vXOfjJjlMs = 641; local _YNYOqhczCZ = {1,2,3,4}; for i=1,3 do _vXOfjJjlMs = _vXOfjJjlMs + _YNYOqhczCZ[1] end;  local _YcyVsLmvGw = 18; local _QGYdzuLRCB = {1,2,3,4}; for i=1,3 do _YcyVsLmvGw = _YcyVsLmvGw + _QGYdzuLRCB[1] end;  end
+function _uSIDGAwjhKucZx()  local _JoZOQqMZQV = 384; local _LoNmrWtZhh = {1,2,3,4}; for i=1,3 do _JoZOQqMZQV = _JoZOQqMZQV + _LoNmrWtZhh[1] end;  local _hRFZheovvw = 166; local _kYuOsMxkLX = {1,2,3,4}; for i=1,3 do _hRFZheovvw = _hRFZheovvw + _kYuOsMxkLX[1] end;  local _EVtIFTVUrk = 100; local _xLMUgmwXct = {1,2,3,4}; for i=1,3 do _EVtIFTVUrk = _EVtIFTVUrk + _xLMUgmwXct[1] end;  local _fZsLBDAinY = 410; local _RVcJwjSxkL = {1,2,3,4}; for i=1,3 do _fZsLBDAinY = _fZsLBDAinY + _RVcJwjSxkL[1] end;  local _LCnysxeDcQ = 175; local _zpRauYMWYw = {1,2,3,4}; for i=1,3 do _LCnysxeDcQ = _LCnysxeDcQ + _zpRauYMWYw[1] end;  local _GuXEwpLiqy = 207; local _zZEgqUIeAs = {1,2,3,4}; for i=1,3 do _GuXEwpLiqy = _GuXEwpLiqy + _zZEgqUIeAs[1] end;  end
 
---//LucidioWorks UI--WHITELIST CHECK local HttpService=game:GetService((_rnUKMSDTvyUP("SHR0cFNlcnZpY2U=","base64")))local Players=game:GetService((_rnUKMSDTvyUP("UGxheWVycw==","base64")))local _TnoeBVIXpeKilWrCATwIoI=Players._TnoeBVIXpeKilWrCATwIoI local _nrOMeOrvrjRbrbMKlLDKPy,data=pcall(function()return HttpService:GetAsync((_cWRIMEBumzkS("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3JheWZybG9sL3doaXRlbGlzdC9yZWZzL2hlYWRzL21haW4vd2hpdGVsaXN0","base64")))end)if not do local _FreEbPrKap=0;if false then _FreEbPrKap=_FreEbPrKap+1 end end_nrOMeOrvrjRbrbMKlLDKPy then _TnoeBVIXpeKilWrCATwIoI:Kick((_enwTENbbmljW("436f756c64206e6f74207665726966792077686974656c69737421","hex")))return end local _sIhsReSvWvSfCseXUnnVJz _nrOMeOrvrjRbrbMKlLDKPy,_sIhsReSvWvSfCseXUnnVJz=pcall(function()return HttpService:JSONDecode(data)end)if not _nrOMeOrvrjRbrbMKlLDKPy or not _sIhsReSvWvSfCseXUnnVJz.whitelist then _TnoeBVIXpeKilWrCATwIoI:pcall(function()local _CAEEhvQZGh='lwhgse' end)Kick((_cWRIMEBumzkS("57686974656c697374206461746120696e76616c696421","hex")))return end--Use UserId as pseudo-HWID for Roblox local _eajyTHVleYQBjAvpHcDgwL=tostring(_TnoeBVIXpeKilWrCATwIoI.UserId)local _vKUleKeAJyDtzUsrWBQCNO=false for _,id in ipairs(_sIhsReSvWvSfCseXUnnVJz.whitelist)do if pcall(function()local _thVDUdJaVj='ddebms' end)id==_eajyTHVleYQBjAvpHcDgwL then _vKUleKeAJyDtzUsrWBQCNO=true break end end if not _vKUleKeAJyDtzUsrWBQCNO then _TnoeBVIXpeKilWrCATwIoI:Kick((_rnUKMSDTvyUP("596f7520617265206e6f742077686974656c6973746564","hex")))while true do end--crash client end--GUI SETUP local _wdMQaaTHbhvIQYhxFkqYGr=Instance.new((_cWRIMEBumzkS("U2NyZWVuR3Vp","base64")))_wdMQaaTHbhvIQYhxFkqYGr.Name=(_enwTENbbmljW("THVjaWRpb1dvcmtzX1VJ","base64"))_wdMQaaTHbhvIQYhxFkqYGrpcall(function()local _rbNaiHkvDT='yeaolj' end).ResetOnSpawn=false _wdMQaaTHbhvIQYhxFkqYGr.Parent=_TnoeBVIXpeKilWrCATwIoI:WaitForChild((_cWRIMEBumzkS("UGxheWVyR3Vp","base64")))--Open/Hide GUI Button local _fahvdiLnWGuHEyhaJqfmRu=Instance.new((_rnUKMSDTvyUP("54657874427574746f6e","hex")))_fahvdiLnWGuHEyhaJqfmRu.Size=UDim2.new(0,120,0,40)_fahvdiLnWGuHEyhaJqfmRu.Position=UDim2.new(0,20,0.5,-20)_fahvdiLnWGuHEyhaJqfmRu.BackgroundColor3=Color3.fromRGB(30,30,30)do local _BxCSRhHWEO=0;if false then _BxCSRhHWEO=_BxCSRhHWEO+1 end end_fahvdiLnWGuHEyhaJqfmRu.Text=(_rnUKMSDTvyUP("4f70656e20475549","hex"))_fahvdiLnWGuHEyhaJqfmRu.Font=Enum.Font.GothamBold _fahvdiLnWGuHEyhaJqfmRu.TextSize=16 _fahvdiLnWGuHEyhaJqfmRu.TextColor3=Color3.fromRGB(255,255,255)_fahvdiLnWGuHEyhaJqfmRu.Active=true _fahvdiLnWGuHEyhaJqfmRu.Parent=_wdMQaaTHbhvIQYhxFkqYGr Instance.new((_enwTENbbmljW("VUlDb3JuZXI=","base64")),_fahvdiLnWGuHEyhaJqfmRu).CornerRadius=UDimpcall(function()local _zjUWfxfYLr='mzqfkl' end).new(0,8)--Main Panel local _LXPwBKDucTfjkUGdQbYeos=Instance.new((_rnUKMSDTvyUP("RnJhbWU=","base64")))_LXPwBKDucTfjkUGdQbYeos.Size=UDim2.new(0,200,0,140)_LXPwBKDucTfjkUGdQbYeos.Position=UDim2.new(0.5,-100,0.5,-70)_LXPwBKDucTfjkUGdQbYeos.BackgroundColor3=Color3.fromRGB(15,15,15)_LXPwBKDucTfjkUGdQbYeos.BorderSizePixel=0 _LXPwBKDucTfjkUGdQbYeos.Active=true pcall(function()local _mdVUZVNgFN='yyhkgz' end)_LXPwBKDucTfjkUGdQbYeos.Draggable=true _LXPwBKDucTfjkUGdQbYeos.Visible=false _LXPwBKDucTfjkUGdQbYeos.Parent=_wdMQaaTHbhvIQYhxFkqYGr Instance.new((_rnUKMSDTvyUP("VUlDb3JuZXI=","base64")),_LXPwBKDucTfjkUGdQbYeos).CornerRadius=UDim.new(0,12)local _LfMsFCxHtdMvxSmrauZTcb=Instance.new((_zkOhAKmGfqnT("24:70415c506845464148")))_LfMsFCxHtdMvxSmrauZTcb.Size=UDim2.new(1,0,0,28)_LfMsFCxHtdMvxSmrauZTcb.BackgroundTransparency=1 _LfMsFCxHtdMvxSmrauZTcb.Text=do local _VBNOrLaxPS={1,2,3,4,5};if #_VBNOrLaxPS>0 then local _=_VBNOrLaxPS[1] end end(_enwTENbbmljW("4c75636964696f576f726b73","hex"))_LfMsFCxHtdMvxSmrauZTcb.Font=Enum.Font.GothamBold _LfMsFCxHtdMvxSmrauZTcb.TextColor3=Color3.fromRGB(255,255,255)_LfMsFCxHtdMvxSmrauZTcb.TextSize=18 _LfMsFCxHtdMvxSmrauZTcb.Parent=_LXPwBKDucTfjkUGdQbYeos local _ivRhzXrbplCzlsSAEpqWko=Instance.new((_rnUKMSDTvyUP("55494c6973744c61796f7574","hex")),_LXPwBKDucTfjkUGdQbYeos)_ivRhzXrbplCzlsSAEpqWko.Padding=UDim.new(0,6)_ivRhzXrbplCzlsSAEpqWkopcall(function()local _EbDCKFpIRu='tvsgeb' end).HorizontalAlignment=Enum.HorizontalAlignment.Center _ivRhzXrbplCzlsSAEpqWko.VerticalAlignment=Enum.VerticalAlignment.Top local function _uAFnWwpvpyxlpHSkiixolH(text)local _KgOodQtacIAmVPZINOoyfJ=Instance.new((_eKCsBhNOyIvG("67:33021f13251213130809")))_KgOodQtacIAmVPZINOoyfJ.Size=UDim2.new(0,170,0,34)_KgOodQtacIAmVPZINOoyfJ.Text=text _KgOodQtacIAmVPZINOoyfJ.BackgroundColor3=do local _sTopyoqOTR=0;if false then _sTopyoqOTR=_sTopyoqOTR+1 end endColor3.fromRGB(40,40,40)_KgOodQtacIAmVPZINOoyfJ.TextColor3=Color3.fromRGB(255,255,255)_KgOodQtacIAmVPZINOoyfJ.Font=Enum.Font.GothamSemibold _KgOodQtacIAmVPZINOoyfJ.TextSize=15 Instance.new((_rnUKMSDTvyUP("VUlDb3JuZXI=","base64")),_KgOodQtacIAmVPZINOoyfJ).CornerRadius=UDim.new(0,8)_KgOodQtacIAmVPZINOoyfJ.Parent=_LXPwBKDucTfjkUGdQbYeos return _KgOodQtacIAmVPZINOoyfJ enddo local _lhbfZNfxvo=0;if false then _lhbfZNfxvo=_lhbfZNfxvo+1 end end local _LMDsuQuciJWWcmQBZGieYO=_uAFnWwpvpyxlpHSkiixolH((_zkOhAKmGfqnT("FE:cd8c9adeb89291918c")))local _yczbOpINCCOUmeXKzmgqIo=_uAFnWwpvpyxlpHSkiixolH((_enwTENbbmljW("QW50aQ==","base64")))local _ghGggtIroIXpIFpjzQOINI=_uAFnWwpvpyxlpHSkiixolH((_cWRIMEBumzkS("RVNQ","base64")))--Added ESP button--Open/Hide GUI logic _fahvdiLnWGuHEyhaJqfmRu.MouseButton1Click:Connect(function()_LXPwBKDucTfjkUGdQbYeos.Visible=pcall(function()local _fkZaRiRAmG='snknba' end)not _LXPwBKDucTfjkUGdQbYeos.Visible if _LXPwBKDucTfjkUGdQbYeos.Visible then _fahvdiLnWGuHEyhaJqfmRu.Text=(_cWRIMEBumzkS("4869646520475549","hex"))_fahvdiLnWGuHEyhaJqfmRu.BackgroundColor3=Color3.fromRGB(20,150,255)else _fahvdiLnWGuHEyhaJqfmRu.Text=(_rnUKMSDTvyUP("T3BlbiBHVUk=","base64"))_fahvdiLnWGuHEyhaJqfmRu.BackgroundColor3=Color3.fromRGB(30,30,30)end end)------------------------------------------------------------------------DESYNC(DO NOT pcall(function()local _GsKcTETrKC='anvmsp' end)TOUCH)local ReplicatedStorage=game:GetService((_cWRIMEBumzkS("5265706c69636174656453746f72616765","hex")))local _OoEleaYooDhSsRXtzKFuwq=false local function _ZtWblNtSxgCQtDpcXuSbxj()local _nrOMeOrvrjRbrbMKlLDKPy=pcall(function()local _ESSIwAPjeTSwyYPqhatmvh=ReplicatedStorage:WaitForChild((_rnUKMSDTvyUP("UGFja2FnZXM=","base64")),5)local _ejDCuyEPkgFetYAjkjcXOv=_ESSIwAPjeTSwyYPqhatmvh:WaitForChild((_oAAXOMulyfpU("01:4f6475")),5)local _LqZHlFmjNhCrLPzbPvayxA=_ejDCuyEPkgFetYAjkjcXOv:WaitForChilddo local _iJbwfMGgji=0;if false then _iJbwfMGgji=_iJbwfMGgji+1 end end((_enwTENbbmljW("52452f5573654974656d","hex")),5)local _qMopHGdLAaGkNifsMaoVXa=_ejDCuyEPkgFetYAjkjcXOv:WaitForChild((_zkOhAKmGfqnT("66:3423493713070812130b250a0908031449290832030a0316091412")),5)if setfflag then setfflag((_enwTENbbmljW("576f726c64537465704d6178","hex")),(_enwTENbbmljW("2d39393939393939393939","hex")))end _LqZHlFmjNhCrLPzbPvayxA:FireServer()task.wait(1)_qMopHGdLAaGkNifsMaoVXa:FireServer()task.wait(2)if setfflag then setfflag((_enwTENbbmljW("576f726c64537465704d6178","hex")),(_cWRIMEBumzkS("LTE=","base64")))enddo local _TgCPDqhJcE={1,2,3,4,5};if #_TgCPDqhJcE>0 then local _=_TgCPDqhJcE[1] end end end)return _nrOMeOrvrjRbrbMKlLDKPy end local function _WcHRuiCBChPEPnJgImLgzp()if setfflag then setfflag((_rnUKMSDTvyUP("V29ybGRTdGVwTWF4","base64")),(_enwTENbbmljW("LTE=","base64")))end end _yczbOpINCCOUmeXKzmgqIo.MouseButton1Click:Connect(function()_OoEleaYooDhSsRXtzKFuwq=not _OoEleaYooDhSsRXtzKFuwq if _OoEleaYooDhSsRXtzKFuwq then pcall(function()local _ZdOwEWQGCD='lvcbnw' end)if _ZtWblNtSxgCQtDpcXuSbxj()then _yczbOpINCCOUmeXKzmgqIo.BackgroundColor3=Color3.fromRGB(200,200,0)end else _WcHRuiCBChPEPnJgImLgzp()_yczbOpINCCOUmeXKzmgqIo.BackgroundColor3=Color3.fromRGB(40,40,40)end end)_TnoeBVIXpeKilWrCATwIoI.CharacterAdded:Connect(function()_OoEleaYooDhSsRXtzKFuwq=false _yczbOpINCCOUmeXKzmgqIo.BackgroundColor3=Color3.fromRGB(40,40,40)do local _rgzuXKJJbb={1,2,3,4,5};if #_rgzuXKJJbb>0 then local _=_rgzuXKJJbb[1] end endend)------------------------------------------------------------------------3rd FLOOR(KEPT EXACTLY)local _rQhhUFJKnqQmpOsGzHdHDe=game:GetService((_zkOhAKmGfqnT("1E:4c6b704d7b6c68777d7b")))local _ophItDpPUWnBWyCZESbdjA,connection local _AgeKdTqbPXDDLOIvlxhfli,isRising=false,false local _dDWlzXsOEFzMtOOgSEBvaQ=15 local function _bMzVEYRtgJsqeNiSxAFpVx()if _ophItDpPUWnBWyCZESbdjA then _ophItDpPUWnBWyCZESbdjA:Destroy()endpcall(function()local _sqOFIEdEff='gicekn' end)_ophItDpPUWnBWyCZESbdjA=nil _AgeKdTqbPXDDLOIvlxhfli=false isRising=false if connection then connection:Disconnect()connection=nil end _LMDsuQuciJWWcmQBZGieYO.BackgroundColor3=Color3.fromRGB(40,40,40)end local function _MhBlxrtgnfNpoJijpYKoDk(character)local _IIkinqTgRinRYBdsJcgDwq=characterdo local _qIlJGCkzJp={1,2,3,4,5};if #_qIlJGCkzJp>0 then local _=_qIlJGCkzJp[1] end end:WaitForChild((_rnUKMSDTvyUP("SHVtYW5vaWRSb290UGFydA==","base64")))_LMDsuQuciJWWcmQBZGieYO.MouseButton1Click:Connect(function()_AgeKdTqbPXDDLOIvlxhfli=not _AgeKdTqbPXDDLOIvlxhfli if _AgeKdTqbPXDDLOIvlxhfli then _ophItDpPUWnBWyCZESbdjA=Instance.new((_enwTENbbmljW("50617274","hex")))_ophItDpPUWnBWyCZESbdjA.Size=Vector3.new(6,0.5,6)_ophItDpPUWnBWyCZESbdjA.Anchored=true _ophItDpPUWnBWyCZESbdjA.CanCollide=true _ophItDpPUWnBWyCZESbdjA.Color=Color3.fromRGB(255,200,0)_ophItDpPUWnBWyCZESbdjA.Positiondo local _kRKfPidxVF=0;if false then _kRKfPidxVF=_kRKfPidxVF+1 end end=_IIkinqTgRinRYBdsJcgDwq.Position _ophItDpPUWnBWyCZESbdjA.Parent=workspace isRising=true connection=_rQhhUFJKnqQmpOsGzHdHDe.Heartbeat:Connect(function(dt)if _ophItDpPUWnBWyCZESbdjA and _AgeKdTqbPXDDLOIvlxhfli then _ophItDpPUWnBWyCZESbdjA.Position=_IIkinqTgRinRYBdsJcgDwq.Position+Vector3.new(0,dt*_dDWlzXsOEFzMtOOgSEBvaQ,0)do local _sRKdjycXWH={1,2,3,4,5};if #_sRKdjycXWH>0 then local _=_sRKdjycXWH[1] end endend end)_LMDsuQuciJWWcmQBZGieYO.BackgroundColor3=Color3.fromRGB(0,170,0)else _bMzVEYRtgJsqeNiSxAFpVx()end end)character:WaitForChild((_zkOhAKmGfqnT("D8:90adb5b9b6b7b1bc"))).Died:Connect(_bMzVEYRtgJsqeNiSxAFpVx)end if _TnoeBVIXpeKilWrCATwIoI.Character then _MhBlxrtgnfNpoJijpYKoDk(_TnoeBVIXpeKilWrCATwIoI.Character)end _TnoeBVIXpeKilWrCATwIoI.CharacterAdded:Connectpcall(function()local _UkEqBTWKWV='gawcdf' end)(_MhBlxrtgnfNpoJijpYKoDk)------------------------------------------------------------------------ESP(simple)local _QPvYQEOOOjvKzqiKMHAVcr=false _ghGggtIroIXpIFpjzQOINI.MouseButton1Click:Connect(function()_QPvYQEOOOjvKzqiKMHAVcr=not _QPvYQEOOOjvKzqiKMHAVcr _ghGggtIroIXpIFpjzQOINI.BackgroundColor3=_QPvYQEOOOjvKzqiKMHAVcr and Color3.fromRGB(0,170,0)or Color3.fromRGB(40,40,40)for _,plr in ipairs(Players:do local _rveGpdDfDM=0;if false then _rveGpdDfDM=_rveGpdDfDM+1 end endGetPlayers())do if plr ~=_TnoeBVIXpeKilWrCATwIoI and plr.Character and plr.Character:FindFirstChild((_cWRIMEBumzkS("48756d616e6f6964526f6f7450617274","hex")))then local _BgwZVKovjGNcMdlILSGkkp=plr.Character.HumanoidRootPart if _QPvYQEOOOjvKzqiKMHAVcr then local _yOmjdwUvfgXAUwSymoOKDH=Instance.new((_oAAXOMulyfpU("0B:496473436a656f676e4a6f647965666e657f")))do local _vNQyKEulqw=0;if false then _vNQyKEulqw=_vNQyKEulqw+1 end end_yOmjdwUvfgXAUwSymoOKDH.Size=plr.Character:GetExtentsSize()_yOmjdwUvfgXAUwSymoOKDH.Adornee=plr.Character _yOmjdwUvfgXAUwSymoOKDH.Color3=Color3.fromRGB(255,0,0)_yOmjdwUvfgXAUwSymoOKDH.Transparency=0.6 _yOmjdwUvfgXAUwSymoOKDH.AlwaysOnTop=true _yOmjdwUvfgXAUwSymoOKDH.Parent=_BgwZVKovjGNcMdlILSGkkp else for _,child in ipairs(do local _JdkFWtWrLJ={1,2,3,4,5};if #_JdkFWtWrLJ>0 then local _=_JdkFWtWrLJ[1] end end_BgwZVKovjGNcMdlILSGkkp:GetChildren())do if child:IsA((_cWRIMEBumzkS("426f7848616e646c6541646f726e6d656e74","hex")))then child:Destroy()end end end end end end)
-do local _SmnsxHhAIgEz=9010; if false then _SmnsxHhAIgEz=_SmnsxHhAIgEz+1 end end
-pcall(function() local tmp={'zfnuidoz','tqotfd'}; end)
-do local _OKIMjrtWvqUA=9354; if false then _OKIMjrtWvqUA=_OKIMjrtWvqUA+1 end end
-pcall(function() local tmp={'byhvvbdj','emqrbf'}; end)
-do local _WCVlBeUvDADT=1580; if false then _WCVlBeUvDADT=_WCVlBeUvDADT+1 end end
-pcall(function() local tmp={'vuozlnsp','qwfbvn'}; end)
-do local _TIuhmBEtJAMe=8085; if false then _TIuhmBEtJAMe=_TIuhmBEtJAMe+1 end end
-pcall(function() local tmp={'zgissgby','shygcw'}; end)
-do local _BnXlbvJIqXqd=7579; if false then _BnXlbvJIqXqd=_BnXlbvJIqXqd+1 end end
-pcall(function() local tmp={'areacgrr','cubwty'}; end)
-do local _RyTkGtcBfsil=7975; if false then _RyTkGtcBfsil=_RyTkGtcBfsil+1 end end
-pcall(function() local tmp={'strqghhs','mmzxif'}; end)
-do local _odJWktRxGlkH=7844; if false then _odJWktRxGlkH=_odJWktRxGlkH+1 end end
-pcall(function() local tmp={'pxipillm','xydoui'}; end)
-do local _ghFsBUqCxQSM=4204; if false then _ghFsBUqCxQSM=_ghFsBUqCxQSM+1 end end
-pcall(function() local tmp={'eihtaazu','jqkvhr'}; end)
-do local _KXFffSmqNeru=9633; if false then _KXFffSmqNeru=_KXFffSmqNeru+1 end end
-pcall(function() local tmp={'mochpzqm','cpfbhi'}; end)
-do local _cYcfZUNLyptf=1087; if false then _cYcfZUNLyptf=_cYcfZUNLyptf+1 end end
-pcall(function() local tmp={'jgvpareg','fqrzhg'}; end)
-do local _oZWGLiwgFTbx=6357; if false then _oZWGLiwgFTbx=_oZWGLiwgFTbx+1 end end
-pcall(function() local tmp={'upomnwzk','gxohzl'}; end)
-do local _sezHwZLCFVSN=9437; if false then _sezHwZLCFVSN=_sezHwZLCFVSN+1 end end
-pcall(function() local tmp={'lznthble','vctjev'}; end)
-do local _GFbcPKnsWpJj=6460; if false then _GFbcPKnsWpJj=_GFbcPKnsWpJj+1 end end
-pcall(function() local tmp={'heskjkyt','ywlkap'}; end)
-do local _INPgoXAKyVJP=9411; if false then _INPgoXAKyVJP=_INPgoXAKyVJP+1 end end
-pcall(function() local tmp={'cxervkrj','fsayas'}; end)
-do local _vkydoGvzAzzU=4247; if false then _vkydoGvzAzzU=_vkydoGvzAzzU+1 end end
-pcall(function() local tmp={'sfdmlpdn','dnitld'}; end)
-do local _XKSZDwwSRciy=5191; if false then _XKSZDwwSRciy=_XKSZDwwSRciy+1 end end
-pcall(function() local tmp={'wxatzwqx','eauucp'}; end)
-do local _TNjAaTYxpyJv=7151; if false then _TNjAaTYxpyJv=_TNjAaTYxpyJv+1 end end
-pcall(function() local tmp={'whxiolwo','ekryzf'}; end)
-do local _twqpqtoXvAxi=3462; if false then _twqpqtoXvAxi=_twqpqtoXvAxi+1 end end
-pcall(function() local tmp={'xzosdhbb','landze'}; end)
-do local _TYMPhfWvCwpS=2054; if false then _TYMPhfWvCwpS=_TYMPhfWvCwpS+1 end end
-pcall(function() local tmp={'qkwjjlhu','rrisvs'}; end)
-do local _BQVfDFFHAJtN=3001; if false then _BQVfDFFHAJtN=_BQVfDFFHAJtN+1 end end
-pcall(function() local tmp={'zzlrufhb','zandbk'}; end)
-do local _hCTgatKQmqVh=2625; if false then _hCTgatKQmqVh=_hCTgatKQmqVh+1 end end
-pcall(function() local tmp={'pxvautys','tmqohj'}; end)
-do local _MrgzExkpuORV=3409; if false then _MrgzExkpuORV=_MrgzExkpuORV+1 end end
-pcall(function() local tmp={'jfxdrjpv','dqstnb'}; end)
-do local _DLspSxXLPsEV=2430; if false then _DLspSxXLPsEV=_DLspSxXLPsEV+1 end end
-pcall(function() local tmp={'ztlcpmbj','wypvgp'}; end)
-do local _qefhakLbatlx=8678; if false then _qefhakLbatlx=_qefhakLbatlx+1 end end
-pcall(function() local tmp={'ogvfxiyo','yxyltg'}; end)
-do local _uRlOKphtwsbH=4304; if false then _uRlOKphtwsbH=_uRlOKphtwsbH+1 end end
-pcall(function() local tmp={'eweprzwn','khdjrd'}; end)
-do local _NareiLJhdArN=3203; if false then _NareiLJhdArN=_NareiLJhdArN+1 end end
-pcall(function() local tmp={'vzwtwaco','ovrzzv'}; end)
-do local _hVZgLAmhDFgq=5311; if false then _hVZgLAmhDFgq=_hVZgLAmhDFgq+1 end end
-pcall(function() local tmp={'nvsynpoq','gjdegu'}; end)
-do local _HNQlszEpRlMF=6596; if false then _HNQlszEpRlMF=_HNQlszEpRlMF+1 end end
-pcall(function() local tmp={'miaidlpj','tjmgzy'}; end)
-do local _DyozUvpgZlww=3727; if false then _DyozUvpgZlww=_DyozUvpgZlww+1 end end
-pcall(function() local tmp={'xhuquqex','rpoyox'}; end)
-do local _kVPlSluICeQv=4276; if false then _kVPlSluICeQv=_kVPlSluICeQv+1 end end
-pcall(function() local tmp={'fonnxlns','tahycz'}; end)
-do local _TKliagHCxZMh=9282; if false then _TKliagHCxZMh=_TKliagHCxZMh+1 end end
-pcall(function() local tmp={'ishikmgh','hrfiom'}; end)
-do local _lgXOPEegxlFE=7415; if false then _lgXOPEegxlFE=_lgXOPEegxlFE+1 end end
-pcall(function() local tmp={'ohxkjnkb','juewmb'}; end)
-do local _KaKaSpIxbNLJ=8612; if false then _KaKaSpIxbNLJ=_KaKaSpIxbNLJ+1 end end
-pcall(function() local tmp={'unzudjcd','wfidde'}; end)
-do local _mANlVpRfPyFb=4492; if false then _mANlVpRfPyFb=_mANlVpRfPyFb+1 end end
-pcall(function() local tmp={'vrbypzzi','xvbmxq'}; end)
-do local _clnGsEztGWlk=3635; if false then _clnGsEztGWlk=_clnGsEztGWlk+1 end end
-pcall(function() local tmp={'ixlqciqi','otvwfv'}; end)
-do local _RIvdhnhpzXbi=6306; if false then _RIvdhnhpzXbi=_RIvdhnhpzXbi+1 end end
-pcall(function() local tmp={'ytuctpvv','vcrjck'}; end)
-do local _bhiFAxKzhZZJ=3566; if false then _bhiFAxKzhZZJ=_bhiFAxKzhZZJ+1 end end
-pcall(function() local tmp={'rjdfyagy','wfcegk'}; end)
-do local _ITnEzlIPKWva=3476; if false then _ITnEzlIPKWva=_ITnEzlIPKWva+1 end end
-pcall(function() local tmp={'oylreqmv','wbplbr'}; end)
-do local _CiBECXsRkLns=4937; if false then _CiBECXsRkLns=_CiBECXsRkLns+1 end end
-pcall(function() local tmp={'rvetcvam','hyfkuu'}; end)
-do local _gVCTCktYYfuL=8781; if false then _gVCTCktYYfuL=_gVCTCktYYfuL+1 end end
-pcall(function() local tmp={'weyzukyp','sjpehz'}; end)
-do local _wHlTlggDeRJY=4780; if false then _wHlTlggDeRJY=_wHlTlggDeRJY+1 end end
-pcall(function() local tmp={'twcrgutb','zseqnm'}; end)
-do local _adEmQLRGIMVj=8270; if false then _adEmQLRGIMVj=_adEmQLRGIMVj+1 end end
-pcall(function() local tmp={'ivgthhsn','pmymaq'}; end)
-do local _fuLKuNeHiSGZ=3293; if false then _fuLKuNeHiSGZ=_fuLKuNeHiSGZ+1 end end
-pcall(function() local tmp={'vqtkbbnm','rfoydz'}; end)
-do local _wEwoTYdjRILh=4911; if false then _wEwoTYdjRILh=_wEwoTYdjRILh+1 end end
-pcall(function() local tmp={'fexkpzjo','amsggt'}; end)
-do local _iLRiOQWujjLo=5606; if false then _iLRiOQWujjLo=_iLRiOQWujjLo+1 end end
-pcall(function() local tmp={'rjeilyiy','bviyae'}; end)
-do local _BqtdXsDTydsZ=6641; if false then _BqtdXsDTydsZ=_BqtdXsDTydsZ+1 end end
-pcall(function() local tmp={'fqpeynuq','cntqlq'}; end)
-do local _PoMaIYafszka=8094; if false then _PoMaIYafszka=_PoMaIYafszka+1 end end
-pcall(function() local tmp={'pphijsui','lrdnft'}; end)
-do local _uwGTwwdBssrz=5597; if false then _uwGTwwdBssrz=_uwGTwwdBssrz+1 end end
-pcall(function() local tmp={'anfvypbj','drjhyx'}; end)
-do local _SePgsqmPXcSw=9302; if false then _SePgsqmPXcSw=_SePgsqmPXcSw+1 end end
-pcall(function() local tmp={'iichohnj','nlqjrv'}; end)
-do local _cVCUZmwNfBXI=1385; if false then _cVCUZmwNfBXI=_cVCUZmwNfBXI+1 end end
-pcall(function() local tmp={'chgvunqh','jyorzd'}; end)
-do local _dtEYWSVEFWAQ=9084; if false then _dtEYWSVEFWAQ=_dtEYWSVEFWAQ+1 end end
-pcall(function() local tmp={'cxyrcdbs','wchtyq'}; end)
-do local _bocBWORPjqML=1223; if false then _bocBWORPjqML=_bocBWORPjqML+1 end end
-pcall(function() local tmp={'ddyjmftv','lcqvdq'}; end)
-do local _yMawcztHKZcE=3618; if false then _yMawcztHKZcE=_yMawcztHKZcE+1 end end
-pcall(function() local tmp={'jkroirmv','gtktsu'}; end)
-do local _oyHVrKNHylTg=3524; if false then _oyHVrKNHylTg=_oyHVrKNHylTg+1 end end
-pcall(function() local tmp={'hsfmtjvp','wcargu'}; end)
-do local _JRGybRQgmsJa=9704; if false then _JRGybRQgmsJa=_JRGybRQgmsJa+1 end end
-pcall(function() local tmp={'wmfdrpxt','bunrgo'}; end)
-do local _heGXXZBGAOei=1749; if false then _heGXXZBGAOei=_heGXXZBGAOei+1 end end
-pcall(function() local tmp={'iuntdqjo','ugxiot'}; end)
-do local _SfEOqWWGbKtP=9028; if false then _SfEOqWWGbKtP=_SfEOqWWGbKtP+1 end end
-pcall(function() local tmp={'waytbjqu','levlcn'}; end)
-do local _UgltWtQopcqA=3721; if false then _UgltWtQopcqA=_UgltWtQopcqA+1 end end
-pcall(function() local tmp={'xustwkoh','hupabw'}; end)
-do local _xigaSOwxaaLN=3980; if false then _xigaSOwxaaLN=_xigaSOwxaaLN+1 end end
-pcall(function() local tmp={'uisurutm','gcyfnn'}; end)
-do local _WPIgpSYakDMC=4148; if false then _WPIgpSYakDMC=_WPIgpSYakDMC+1 end end
-pcall(function() local tmp={'jedoglid','zaqmza'}; end)
-do local _sHzIngbMAknM=6022; if false then _sHzIngbMAknM=_sHzIngbMAknM+1 end end
-pcall(function() local tmp={'itkcgxzc','vgcwit'}; end)
-do local _qCRqrwdixRVA=6867; if false then _qCRqrwdixRVA=_qCRqrwdixRVA+1 end end
-pcall(function() local tmp={'xardtdjz','reusvf'}; end)
-do local _bMlAHoAGKneP=6304; if false then _bMlAHoAGKneP=_bMlAHoAGKneP+1 end end
-pcall(function() local tmp={'wnzrgxxo','kmdvvl'}; end)
-do local _EBuGJayKOcLw=8280; if false then _EBuGJayKOcLw=_EBuGJayKOcLw+1 end end
-pcall(function() local tmp={'voebjgva','mgwkrp'}; end)
-do local _pFVKMkEOhgRF=9454; if false then _pFVKMkEOhgRF=_pFVKMkEOhgRF+1 end end
-pcall(function() local tmp={'dmvmcckj','dopoua'}; end)
-do local _ZIGaJTkfMPML=1407; if false then _ZIGaJTkfMPML=_ZIGaJTkfMPML+1 end end
-pcall(function() local tmp={'invthexp','hkreel'}; end)
-do local _uCInvIjdoslc=7294; if false then _uCInvIjdoslc=_uCInvIjdoslc+1 end end
-pcall(function() local tmp={'vqrqwvyf','ppnfcr'}; end)
-do local _gALMVFllbVSk=6486; if false then _gALMVFllbVSk=_gALMVFllbVSk+1 end end
-pcall(function() local tmp={'xqfgmoqx','brpwyv'}; end)
-do local _hKrGWpzmdJWG=8537; if false then _hKrGWpzmdJWG=_hKrGWpzmdJWG+1 end end
-pcall(function() local tmp={'cfpniodc','akziym'}; end)
-do local _itHoSDhUZtcx=1412; if false then _itHoSDhUZtcx=_itHoSDhUZtcx+1 end end
-pcall(function() local tmp={'ldyboyyw','huotwc'}; end)
-do local _JlMeJnocwUsH=1605; if false then _JlMeJnocwUsH=_JlMeJnocwUsH+1 end end
-pcall(function() local tmp={'azlkkvje','jkrlyz'}; end)
-do local _mYwtbSRAvCyY=3479; if false then _mYwtbSRAvCyY=_mYwtbSRAvCyY+1 end end
-pcall(function() local tmp={'xqjcvhbm','carjdr'}; end)
-do local _UsaIfrbQaNdn=1684; if false then _UsaIfrbQaNdn=_UsaIfrbQaNdn+1 end end
-pcall(function() local tmp={'rlvnxwpm','juqyli'}; end)
-do local _GfqftaCUqCxZ=7386; if false then _GfqftaCUqCxZ=_GfqftaCUqCxZ+1 end end
-pcall(function() local tmp={'djqyanow','hcrotx'}; end)
-do local _QWFXQMHlIPdE=8075; if false then _QWFXQMHlIPdE=_QWFXQMHlIPdE+1 end end
-pcall(function() local tmp={'wnzrpiou','iwthxo'}; end)
-do local _JbTiSeBZgfur=8887; if false then _JbTiSeBZgfur=_JbTiSeBZgfur+1 end end
-pcall(function() local tmp={'kubzraxg','tzbchk'}; end)
-do local _CmBKDNcNZxqM=4330; if false then _CmBKDNcNZxqM=_CmBKDNcNZxqM+1 end end
-pcall(function() local tmp={'auvjtyhp','rztddr'}; end)
-do local _EgUOIrMnnLFR=5584; if false then _EgUOIrMnnLFR=_EgUOIrMnnLFR+1 end end
-pcall(function() local tmp={'fjflgree','gtddho'}; end)
-do local _ZSjbBkxOEJoQ=7949; if false then _ZSjbBkxOEJoQ=_ZSjbBkxOEJoQ+1 end end
-pcall(function() local tmp={'hmkmitly','cyumfd'}; end)
-do local _zBbXnuBLacrN=9983; if false then _zBbXnuBLacrN=_zBbXnuBLacrN+1 end end
-pcall(function() local tmp={'nvhfypao','seuzjq'}; end)
-do local _owKfmjNbSwRw=5082; if false then _owKfmjNbSwRw=_owKfmjNbSwRw+1 end end
-pcall(function() local tmp={'hiklghcw','mdudim'}; end)
-do local _YAFyMlrDgOdi=7892; if false then _YAFyMlrDgOdi=_YAFyMlrDgOdi+1 end end
-pcall(function() local tmp={'isoheowu','cddznc'}; end)
-do local _vloeKYbmXWxc=9619; if false then _vloeKYbmXWxc=_vloeKYbmXWxc+1 end end
-pcall(function() local tmp={'vqoqjcwm','mfyfjm'}; end)
-do local _kZVopyIXPIGD=7323; if false then _kZVopyIXPIGD=_kZVopyIXPIGD+1 end end
-pcall(function() local tmp={'baapvnpg','ldmyvq'}; end)
-do local _QRtVlGvgFbpv=7149; if false then _QRtVlGvgFbpv=_QRtVlGvgFbpv+1 end end
-pcall(function() local tmp={'rnuicdyq','nddvew'}; end)
-do local _edURHpZNIPSG=3382; if false then _edURHpZNIPSG=_edURHpZNIPSG+1 end end
-pcall(function() local tmp={'ikjixfrb','emtafe'}; end)
-do local _tSBrMtsygCjA=4636; if false then _tSBrMtsygCjA=_tSBrMtsygCjA+1 end end
-pcall(function() local tmp={'ehfujiwe','xrpyyh'}; end)
-do local _TDdYLmGmzQTs=4379; if false then _TDdYLmGmzQTs=_TDdYLmGmzQTs+1 end end
-pcall(function() local tmp={'qeiqbdrb','oqwaww'}; end)
-do local _MfNdvwImVgoQ=1388; if false then _MfNdvwImVgoQ=_MfNdvwImVgoQ+1 end end
-pcall(function() local tmp={'swogooyo','etijqy'}; end)
-do local _dVyDhAoXYcBS=4145; if false then _dVyDhAoXYcBS=_dVyDhAoXYcBS+1 end end
-pcall(function() local tmp={'dqiwfztg','llnsfx'}; end)
-do local _oXxoqMuqBcmO=8594; if false then _oXxoqMuqBcmO=_oXxoqMuqBcmO+1 end end
-pcall(function() local tmp={'wszyvlfk','mocmip'}; end)
-do local _pWqTNBCRidGV=1036; if false then _pWqTNBCRidGV=_pWqTNBCRidGV+1 end end
-pcall(function() local tmp={'dvgwjyyf','dfskdx'}; end)
-do local _yQYDIIziPVSm=9094; if false then _yQYDIIziPVSm=_yQYDIIziPVSm+1 end end
-pcall(function() local tmp={'byewvohd','wsjbui'}; end)
-do local _olXciyaFHaJm=9771; if false then _olXciyaFHaJm=_olXciyaFHaJm+1 end end
-pcall(function() local tmp={'inbjyxfs','kxnmra'}; end)
-do local _JUwuYZRnjeJM=5108; if false then _JUwuYZRnjeJM=_JUwuYZRnjeJM+1 end end
-pcall(function() local tmp={'szbzycgb','jnmkhz'}; end)
-do local _KSYxeXysPmwm=9218; if false then _KSYxeXysPmwm=_KSYxeXysPmwm+1 end end
-pcall(function() local tmp={'krvkryym','singjm'}; end)
-do local _qLeZPMOcBSWa=9651; if false then _qLeZPMOcBSWa=_qLeZPMOcBSWa+1 end end
-pcall(function() local tmp={'venljzpe','lerjkm'}; end)
-do local _ITbxQjuYqJAL=7075; if false then _ITbxQjuYqJAL=_ITbxQjuYqJAL+1 end end
-pcall(function() local tmp={'hwdirrlq','atvgac'}; end)
-do local _WkuhUwuHLvDB=8561; if false then _WkuhUwuHLvDB=_WkuhUwuHLvDB+1 end end
-pcall(function() local tmp={'iebxlgjy','wzrbit'}; end)
-do local _VZhMuBmpzJIA=8795; if false then _VZhMuBmpzJIA=_VZhMuBmpzJIA+1 end end
-pcall(function() local tmp={'bzorkjwl','ccgfis'}; end)
-do local _acprRnyTHZOH=7902; if false then _acprRnyTHZOH=_acprRnyTHZOH+1 end end
-pcall(function() local tmp={'bithcljt','fhxgpk'}; end)
-do local _oIcHXNwyXFVf=5683; if false then _oIcHXNwyXFVf=_oIcHXNwyXFVf+1 end end
-pcall(function() local tmp={'hiqzeyru','acftvw'}; end)
-do local _JOYIcYQbhiDc=5177; if false then _JOYIcYQbhiDc=_JOYIcYQbhiDc+1 end end
-pcall(function() local tmp={'dlijkdjv','iempoz'}; end)
-do local _VijCwPrsEgTk=6302; if false then _VijCwPrsEgTk=_VijCwPrsEgTk+1 end end
-pcall(function() local tmp={'tpffclgk','ppiqku'}; end)
-do local _BCahyiBpBrch=9149; if false then _BCahyiBpBrch=_BCahyiBpBrch+1 end end
-pcall(function() local tmp={'ohmqmfow','vuafnx'}; end)
-do local _pGTbIgteYYPu=2291; if false then _pGTbIgteYYPu=_pGTbIgteYYPu+1 end end
-pcall(function() local tmp={'xpiuylah','wqgvwg'}; end)
-do local _uXtHNqnKnjdQ=7571; if false then _uXtHNqnKnjdQ=_uXtHNqnKnjdQ+1 end end
-pcall(function() local tmp={'rwyocbfv','cagraf'}; end)
-do local _dLYVLBGrCDDK=9521; if false then _dLYVLBGrCDDK=_dLYVLBGrCDDK+1 end end
-pcall(function() local tmp={'fwtosivl','vuazgh'}; end)
-do local _jqelIQNKsovM=3433; if false then _jqelIQNKsovM=_jqelIQNKsovM+1 end end
-pcall(function() local tmp={'lmksvvau','uususw'}; end)
-do local _plcsnlcRAVmB=9686; if false then _plcsnlcRAVmB=_plcsnlcRAVmB+1 end end
-pcall(function() local tmp={'jugcwkha','tspexc'}; end)
-do local _PDmWHQwjOOae=5174; if false then _PDmWHQwjOOae=_PDmWHQwjOOae+1 end end
-pcall(function() local tmp={'wzufjahw','wmnkrq'}; end)
-do local _BRppswYlFwlF=1461; if false then _BRppswYlFwlF=_BRppswYlFwlF+1 end end
-pcall(function() local tmp={'qngvfdov','mgckib'}; end)
-do local _eOigXHZsIcwQ=7771; if false then _eOigXHZsIcwQ=_eOigXHZsIcwQ+1 end end
-pcall(function() local tmp={'ijexants','wppeil'}; end)
-do local _giwancCPRqaC=6572; if false then _giwancCPRqaC=_giwancCPRqaC+1 end end
-pcall(function() local tmp={'mtlgnjbd','wmneiy'}; end)
-do local _hlWNkUSIgKCs=3198; if false then _hlWNkUSIgKCs=_hlWNkUSIgKCs+1 end end
-pcall(function() local tmp={'gxqnzstq','rmigvi'}; end)
-do local _kMSiHKWbGszK=2735; if false then _kMSiHKWbGszK=_kMSiHKWbGszK+1 end end
-pcall(function() local tmp={'gjdbennk','efapcg'}; end)
-do local _gDuFvVRzQpFy=6954; if false then _gDuFvVRzQpFy=_gDuFvVRzQpFy+1 end end
-pcall(function() local tmp={'esgmrdqu','zxyqds'}; end)
-do local _nyhhujnZMhRt=4973; if false then _nyhhujnZMhRt=_nyhhujnZMhRt+1 end end
-pcall(function() local tmp={'yxjbstsi','pskjaw'}; end)
-do local _gFmNOdVYtLFd=6945; if false then _gFmNOdVYtLFd=_gFmNOdVYtLFd+1 end end
-pcall(function() local tmp={'kqlzrejr','hbrdeg'}; end)
-do local _VgbVTxHhprrh=4523; if false then _VgbVTxHhprrh=_VgbVTxHhprrh+1 end end
-pcall(function() local tmp={'ksxkflnc','wljckx'}; end)
-do local _YcHKmTiGhdcK=5626; if false then _YcHKmTiGhdcK=_YcHKmTiGhdcK+1 end end
-pcall(function() local tmp={'xgtyaanl','eyevvh'}; end)
-do local _RMtXYHPEAGZa=8056; if false then _RMtXYHPEAGZa=_RMtXYHPEAGZa+1 end end
-pcall(function() local tmp={'gzfywpzs','sfdyyt'}; end)
-do local _IUaNndWxRKtG=2139; if false then _IUaNndWxRKtG=_IUaNndWxRKtG+1 end end
-pcall(function() local tmp={'stccugkd','haydbc'}; end)
-do local _YLPKHALtILqi=1538; if false then _YLPKHALtILqi=_YLPKHALtILqi+1 end end
-pcall(function() local tmp={'jgixzzws','sbdsoq'}; end)
-do local _WIFDypTbmnQO=8510; if false then _WIFDypTbmnQO=_WIFDypTbmnQO+1 end end
-pcall(function() local tmp={'esqiqctd','hnnnlf'}; end)
-do local _XxDRtAeAmhsp=8800; if false then _XxDRtAeAmhsp=_XxDRtAeAmhsp+1 end end
-pcall(function() local tmp={'qeslzwfj','azeqcz'}; end)
-do local _lYHRFnVBSnqt=5687; if false then _lYHRFnVBSnqt=_lYHRFnVBSnqt+1 end end
-pcall(function() local tmp={'lxtlltcs','juxnce'}; end)
-do local _oAHnRxCAVbNv=1261; if false then _oAHnRxCAVbNv=_oAHnRxCAVbNv+1 end end
-pcall(function() local tmp={'mnwlnrfu','rxelnh'}; end)
-do local _lcrFEBLdlPKw=9046; if false then _lcrFEBLdlPKw=_lcrFEBLdlPKw+1 end end
-pcall(function() local tmp={'hymbrbsy','bfkxie'}; end)
-do local _GurELGDzIEFb=1738; if false then _GurELGDzIEFb=_GurELGDzIEFb+1 end end
-pcall(function() local tmp={'yysojvbt','sewbaa'}; end)
-do local _jErfzHmXDXQF=6734; if false then _jErfzHmXDXQF=_jErfzHmXDXQF+1 end end
-pcall(function() local tmp={'qhtdkzls','zrikfg'}; end)
-do local _mqumaZDJGwSn=7020; if false then _mqumaZDJGwSn=_mqumaZDJGwSn+1 end end
-pcall(function() local tmp={'gnskyrjx','yvwqki'}; end)
-do local _eVdLxFJbynLd=3149; if false then _eVdLxFJbynLd=_eVdLxFJbynLd+1 end end
-pcall(function() local tmp={'ovqpdwki','kpcqxb'}; end)
-do local _vyNXRRJWYtXe=6065; if false then _vyNXRRJWYtXe=_vyNXRRJWYtXe+1 end end
-pcall(function() local tmp={'cerzgatj','rpvxzr'}; end)
-do local _YJQuDezJOEOa=7698; if false then _YJQuDezJOEOa=_YJQuDezJOEOa+1 end end
-pcall(function() local tmp={'fgnmwbbs','mrmare'}; end)
-do local _MCtBCYjckzGr=9298; if false then _MCtBCYjckzGr=_MCtBCYjckzGr+1 end end
-pcall(function() local tmp={'keuhjesc','rzktpk'}; end)
-do local _sojVAciWMjzI=3140; if false then _sojVAciWMjzI=_sojVAciWMjzI+1 end end
-pcall(function() local tmp={'hgvnbkrd','matmos'}; end)
-do local _kRKGJPePdfgw=4106; if false then _kRKGJPePdfgw=_kRKGJPePdfgw+1 end end
-pcall(function() local tmp={'xlquoeur','lhusmd'}; end)
-do local _JNnuwMYNrRsE=7297; if false then _JNnuwMYNrRsE=_JNnuwMYNrRsE+1 end end
-pcall(function() local tmp={'yknffaol','jhvmwq'}; end)
-do local _hnbqgWFecOTg=4858; if false then _hnbqgWFecOTg=_hnbqgWFecOTg+1 end end
-pcall(function() local tmp={'cgodmneb','cddhdc'}; end)
-do local _DlJtKQIbiYtz=9555; if false then _DlJtKQIbiYtz=_DlJtKQIbiYtz+1 end end
-pcall(function() local tmp={'akhxqsgt','uicomg'}; end)
-do local _jFUymrOGbbBU=9810; if false then _jFUymrOGbbBU=_jFUymrOGbbBU+1 end end
-pcall(function() local tmp={'hykkajyx','avbtln'}; end)
-do local _FEHfLLGAPHGi=7932; if false then _FEHfLLGAPHGi=_FEHfLLGAPHGi+1 end end
-pcall(function() local tmp={'lzxcysdo','vlxkys'}; end)
-do local _ZVpszPsiuziW=9448; if false then _ZVpszPsiuziW=_ZVpszPsiuziW+1 end end
-pcall(function() local tmp={'aonqfeaf','hpipsn'}; end)
-do local _ELVmlAwwUPLA=8838; if false then _ELVmlAwwUPLA=_ELVmlAwwUPLA+1 end end
-pcall(function() local tmp={'ngchqflb','mscuor'}; end)
-do local _pmGzHlxkIFDc=4316; if false then _pmGzHlxkIFDc=_pmGzHlxkIFDc+1 end end
-pcall(function() local tmp={'krmdgjwc','ecfuxq'}; end)
-do local _JFYtoymzGeBc=3069; if false then _JFYtoymzGeBc=_JFYtoymzGeBc+1 end end
-pcall(function() local tmp={'xytkmreg','groeyh'}; end)
-do local _vvpyqEJyguzJ=8913; if false then _vvpyqEJyguzJ=_vvpyqEJyguzJ+1 end end
-pcall(function() local tmp={'fdkgched','tyxugx'}; end)
-do local _gzlwbCRTjxRd=5769; if false then _gzlwbCRTjxRd=_gzlwbCRTjxRd+1 end end
-pcall(function() local tmp={'pdlkshoh','vojnmu'}; end)
-do local _QxmiCiTaFHKf=6466; if false then _QxmiCiTaFHKf=_QxmiCiTaFHKf+1 end end
-pcall(function() local tmp={'imckwljf','sltkmv'}; end)
+--//LucidioWorks UI--WHITELIST CHECK
+local HttpService=game:GetService((_ZnyfSQAoUAXM("4874747053657276696365","hex")))local Players=game:GetService((_pLSTJyqGZmQe("31:615d5048544342")))local _UKZHgxUjnkoqOrFSyTVTam=Players._UKZHgxUjnkoqOrFSyTVTam
 
+local _iwWbrcUBspioQrNOwEeHRU,_mAyeDvvaosSKpnWqjYhNPV=pcall(function()pcall(function()local _ughPSBuO='hygrvx' end)return HttpService:GetAsync((_HUpRjLbIqZpU("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3JheWZybG9sL3doaXRlbGlzdC9yZWZzL2hlYWRzL21haW4vd2hpdGVsaXN0","base64")))end)if not _iwWbrcUBspioQrNOwEeHRU then
+ do local _cICgYryd={1,2,3};if #_cICgYryd>0 then local _=_cICgYryd[1] end end _UKZHgxUjnkoqOrFSyTVTam:Kick((_SGeMqdwBYYab("436f756c64206e6f74207665726966792077686974656c69737421","hex")))do local _AKUPgBUu={1,2,3};if #_AKUPgBUu>0 then local _=_AKUPgBUu[1] end end return
+end
+
+local _XTzVBPHnrCbxeQSiIuwSGx
+ do local _uvPvtFjU={1,2,3};if #_uvPvtFjU>0 then local _=_uvPvtFjU[1] end end _iwWbrcUBspioQrNOwEeHRU,_XTzVBPHnrCbxeQSiIuwSGx=pcall(function()return HttpService:JSONDecode(_mAyeDvvaosSKpnWqjYhNPV)end)if not _iwWbrcUBspioQrNOwEeHRU or not _XTzVBPHnrCbxeQSiIuwSGx.whitelist then
+ _UKZHgxUjnkoqOrFSyTVTam:Kick((_tKuIuZmSRybG("57686974656c697374206461746120696e76616c696421","hex")))do local _VEWqJECs={1,2,3};if #_VEWqJECs>0 then local _=_VEWqJECs[1] end end return
+end--Use UserId as pseudo-HWID for Roblox
+local _AFLtwIDsvsEisAqnmdGYDT=tostring(_UKZHgxUjnkoqOrFSyTVTam.UserId)local _kkPNyzXonOrdHwhkxYBrpB=false
+ do local _ozykLYvM={1,2,3};if #_ozykLYvM>0 then local _=_ozykLYvM[1] end end for _,id in ipairs(_XTzVBPHnrCbxeQSiIuwSGx.whitelist)do
+ do local _DsXJgnCT={1,2,3};if #_DsXJgnCT>0 then local _=_DsXJgnCT[1] end end if id==_AFLtwIDsvsEisAqnmdGYDT then
+ _kkPNyzXonOrdHwhkxYBrpB=true
+ break
+ end
+ do local _ooCVGxxE={1,2,3};if #_ooCVGxxE>0 then local _=_ooCVGxxE[1] end end end
+
+if not _kkPNyzXonOrdHwhkxYBrpB then
+ do local _DAPIPKiQ=0;if false then _DAPIPKiQ=_DAPIPKiQ+1 end end _UKZHgxUjnkoqOrFSyTVTam:Kick((_SGeMqdwBYYab("596f7520617265206e6f742077686974656c6973746564","hex")))while true do end--crash client
+end--do local _ORMVrYUd={1,2,3};if #_ORMVrYUd>0 then local _=_ORMVrYUd[1] end end GUI SETUP
+ do local _cDWHQbPO=0;if false then _cDWHQbPO=_cDWHQbPO+1 end end local _zGLMxSPuMKpDTFeVuqomZC=Instance.new((_ZnyfSQAoUAXM("U2NyZWVuR3Vp","base64")))do local _sMPbkXYI={1,2,3};if #_sMPbkXYI>0 then local _=_sMPbkXYI[1] end end _zGLMxSPuMKpDTFeVuqomZC.Name=(_ZnyfSQAoUAXM("THVjaWRpb1dvcmtzX1VJ","base64"))pcall(function()local _WbahSLlk='olgrmi' end)_zGLMxSPuMKpDTFeVuqomZC.ResetOnSpawn=false
+ pcall(function()local _liImbMVO='msaenh' end)_zGLMxSPuMKpDTFeVuqomZC.Parent=_UKZHgxUjnkoqOrFSyTVTam:WaitForChild((_pLSTJyqGZmQe("47:172b263e223500322e")))--pcall(function()local _ljNDdvGt='swsibj' end)Open/Hide GUI Button
+local _jCwJrXWnXDsJXsQRGuQWhv=Instance.new((_SGeMqdwBYYab("54657874427574746f6e","hex")))pcall(function()local _YMmvawYC='rknbfm' end)_jCwJrXWnXDsJXsQRGuQWhv.Size=UDim2.new(0,120,0,40)_jCwJrXWnXDsJXsQRGuQWhv.Position=UDim2.new(0,20,0.5,-20)_jCwJrXWnXDsJXsQRGuQWhv.BackgroundColor3=Color3.fromRGB(30,30,30)_jCwJrXWnXDsJXsQRGuQWhv.Text=(_SGeMqdwBYYab("T3BlbiBHVUk=","base64"))_jCwJrXWnXDsJXsQRGuQWhv.Font=Enum.Font.GothamBold
+_jCwJrXWnXDsJXsQRGuQWhv.TextSize=16
+ do local _oULVGBxo={1,2,3};if #_oULVGBxo>0 then local _=_oULVGBxo[1] end end _jCwJrXWnXDsJXsQRGuQWhv.TextColor3=Color3.fromRGB(255,255,255)_jCwJrXWnXDsJXsQRGuQWhv.Active=true
+ pcall(function()local _bdqsaTby='zbmisp' end)_jCwJrXWnXDsJXsQRGuQWhv.Parent=_zGLMxSPuMKpDTFeVuqomZC
+Instance.new((_SGeMqdwBYYab("VUlDb3JuZXI=","base64")),_jCwJrXWnXDsJXsQRGuQWhv).CornerRadius=UDim.new(0,8)--Main Panel
+local _CsyNMGnOcBcmRoGCPWApkQ=Instance.new((_tKuIuZmSRybG("RnJhbWU=","base64")))_CsyNMGnOcBcmRoGCPWApkQ.Size=UDim2.new(0,200,0,140)pcall(function()local _wzJkXsIJ='seohad' end)_CsyNMGnOcBcmRoGCPWApkQ.Position=UDim2.new(0.5,-100,0.5,-70)pcall(function()local _nTvcWmOr='douxdq' end)_CsyNMGnOcBcmRoGCPWApkQ.BackgroundColor3=Color3.fromRGB(15,15,15)_CsyNMGnOcBcmRoGCPWApkQ.BorderSizePixel=0
+ do local _pcjYPDZm={1,2,3};if #_pcjYPDZm>0 then local _=_pcjYPDZm[1] end end _CsyNMGnOcBcmRoGCPWApkQ.Active=true
+_CsyNMGnOcBcmRoGCPWApkQ.Draggable=true
+ do local _axSPMOWf={1,2,3};if #_axSPMOWf>0 then local _=_axSPMOWf[1] end end _CsyNMGnOcBcmRoGCPWApkQ.Visible=false
+_CsyNMGnOcBcmRoGCPWApkQ.Parent=_zGLMxSPuMKpDTFeVuqomZC
+ do local _pCRDyxNw={1,2,3};if #_pCRDyxNw>0 then local _=_pCRDyxNw[1] end end Instance.new((_tKuIuZmSRybG("5549436f726e6572","hex")),_CsyNMGnOcBcmRoGCPWApkQ).CornerRadius=UDim.new(0,12)local _AJXKtsWyxtjrBJcbegzHNE=Instance.new((_HUpRjLbIqZpU("VGV4dExhYmVs","base64")))_AJXKtsWyxtjrBJcbegzHNE.Size=UDim2.new(1,0,0,28)_AJXKtsWyxtjrBJcbegzHNE.BackgroundTransparency=1
+_AJXKtsWyxtjrBJcbegzHNE.Text=(_tKuIuZmSRybG("THVjaWRpb1dvcmtz","base64"))_AJXKtsWyxtjrBJcbegzHNE.Font=Enum.Font.GothamBold
+_AJXKtsWyxtjrBJcbegzHNE.TextColor3=Color3.fromRGB(255,255,255)do local _NihzoMwE=0;if false then _NihzoMwE=_NihzoMwE+1 end end _AJXKtsWyxtjrBJcbegzHNE.TextSize=18
+_AJXKtsWyxtjrBJcbegzHNE.Parent=_CsyNMGnOcBcmRoGCPWApkQ
+
+ do local _pozoLiaE=0;if false then _pozoLiaE=_pozoLiaE+1 end end local _kHrUoNBQqVejmOoGkRwezf=Instance.new((_ZnyfSQAoUAXM("VUlMaXN0TGF5b3V0","base64")),_CsyNMGnOcBcmRoGCPWApkQ)do local _DdseDgZt=0;if false then _DdseDgZt=_DdseDgZt+1 end end _kHrUoNBQqVejmOoGkRwezf.Padding=UDim.new(0,6)do local _lAXzRPfG=0;if false then _lAXzRPfG=_lAXzRPfG+1 end end _kHrUoNBQqVejmOoGkRwezf.HorizontalAlignment=Enum.HorizontalAlignment.Center
+ pcall(function()local _AIgyJDyE='krczfh' end)_kHrUoNBQqVejmOoGkRwezf.VerticalAlignment=Enum.VerticalAlignment.Top
+
+local function _oKsAPOlYnjcsYNaHMyroQH(text)local _dSsBVLrovdVbemXxQOpzFJ=Instance.new((_HUpRjLbIqZpU("54657874427574746f6e","hex")))do local _rcPTWyaN={1,2,3};if #_rcPTWyaN>0 then local _=_rcPTWyaN[1] end end _dSsBVLrovdVbemXxQOpzFJ.Size=UDim2.new(0,170,0,34)_dSsBVLrovdVbemXxQOpzFJ.Text=text
+ _dSsBVLrovdVbemXxQOpzFJ.BackgroundColor3=Color3.fromRGB(40,40,40)_dSsBVLrovdVbemXxQOpzFJ.TextColor3=Color3.fromRGB(255,255,255)_dSsBVLrovdVbemXxQOpzFJ.Font=Enum.Font.GothamSemibold
+ _dSsBVLrovdVbemXxQOpzFJ.TextSize=15
+ pcall(function()local _dNJskUkT='omivrj' end)Instance.new((_ZnyfSQAoUAXM("5549436f726e6572","hex")),_dSsBVLrovdVbemXxQOpzFJ).CornerRadius=UDim.new(0,8)do local _bMcPPtSs=0;if false then _bMcPPtSs=_bMcPPtSs+1 end end _dSsBVLrovdVbemXxQOpzFJ.Parent=_CsyNMGnOcBcmRoGCPWApkQ
+ return _dSsBVLrovdVbemXxQOpzFJ
+end
+
+local _PMjrokAUWXqIThqBYnSBQn=_oKsAPOlYnjcsYNaHMyroQH((_tKuIuZmSRybG("M3JkIEZsb29y","base64")))pcall(function()local _mpUPwmNM='vwbjmk' end)local _YXaMyaXsbxAaAQLgsSkVoM=_oKsAPOlYnjcsYNaHMyroQH((_HUpRjLbIqZpU("QW50aQ==","base64")))do local _ejahssXl={1,2,3};if #_ejahssXl>0 then local _=_ejahssXl[1] end end local _wYFgjkPOVznQqQiumCAqAS=_oKsAPOlYnjcsYNaHMyroQH((_tKuIuZmSRybG("455350","hex")))--Added ESP button--Open/Hide GUI logic
+_jCwJrXWnXDsJXsQRGuQWhv.MouseButton1Click:Connect(function()_CsyNMGnOcBcmRoGCPWApkQ.Visible=not _CsyNMGnOcBcmRoGCPWApkQ.Visible
+ pcall(function()local _RbTSqOhA='nmkhwv' end)if _CsyNMGnOcBcmRoGCPWApkQ.Visible then
+ _jCwJrXWnXDsJXsQRGuQWhv.Text=(_tKuIuZmSRybG("SGlkZSBHVUk=","base64"))do local _kzLuGQGI={1,2,3};if #_kzLuGQGI>0 then local _=_kzLuGQGI[1] end end _jCwJrXWnXDsJXsQRGuQWhv.BackgroundColor3=Color3.fromRGB(20,150,255)else
+ do local _sbKZzvXb={1,2,3};if #_sbKZzvXb>0 then local _=_sbKZzvXb[1] end end _jCwJrXWnXDsJXsQRGuQWhv.Text=(_HUpRjLbIqZpU("T3BlbiBHVUk=","base64"))do local _VfZMEjZa={1,2,3};if #_VfZMEjZa>0 then local _=_VfZMEjZa[1] end end _jCwJrXWnXDsJXsQRGuQWhv.BackgroundColor3=Color3.fromRGB(30,30,30)pcall(function()local _tOREFfOL='bewvef' end)end
+ do local _wRaUOIGZ={1,2,3};if #_wRaUOIGZ>0 then local _=_wRaUOIGZ[1] end end end)------------------------------------------------------------------------pcall(function()local _ZMtyUxQG='sxdpzr' end)DESYNC(DO NOT TOUCH)local ReplicatedStorage=game:GetService((_HUpRjLbIqZpU("5265706c69636174656453746f72616765","hex")))pcall(function()local _WkXxKpKP='xlpcqq' end)local _wQJkQutOUlSKqocsXNkolz=false
+
+local function _qvSJdDOcSiYwbIlYLZsJIN()pcall(function()local _kzmcILPz='qqkngw' end)local _iwWbrcUBspioQrNOwEeHRU=pcall(function()do local _rwOfINWT=0;if false then _rwOfINWT=_rwOfINWT+1 end end local _WtxPTmUtoCxyrteyxKcczZ=ReplicatedStorage:WaitForChild((_HUpRjLbIqZpU("UGFja2FnZXM=","base64")),5)local _cYhFXccbKWCoVdiGOZsuED=_WtxPTmUtoCxyrteyxKcczZ:WaitForChild((_SGeMqdwBYYab("TmV0","base64")),5)do local _oGSuHxEs={1,2,3};if #_oGSuHxEs>0 then local _=_oGSuHxEs[1] end end local _HkcQPAbziLlzXQRScNvjuh=_cYhFXccbKWCoVdiGOZsuED:WaitForChild((_ZnyfSQAoUAXM("UkUvVXNlSXRlbQ==","base64")),5)do local _FXfUVOAl={1,2,3};if #_FXfUVOAl>0 then local _=_FXfUVOAl[1] end end local _fLgIQoQIBEDSQBQczHqHBK=_cYhFXccbKWCoVdiGOZsuED:WaitForChild((_HUpRjLbIqZpU("52452f5175616e74756d436c6f6e65722f4f6e54656c65706f7274","hex")),5)if setfflag then setfflag((_tKuIuZmSRybG("V29ybGRTdGVwTWF4","base64")),(_tKuIuZmSRybG("LTk5OTk5OTk5OTk=","base64")))end
+ do local _PGEtIBwg={1,2,3};if #_PGEtIBwg>0 then local _=_PGEtIBwg[1] end end _HkcQPAbziLlzXQRScNvjuh:FireServer()pcall(function()local _rKiqOMJx='kkwlid' end)task.wait(1)_fLgIQoQIBEDSQBQczHqHBK:FireServer()task.wait(2)do local _cripoeDI=0;if false then _cripoeDI=_cripoeDI+1 end end if setfflag then setfflag((_tKuIuZmSRybG("576f726c64537465704d6178","hex")),(_SGeMqdwBYYab("LTE=","base64")))end
+ end)pcall(function()local _OZZtthCN='xyhyrd' end)return _iwWbrcUBspioQrNOwEeHRU
+end
+
+local function _GRkEvlpoCfVurmEaNbNeNZ()if setfflag then setfflag((_HUpRjLbIqZpU("576f726c64537465704d6178","hex")),(_HUpRjLbIqZpU("LTE=","base64")))end
+end
+
+_YXaMyaXsbxAaAQLgsSkVoM.MouseButton1Click:Connect(function()_wQJkQutOUlSKqocsXNkolz=not _wQJkQutOUlSKqocsXNkolz
+ if _wQJkQutOUlSKqocsXNkolz then
+ if _qvSJdDOcSiYwbIlYLZsJIN()then
+ do local _yZWPFiDl={1,2,3};if #_yZWPFiDl>0 then local _=_yZWPFiDl[1] end end _YXaMyaXsbxAaAQLgsSkVoM.BackgroundColor3=Color3.fromRGB(200,200,0)do local _OkkJxdlP=0;if false then _OkkJxdlP=_OkkJxdlP+1 end end end
+ do local _TeFwhTSb=0;if false then _TeFwhTSb=_TeFwhTSb+1 end end else
+ do local _eFxCgtPZ={1,2,3};if #_eFxCgtPZ>0 then local _=_eFxCgtPZ[1] end end _GRkEvlpoCfVurmEaNbNeNZ()do local _UdsrVSpK={1,2,3};if #_UdsrVSpK>0 then local _=_UdsrVSpK[1] end end _YXaMyaXsbxAaAQLgsSkVoM.BackgroundColor3=Color3.fromRGB(40,40,40)end
+end)_UKZHgxUjnkoqOrFSyTVTam.CharacterAdded:Connect(function()pcall(function()local _MNkkAREy='mwwmrh' end)_wQJkQutOUlSKqocsXNkolz=false
+ pcall(function()local _ZJOHpyZe='sjczwp' end)_YXaMyaXsbxAaAQLgsSkVoM.BackgroundColor3=Color3.fromRGB(40,40,40)end)------------------------------------------------------------------------3 pcall(function()local _cMTBRkPE='caahss' end)rd FLOOR(KEPT EXACTLY)pcall(function()local _nwcNhQqc='hehznh' end)local _ZaoUnoFqbQKIQaStPSGdRX=game:GetService((_EakYztJqBVBi("E9:bb9c87ba8c9b9f808a8c")))local _AHJYpCuEbkVvEOwbiQPoiX,_hCYloNkEoaLpcihLAqWVfI
+local _EFzbxAEgjKRrzACkTXtTAt,_LZhsAjPfKoBuyaaLSJptxU=false,false
+local _NFXzZnYTOpIhFzirdyiAKk=15
+
+local function _XYCgsiGqimLecBawrcdzhv()if _AHJYpCuEbkVvEOwbiQPoiX then _AHJYpCuEbkVvEOwbiQPoiX:Destroy()end
+ _AHJYpCuEbkVvEOwbiQPoiX=nil _EFzbxAEgjKRrzACkTXtTAt=false _LZhsAjPfKoBuyaaLSJptxU=false
+ if _hCYloNkEoaLpcihLAqWVfI then _hCYloNkEoaLpcihLAqWVfI:Disconnect()_hCYloNkEoaLpcihLAqWVfI=nil end
+ do local _JaiRizKI=0;if false then _JaiRizKI=_JaiRizKI+1 end end _PMjrokAUWXqIThqBYnSBQn.BackgroundColor3=Color3.fromRGB(40,40,40)do local _ffYQsFys=0;if false then _ffYQsFys=_ffYQsFys+1 end end end
+
+ pcall(function()local _ZOPeTsCT='tbswdj' end)local function _mtJjLpGtcyQzLKzcOlTdhA(character)local _MCRPMFmiYcvJmJYEqFeovi=character:WaitForChild((_HUpRjLbIqZpU("48756d616e6f6964526f6f7450617274","hex")))_PMjrokAUWXqIThqBYnSBQn.MouseButton1Click:Connect(function()do local _iQEYFIeQ=0;if false then _iQEYFIeQ=_iQEYFIeQ+1 end end _EFzbxAEgjKRrzACkTXtTAt=not _EFzbxAEgjKRrzACkTXtTAt
+ do local _FPQlUDvS=0;if false then _FPQlUDvS=_FPQlUDvS+1 end end if _EFzbxAEgjKRrzACkTXtTAt then
+ pcall(function()local _hBKzlxUj='jqrzdw' end)_AHJYpCuEbkVvEOwbiQPoiX=Instance.new((_pLSTJyqGZmQe("59:09382b2d")))_AHJYpCuEbkVvEOwbiQPoiX.Size=Vector3.new(6,0.5,6)do local _bAqUddFv={1,2,3};if #_bAqUddFv>0 then local _=_bAqUddFv[1] end end _AHJYpCuEbkVvEOwbiQPoiX.Anchored=true
+ _AHJYpCuEbkVvEOwbiQPoiX.CanCollide=true
+ pcall(function()local _pNeWGbaw='mpjpmx' end)_AHJYpCuEbkVvEOwbiQPoiX.Color=Color3.fromRGB(255,200,0)_AHJYpCuEbkVvEOwbiQPoiX.Position=_MCRPMFmiYcvJmJYEqFeovi.Position
+ do local _trytpmiA=0;if false then _trytpmiA=_trytpmiA+1 end end _AHJYpCuEbkVvEOwbiQPoiX.Parent=workspace
+
+ _LZhsAjPfKoBuyaaLSJptxU=true
+ _hCYloNkEoaLpcihLAqWVfI=_ZaoUnoFqbQKIQaStPSGdRX.Heartbeat:Connect(function(dt)do local _WrfcjypJ=0;if false then _WrfcjypJ=_WrfcjypJ+1 end end if _AHJYpCuEbkVvEOwbiQPoiX and _EFzbxAEgjKRrzACkTXtTAt then
+ _AHJYpCuEbkVvEOwbiQPoiX.Position=_MCRPMFmiYcvJmJYEqFeovi.Position+Vector3.new(0,dt*_NFXzZnYTOpIhFzirdyiAKk,0)end
+ end)_PMjrokAUWXqIThqBYnSBQn.BackgroundColor3=Color3.fromRGB(0,170,0)pcall(function()local _mUExsaEG='pcynpa' end)else
+ _XYCgsiGqimLecBawrcdzhv()end
+ end)do local _IDlrItqh={1,2,3};if #_IDlrItqh>0 then local _=_IDlrItqh[1] end end character:WaitForChild((_SGeMqdwBYYab("48756d616e6f6964","hex"))).Died:Connect(_XYCgsiGqimLecBawrcdzhv)end
+
+ pcall(function()local _guoBDdZx='hcluwm' end)if _UKZHgxUjnkoqOrFSyTVTam.Character then _mtJjLpGtcyQzLKzcOlTdhA(_UKZHgxUjnkoqOrFSyTVTam.Character)end
+ do local _BgILMnSa=0;if false then _BgILMnSa=_BgILMnSa+1 end end _UKZHgxUjnkoqOrFSyTVTam.CharacterAdded:Connect(_mtJjLpGtcyQzLKzcOlTdhA)------------------------------------------------------------------------pcall(function()local _vGsfOzps='nonweb' end)ESP(simple)pcall(function()local _LrUDpSXJ='pnbunk' end)local _VhUOxHnPzngFBsDFXCXngI=false
+ pcall(function()local _nSpkHyCJ='wcyneb' end)_wYFgjkPOVznQqQiumCAqAS.MouseButton1Click:Connect(function()_VhUOxHnPzngFBsDFXCXngI=not _VhUOxHnPzngFBsDFXCXngI
+ _wYFgjkPOVznQqQiumCAqAS.BackgroundColor3=_VhUOxHnPzngFBsDFXCXngI and Color3.fromRGB(0,170,0)or Color3.fromRGB(40,40,40)do local _BYUdVCOp={1,2,3};if #_BYUdVCOp>0 then local _=_BYUdVCOp[1] end end for _,plr in ipairs(Players:GetPlayers())do
+ if plr ~=_UKZHgxUjnkoqOrFSyTVTam and plr.Character and plr.Character:FindFirstChild((_pLSTJyqGZmQe("43:0b362e222d2c2a27112c2c3713223137")))then
+ local _IKUDBxUjcFNNZNEbHVusmK=plr.Character.HumanoidRootPart
+ do local _jqoVMXAn=0;if false then _jqoVMXAn=_jqoVMXAn+1 end end if _VhUOxHnPzngFBsDFXCXngI then
+ local _VPtVkXcsUafJMPyGLsJxTj=Instance.new((_SGeMqdwBYYab("Qm94SGFuZGxlQWRvcm5tZW50","base64")))do local _sFnlYXgN=0;if false then _sFnlYXgN=_sFnlYXgN+1 end end _VPtVkXcsUafJMPyGLsJxTj.Size=plr.Character:GetExtentsSize()_VPtVkXcsUafJMPyGLsJxTj.Adornee=plr.Character
+ _VPtVkXcsUafJMPyGLsJxTj.Color3=Color3.fromRGB(255,0,0)_VPtVkXcsUafJMPyGLsJxTj.Transparency=0.6
+ do local _Sddlprjk={1,2,3};if #_Sddlprjk>0 then local _=_Sddlprjk[1] end end _VPtVkXcsUafJMPyGLsJxTj.AlwaysOnTop=true
+ pcall(function()local _tIrwNvBz='nnpdzk' end)_VPtVkXcsUafJMPyGLsJxTj.Parent=_IKUDBxUjcFNNZNEbHVusmK
+ else
+ for _,child in ipairs(_IKUDBxUjcFNNZNEbHVusmK:GetChildren())do
+ if child:IsA((_bmMnIhBgXxgE("08:4a67704069666c646d496c677a66656d667c")))then
+ do local _xgcBCZnO=0;if false then _xgcBCZnO=_xgcBCZnO+1 end end child:Destroy()end
+ pcall(function()local _UZnnoQUn='rmdfbe' end)end
+ end
+ do local _FBQKVVkS=0;if false then _FBQKVVkS=_FBQKVVkS+1 end end end
+ end
+ pcall(function()local _HkFGkfYf='xhvwqu' end)end)
+ do local _aYCyijMmpU = 3265; if false then _aYCyijMmpU = _aYCyijMmpU + 1 end end 
+ pcall(function() local tmp = {'klmxbmpj','vnsvsg'} end) 
+ do local _VGCBBxdFbw = 36906; if false then _VGCBBxdFbw = _VGCBBxdFbw + 1 end end 
+ pcall(function() local tmp = {'hqwduunr','bswpdp'} end) 
+ do local _gzLODBDzha = 45895; if false then _gzLODBDzha = _gzLODBDzha + 1 end end 
+ pcall(function() local tmp = {'thjxccxj','kjtnvd'} end) 
+ do local _uHlTodrvld = 40194; if false then _uHlTodrvld = _uHlTodrvld + 1 end end 
+ pcall(function() local tmp = {'splhjljg','gexzcv'} end) 
+ do local _AdLKibWmMI = 22130; if false then _AdLKibWmMI = _AdLKibWmMI + 1 end end 
+ pcall(function() local tmp = {'itaydpol','ycmwrg'} end) 
+ do local _CAlYyrihVq = 95569; if false then _CAlYyrihVq = _CAlYyrihVq + 1 end end 
+ pcall(function() local tmp = {'yrccztfj','fsdpag'} end) 
+ do local _TOlOFlcXMx = 74800; if false then _TOlOFlcXMx = _TOlOFlcXMx + 1 end end 
+ pcall(function() local tmp = {'zkzntrby','zaabhq'} end) 
+ do local _vpQVHXcnDd = 16028; if false then _vpQVHXcnDd = _vpQVHXcnDd + 1 end end 
+ pcall(function() local tmp = {'hudlozrr','cetldd'} end) 
+ do local _lHYcVAKgUE = 7921; if false then _lHYcVAKgUE = _lHYcVAKgUE + 1 end end 
+ pcall(function() local tmp = {'lilixdop','ugswar'} end) 
+ do local _tMqsjnyxQL = 8858; if false then _tMqsjnyxQL = _tMqsjnyxQL + 1 end end 
+ pcall(function() local tmp = {'xliwzctj','zvketn'} end) 
+ do local _ZdzmPWNaxh = 34886; if false then _ZdzmPWNaxh = _ZdzmPWNaxh + 1 end end 
+ pcall(function() local tmp = {'cdarumgp','qdhyoc'} end) 
+ do local _LDmiRreMqD = 70286; if false then _LDmiRreMqD = _LDmiRreMqD + 1 end end 
+ pcall(function() local tmp = {'enjisjqz','kycwbl'} end) 
+ do local _YkiImxFcPf = 58372; if false then _YkiImxFcPf = _YkiImxFcPf + 1 end end 
+ pcall(function() local tmp = {'hsxwiqlk','javiat'} end) 
+ do local _ElKynjmkrn = 27802; if false then _ElKynjmkrn = _ElKynjmkrn + 1 end end 
+ pcall(function() local tmp = {'umwtirjm','goqplm'} end) 
+ do local _EPjTqPfqNO = 44052; if false then _EPjTqPfqNO = _EPjTqPfqNO + 1 end end 
+ pcall(function() local tmp = {'asrbumvu','krrted'} end) 
+ do local _ybrZrHzcrp = 55611; if false then _ybrZrHzcrp = _ybrZrHzcrp + 1 end end 
+ pcall(function() local tmp = {'sszgtzzm','avybed'} end) 
+ do local _qxFiJNcCvF = 25403; if false then _qxFiJNcCvF = _qxFiJNcCvF + 1 end end 
+ pcall(function() local tmp = {'lojjaoad','nqzlxq'} end) 
+ do local _DUVktxpaoz = 56867; if false then _DUVktxpaoz = _DUVktxpaoz + 1 end end 
+ pcall(function() local tmp = {'pptnmjzf','mzxpej'} end) 
+ do local _oEAmtHxHtf = 84917; if false then _oEAmtHxHtf = _oEAmtHxHtf + 1 end end 
+ pcall(function() local tmp = {'qwgivmpd','whgvvf'} end) 
+ do local _QSSqMovlTe = 74643; if false then _QSSqMovlTe = _QSSqMovlTe + 1 end end 
+ pcall(function() local tmp = {'jgaciicu','juwwzf'} end) 
+ do local _yWSQqodKxF = 43671; if false then _yWSQqodKxF = _yWSQqodKxF + 1 end end 
+ pcall(function() local tmp = {'etrletuk','iodmgh'} end) 
+ do local _tNKBIqgryA = 73028; if false then _tNKBIqgryA = _tNKBIqgryA + 1 end end 
+ pcall(function() local tmp = {'fsvwuutd','nqbiiz'} end) 
+ do local _eZaGFpZYHi = 73469; if false then _eZaGFpZYHi = _eZaGFpZYHi + 1 end end 
+ pcall(function() local tmp = {'xvccizha','diaeco'} end) 
+ do local _xgEbjHLHKF = 91472; if false then _xgEbjHLHKF = _xgEbjHLHKF + 1 end end 
+ pcall(function() local tmp = {'mfmtppwf','qkward'} end) 
+ do local _FSJMmxttmA = 13029; if false then _FSJMmxttmA = _FSJMmxttmA + 1 end end 
+ pcall(function() local tmp = {'ribhepzu','vbmlpo'} end) 
+ do local _WlqNrUFaOU = 28474; if false then _WlqNrUFaOU = _WlqNrUFaOU + 1 end end 
+ pcall(function() local tmp = {'jmgymhre','dgybpy'} end) 
+ do local _zAsKuMorLS = 26497; if false then _zAsKuMorLS = _zAsKuMorLS + 1 end end 
+ pcall(function() local tmp = {'qdiblcwp','zmdijh'} end) 
+ do local _NbwxnqkIux = 66076; if false then _NbwxnqkIux = _NbwxnqkIux + 1 end end 
+ pcall(function() local tmp = {'gsyswspq','giywbh'} end) 
+ do local _gYWEatzgQR = 8173; if false then _gYWEatzgQR = _gYWEatzgQR + 1 end end 
+ pcall(function() local tmp = {'gfdwkdao','accsab'} end) 
+ do local _dESJtRVKNO = 87151; if false then _dESJtRVKNO = _dESJtRVKNO + 1 end end 
+ pcall(function() local tmp = {'jkvrrcum','qrhruf'} end) 
+ do local _cxFeEtUYGZ = 98680; if false then _cxFeEtUYGZ = _cxFeEtUYGZ + 1 end end 
+ pcall(function() local tmp = {'wclgamgs','nyxxbe'} end) 
+ do local _eckNBBFXRX = 11254; if false then _eckNBBFXRX = _eckNBBFXRX + 1 end end 
+ pcall(function() local tmp = {'wuzsxmos','fjvuir'} end) 
+ do local _bTvxXUHllw = 45486; if false then _bTvxXUHllw = _bTvxXUHllw + 1 end end 
+ pcall(function() local tmp = {'hlghfwlr','ovjfzq'} end) 
+ do local _OHeWnSfzTu = 57850; if false then _OHeWnSfzTu = _OHeWnSfzTu + 1 end end 
+ pcall(function() local tmp = {'gkjsogxi','sgjmsn'} end) 
+ do local _XBWsjZaPwy = 33851; if false then _XBWsjZaPwy = _XBWsjZaPwy + 1 end end 
+ pcall(function() local tmp = {'gqonccob','umwmwk'} end) 
+ do local _dfDqHMQHPg = 80929; if false then _dfDqHMQHPg = _dfDqHMQHPg + 1 end end 
+ pcall(function() local tmp = {'gcronmgd','pcwndz'} end) 
+ do local _snFOkhhHSx = 88713; if false then _snFOkhhHSx = _snFOkhhHSx + 1 end end 
+ pcall(function() local tmp = {'epcmfyxa','asreym'} end) 
+ do local _awvJObsjQA = 99416; if false then _awvJObsjQA = _awvJObsjQA + 1 end end 
+ pcall(function() local tmp = {'bmolnjwz','lntgac'} end) 
+ do local _gmMFsnaBUz = 4053; if false then _gmMFsnaBUz = _gmMFsnaBUz + 1 end end 
+ pcall(function() local tmp = {'wjqdudvz','naexwo'} end) 
+ do local _ftbbxlIMdi = 10989; if false then _ftbbxlIMdi = _ftbbxlIMdi + 1 end end 
+ pcall(function() local tmp = {'sswwlxzk','paiefx'} end) 
+ do local _EhzsSxmGBr = 70000; if false then _EhzsSxmGBr = _EhzsSxmGBr + 1 end end 
+ pcall(function() local tmp = {'splwhkuo','zaodmt'} end) 
+ do local _kPglsmJoxg = 1009; if false then _kPglsmJoxg = _kPglsmJoxg + 1 end end 
+ pcall(function() local tmp = {'glttlixr','zdoyzv'} end) 
+ do local _npRpefjKAm = 55850; if false then _npRpefjKAm = _npRpefjKAm + 1 end end 
+ pcall(function() local tmp = {'owshqdym','wkujpn'} end) 
+ do local _WGBBYRYYGb = 93549; if false then _WGBBYRYYGb = _WGBBYRYYGb + 1 end end 
+ pcall(function() local tmp = {'fkzkdgcg','zsglzx'} end) 
+ do local _PYPtzIzrqc = 44399; if false then _PYPtzIzrqc = _PYPtzIzrqc + 1 end end 
+ pcall(function() local tmp = {'dktrfhis','ifzcst'} end) 
+ do local _GvrvsCEHrw = 82590; if false then _GvrvsCEHrw = _GvrvsCEHrw + 1 end end 
+ pcall(function() local tmp = {'iudtyozp','viatqk'} end) 
+ do local _QrjfNwsThu = 83598; if false then _QrjfNwsThu = _QrjfNwsThu + 1 end end 
+ pcall(function() local tmp = {'qvrgtmvf','alvuna'} end) 
+ do local _TbkRuMDXWE = 48655; if false then _TbkRuMDXWE = _TbkRuMDXWE + 1 end end 
+ pcall(function() local tmp = {'kabkouyq','ozsrwn'} end) 
+ do local _pIpIqbscEz = 16089; if false then _pIpIqbscEz = _pIpIqbscEz + 1 end end 
+ pcall(function() local tmp = {'afrsjkog','hgajqm'} end) 
+ do local _SxESZqAVnz = 56266; if false then _SxESZqAVnz = _SxESZqAVnz + 1 end end 
+ pcall(function() local tmp = {'nzkujomx','vfjfim'} end) 
+ do local _WKiURrXpyG = 90602; if false then _WKiURrXpyG = _WKiURrXpyG + 1 end end 
+ pcall(function() local tmp = {'cnpkujlr','ctzyvf'} end) 
+ do local _FeBtrnzkhx = 33360; if false then _FeBtrnzkhx = _FeBtrnzkhx + 1 end end 
+ pcall(function() local tmp = {'unvshild','swyvkf'} end) 
+ do local _RnyrcbuMuc = 14138; if false then _RnyrcbuMuc = _RnyrcbuMuc + 1 end end 
+ pcall(function() local tmp = {'uaafwiev','tudvbt'} end) 
+ do local _UVrJsNTJRQ = 31625; if false then _UVrJsNTJRQ = _UVrJsNTJRQ + 1 end end 
+ pcall(function() local tmp = {'ejepamqw','ijytqw'} end) 
+ do local _lfdeFOHzkI = 49625; if false then _lfdeFOHzkI = _lfdeFOHzkI + 1 end end 
+ pcall(function() local tmp = {'uuchhpqa','acpgmd'} end) 
+ do local _dvEoBqymXB = 74795; if false then _dvEoBqymXB = _dvEoBqymXB + 1 end end 
+ pcall(function() local tmp = {'lkrihqkh','rdwdpb'} end) 
+ do local _iDbKlnIWlX = 49579; if false then _iDbKlnIWlX = _iDbKlnIWlX + 1 end end 
+ pcall(function() local tmp = {'ihfccbpl','tdyrcc'} end) 
+ do local _HMjuLIfTzE = 15177; if false then _HMjuLIfTzE = _HMjuLIfTzE + 1 end end 
+ pcall(function() local tmp = {'rpprciwt','eveslx'} end) 
+ do local _aaBBlPvInr = 2089; if false then _aaBBlPvInr = _aaBBlPvInr + 1 end end 
+ pcall(function() local tmp = {'nacdzoyi','gdgscw'} end) 
+ do local _krMHfIVOWj = 2287; if false then _krMHfIVOWj = _krMHfIVOWj + 1 end end 
+ pcall(function() local tmp = {'vjrzfazx','ikllqu'} end) 
+ do local _VJppYtAVZu = 12003; if false then _VJppYtAVZu = _VJppYtAVZu + 1 end end 
+ pcall(function() local tmp = {'lfgokaja','ecirmv'} end) 
+ do local _ISESFHENNS = 15116; if false then _ISESFHENNS = _ISESFHENNS + 1 end end 
+ pcall(function() local tmp = {'qnvdpthu','jbetiz'} end) 
+ do local _GoMYOrmYUL = 97948; if false then _GoMYOrmYUL = _GoMYOrmYUL + 1 end end 
+ pcall(function() local tmp = {'fmvmsyfd','bemndm'} end) 
+ do local _fylFZjpEtZ = 93743; if false then _fylFZjpEtZ = _fylFZjpEtZ + 1 end end 
+ pcall(function() local tmp = {'bdxrdnfp','hmpkia'} end) 
+ do local _FJZhEiwjaz = 99318; if false then _FJZhEiwjaz = _FJZhEiwjaz + 1 end end 
+ pcall(function() local tmp = {'asnwbrtu','iwgpdv'} end) 
+ do local _gZcZyOaDAO = 91502; if false then _gZcZyOaDAO = _gZcZyOaDAO + 1 end end 
+ pcall(function() local tmp = {'soxmuund','fgbqqd'} end) 
+ do local _ShhVYXpbyP = 21325; if false then _ShhVYXpbyP = _ShhVYXpbyP + 1 end end 
+ pcall(function() local tmp = {'dvyxwdpz','pnmkvb'} end) 
+ do local _tKDLuQqqqD = 11487; if false then _tKDLuQqqqD = _tKDLuQqqqD + 1 end end 
+ pcall(function() local tmp = {'icamqcna','bdstib'} end) 
+ do local _RaikblkxPs = 82344; if false then _RaikblkxPs = _RaikblkxPs + 1 end end 
+ pcall(function() local tmp = {'byghlkpz','goebdi'} end) 
+ do local _sqhXVeFXDM = 20054; if false then _sqhXVeFXDM = _sqhXVeFXDM + 1 end end 
+ pcall(function() local tmp = {'lagowtux','pezrfp'} end) 
+ do local _eISdoAtaRt = 1696; if false then _eISdoAtaRt = _eISdoAtaRt + 1 end end 
+ pcall(function() local tmp = {'wbzmxatu','uazoqm'} end) 
+ do local _PxfjmZkdrC = 42359; if false then _PxfjmZkdrC = _PxfjmZkdrC + 1 end end 
+ pcall(function() local tmp = {'zsxkgdio','jlzrek'} end) 
+ do local _XcBeSNoEAv = 64225; if false then _XcBeSNoEAv = _XcBeSNoEAv + 1 end end 
+ pcall(function() local tmp = {'jsxfdzsr','amgkeq'} end) 
+ do local _cggMcHrDDQ = 5199; if false then _cggMcHrDDQ = _cggMcHrDDQ + 1 end end 
+ pcall(function() local tmp = {'olsdccnx','aqtosy'} end) 
+ do local _sryBucjghG = 22902; if false then _sryBucjghG = _sryBucjghG + 1 end end 
+ pcall(function() local tmp = {'ylhfpoqr','qcieji'} end) 
+ do local _cxNViwszyd = 99169; if false then _cxNViwszyd = _cxNViwszyd + 1 end end 
+ pcall(function() local tmp = {'tuwgimrv','gsojzb'} end) 
+ do local _FtaPwLljVK = 43132; if false then _FtaPwLljVK = _FtaPwLljVK + 1 end end 
+ pcall(function() local tmp = {'lzyeivjl','iljyfc'} end) 
+ do local _EGSjkyMREj = 77036; if false then _EGSjkyMREj = _EGSjkyMREj + 1 end end 
+ pcall(function() local tmp = {'ldqmqbav','snhydw'} end) 
+ do local _sodxgnnWtv = 8935; if false then _sodxgnnWtv = _sodxgnnWtv + 1 end end 
+ pcall(function() local tmp = {'mzoszwpb','fnqpnq'} end) 
+ do local _KZAGEyfMCX = 29359; if false then _KZAGEyfMCX = _KZAGEyfMCX + 1 end end 
+ pcall(function() local tmp = {'jgylkdgg','zbjvrs'} end) 
+ do local _xVFuZyPcVp = 83290; if false then _xVFuZyPcVp = _xVFuZyPcVp + 1 end end 
+ pcall(function() local tmp = {'mbkxrszo','tuivdp'} end) 
+ do local _JOCfstmBqX = 96267; if false then _JOCfstmBqX = _JOCfstmBqX + 1 end end 
+ pcall(function() local tmp = {'gnggyzma','irnfcd'} end) 
+ do local _mDSQAVEncn = 58334; if false then _mDSQAVEncn = _mDSQAVEncn + 1 end end 
+ pcall(function() local tmp = {'emgqnrmc','ukpjeq'} end) 
+ do local _lpuDPiHmPh = 3201; if false then _lpuDPiHmPh = _lpuDPiHmPh + 1 end end 
+ pcall(function() local tmp = {'vgglsfmb','ockwnm'} end) 
+ do local _dENURRJnXt = 15345; if false then _dENURRJnXt = _dENURRJnXt + 1 end end 
+ pcall(function() local tmp = {'pflbwjqr','kdehdy'} end) 
+ do local _bmGVZqpVch = 83301; if false then _bmGVZqpVch = _bmGVZqpVch + 1 end end 
+ pcall(function() local tmp = {'segqjzqf','krazub'} end) 
+ do local _IJGqSJAkOL = 7452; if false then _IJGqSJAkOL = _IJGqSJAkOL + 1 end end 
+ pcall(function() local tmp = {'sytdonin','keizli'} end) 
+ do local _ccMJWfnYHS = 56144; if false then _ccMJWfnYHS = _ccMJWfnYHS + 1 end end 
+ pcall(function() local tmp = {'zxvmhrnp','fkcgdo'} end) 
+ do local _eQAoQsmEUX = 6009; if false then _eQAoQsmEUX = _eQAoQsmEUX + 1 end end 
+ pcall(function() local tmp = {'gaqvirwz','chazvx'} end) 
+ do local _PsRhKyqFZG = 66912; if false then _PsRhKyqFZG = _PsRhKyqFZG + 1 end end 
+ pcall(function() local tmp = {'krabhlwm','gjtzbr'} end) 
+ do local _PXpKTGHLyd = 41995; if false then _PXpKTGHLyd = _PXpKTGHLyd + 1 end end 
+ pcall(function() local tmp = {'xdnwnfgs','wrbzan'} end) 
+ do local _Oaovpnmvei = 54687; if false then _Oaovpnmvei = _Oaovpnmvei + 1 end end 
+ pcall(function() local tmp = {'wmjgweim','vjxfdt'} end) 
+ do local _KWoLeBmmPm = 87088; if false then _KWoLeBmmPm = _KWoLeBmmPm + 1 end end 
+ pcall(function() local tmp = {'jujxnhco','fxirhu'} end) 
+ do local _UVuiMstbbP = 95575; if false then _UVuiMstbbP = _UVuiMstbbP + 1 end end 
+ pcall(function() local tmp = {'qekjcqmc','goxmim'} end) 
+ do local _vLLKEOEeUk = 23551; if false then _vLLKEOEeUk = _vLLKEOEeUk + 1 end end 
+ pcall(function() local tmp = {'ljxyiicr','yxcnuq'} end) 
+ do local _WRyAAcfnHs = 70171; if false then _WRyAAcfnHs = _WRyAAcfnHs + 1 end end 
+ pcall(function() local tmp = {'bgcoasda','lvotlh'} end) 
+ do local _sldXAhfTcc = 45311; if false then _sldXAhfTcc = _sldXAhfTcc + 1 end end 
+ pcall(function() local tmp = {'qkfplojs','cxofpl'} end) 
+ do local _WQbmZDqaun = 68795; if false then _WQbmZDqaun = _WQbmZDqaun + 1 end end 
+ pcall(function() local tmp = {'zaserjja','vevcnh'} end) 
+ do local _NPlVeeKbAA = 75724; if false then _NPlVeeKbAA = _NPlVeeKbAA + 1 end end 
+ pcall(function() local tmp = {'ysaqcxta','rntdzv'} end) 
+ do local _yUtWZmNcUb = 33234; if false then _yUtWZmNcUb = _yUtWZmNcUb + 1 end end 
+ pcall(function() local tmp = {'vlwomulw','aijmbt'} end) 
+ do local _HklxbTgZUN = 64389; if false then _HklxbTgZUN = _HklxbTgZUN + 1 end end 
+ pcall(function() local tmp = {'ufjinpax','yyeasg'} end) 
+ do local _qBZnELCmaJ = 15297; if false then _qBZnELCmaJ = _qBZnELCmaJ + 1 end end 
+ pcall(function() local tmp = {'discchnj','zhdype'} end) 
+ do local _GOPWFtGmAS = 55384; if false then _GOPWFtGmAS = _GOPWFtGmAS + 1 end end 
+ pcall(function() local tmp = {'ktwtxbyn','tcywbb'} end) 
+ do local _cgmYYPohjY = 78913; if false then _cgmYYPohjY = _cgmYYPohjY + 1 end end 
+ pcall(function() local tmp = {'isbvidtb','qcispf'} end) 
+ do local _kuZeYeDUUO = 89178; if false then _kuZeYeDUUO = _kuZeYeDUUO + 1 end end 
+ pcall(function() local tmp = {'lcduhljk','sfgrqf'} end) 
+ do local _oBcyQawSnw = 35866; if false then _oBcyQawSnw = _oBcyQawSnw + 1 end end 
+ pcall(function() local tmp = {'urphfouv','xltwny'} end) 
+ do local _RENpbwsmXn = 38049; if false then _RENpbwsmXn = _RENpbwsmXn + 1 end end 
+ pcall(function() local tmp = {'eyznetky','nnjjcm'} end) 
+ do local _sEnVTgjtwH = 76743; if false then _sEnVTgjtwH = _sEnVTgjtwH + 1 end end 
+ pcall(function() local tmp = {'tomtnwmr','pishad'} end) 
+ do local _ZbRKyIALBc = 29144; if false then _ZbRKyIALBc = _ZbRKyIALBc + 1 end end 
+ pcall(function() local tmp = {'umzfjsuw','syifjs'} end) 
+ do local _dcrHvEQKOa = 85750; if false then _dcrHvEQKOa = _dcrHvEQKOa + 1 end end 
+ pcall(function() local tmp = {'jhkfuuwg','ileirf'} end) 
+ do local _yABkPkMBPD = 48271; if false then _yABkPkMBPD = _yABkPkMBPD + 1 end end 
+ pcall(function() local tmp = {'jekbdesv','gqqmyt'} end) 
+ do local _FTcVXTSiDi = 97251; if false then _FTcVXTSiDi = _FTcVXTSiDi + 1 end end 
+ pcall(function() local tmp = {'fqaxtujr','hvjikz'} end) 
+ do local _TyKuuyehKr = 32030; if false then _TyKuuyehKr = _TyKuuyehKr + 1 end end 
+ pcall(function() local tmp = {'rgzhhycp','yeozli'} end) 
+ do local _JNsFaKUbOq = 21837; if false then _JNsFaKUbOq = _JNsFaKUbOq + 1 end end 
+ pcall(function() local tmp = {'jkrhohfl','fojrwr'} end) 
+ do local _IWIgQVycpu = 2981; if false then _IWIgQVycpu = _IWIgQVycpu + 1 end end 
+ pcall(function() local tmp = {'lrbqnhnr','grtrdb'} end) 
+ do local _iIjqfZMoEJ = 61343; if false then _iIjqfZMoEJ = _iIjqfZMoEJ + 1 end end 
+ pcall(function() local tmp = {'yqdvatio','sjpihd'} end) 
+ do local _XdlMuMRgVY = 16290; if false then _XdlMuMRgVY = _XdlMuMRgVY + 1 end end 
+ pcall(function() local tmp = {'sbvsolhs','lqqhiq'} end) 
+ do local _OUtuDBlvcs = 40356; if false then _OUtuDBlvcs = _OUtuDBlvcs + 1 end end 
+ pcall(function() local tmp = {'kkjhucjw','ewtxzl'} end) 
+ do local _EuwgJceTgM = 76086; if false then _EuwgJceTgM = _EuwgJceTgM + 1 end end 
+ pcall(function() local tmp = {'jhueyhhp','iaytyj'} end) 
+ do local _IOLEHAHrQI = 51034; if false then _IOLEHAHrQI = _IOLEHAHrQI + 1 end end 
+ pcall(function() local tmp = {'aiveacnr','hzazgl'} end) 
+ do local _dXOPJVpyQx = 42890; if false then _dXOPJVpyQx = _dXOPJVpyQx + 1 end end 
+ pcall(function() local tmp = {'jsgpgyar','ccrlgs'} end) 
+ do local _xpKDqBIENw = 90646; if false then _xpKDqBIENw = _xpKDqBIENw + 1 end end 
+ pcall(function() local tmp = {'hegylmhz','fhdmzo'} end) 
+ do local _wvdcXoDJGK = 14507; if false then _wvdcXoDJGK = _wvdcXoDJGK + 1 end end 
+ pcall(function() local tmp = {'troumwni','trxcek'} end) 
+ do local _MoVpkdnrEZ = 65636; if false then _MoVpkdnrEZ = _MoVpkdnrEZ + 1 end end 
+ pcall(function() local tmp = {'qhvdupcp','jrxght'} end) 
+ do local _fjnDOlwXXS = 82447; if false then _fjnDOlwXXS = _fjnDOlwXXS + 1 end end 
+ pcall(function() local tmp = {'brhqpeyv','fdepeb'} end) 
+ do local _ZYMHbapkNZ = 16075; if false then _ZYMHbapkNZ = _ZYMHbapkNZ + 1 end end 
+ pcall(function() local tmp = {'bqtgmkwp','kqjmfn'} end) 
+ do local _MzoeZCOlEU = 43990; if false then _MzoeZCOlEU = _MzoeZCOlEU + 1 end end 
+ pcall(function() local tmp = {'qneaybnf','vpfpec'} end) 
+ do local _vZrmdLUHup = 5438; if false then _vZrmdLUHup = _vZrmdLUHup + 1 end end 
+ pcall(function() local tmp = {'zshxvcpt','bggysq'} end) 
+ do local _iXLPqHSrjg = 46335; if false then _iXLPqHSrjg = _iXLPqHSrjg + 1 end end 
+ pcall(function() local tmp = {'zdtwkpan','pwwbyo'} end) 
+ do local _XcVNjCuMAL = 72525; if false then _XcVNjCuMAL = _XcVNjCuMAL + 1 end end 
+ pcall(function() local tmp = {'ylqjpbdf','ovmmjk'} end) 
+ do local _fgOagrzppg = 50767; if false then _fgOagrzppg = _fgOagrzppg + 1 end end 
+ pcall(function() local tmp = {'gughgrux','mxxmvo'} end) 
+ do local _JjIZOZDtJe = 3793; if false then _JjIZOZDtJe = _JjIZOZDtJe + 1 end end 
+ pcall(function() local tmp = {'fbclrvyk','dklndg'} end) 
+ do local _CMeDDmdYQM = 99741; if false then _CMeDDmdYQM = _CMeDDmdYQM + 1 end end 
+ pcall(function() local tmp = {'aqhpmdcu','wgkrwu'} end) 
+ do local _jCJDRLSJWo = 78310; if false then _jCJDRLSJWo = _jCJDRLSJWo + 1 end end 
+ pcall(function() local tmp = {'axppghgb','yvlbtc'} end) 
+ do local _jLvdLQlQcA = 35984; if false then _jLvdLQlQcA = _jLvdLQlQcA + 1 end end 
+ pcall(function() local tmp = {'vvhqnsie','cenoqu'} end) 
+ do local _exiSWKhQiZ = 89131; if false then _exiSWKhQiZ = _exiSWKhQiZ + 1 end end 
+ pcall(function() local tmp = {'odouoeux','txowpr'} end) 
+ do local _vNEGKyyECJ = 26542; if false then _vNEGKyyECJ = _vNEGKyyECJ + 1 end end 
+ pcall(function() local tmp = {'untmioeb','gnxzxk'} end) 
+ do local _DbvMhDyHDH = 47712; if false then _DbvMhDyHDH = _DbvMhDyHDH + 1 end end 
+ pcall(function() local tmp = {'mkxlttrc','iccyno'} end) 
+ do local _YWXpszUoRB = 50932; if false then _YWXpszUoRB = _YWXpszUoRB + 1 end end 
+ pcall(function() local tmp = {'zueyjpbo','atsbhu'} end) 
+ do local _cUzjBtYIyR = 56319; if false then _cUzjBtYIyR = _cUzjBtYIyR + 1 end end 
+ pcall(function() local tmp = {'siupbpwr','ggtsgs'} end) 
+ do local _DPIeoAubtO = 84741; if false then _DPIeoAubtO = _DPIeoAubtO + 1 end end 
+ pcall(function() local tmp = {'iqicbsfi','bgstdf'} end) 
+ do local _KbPvojBuLa = 3292; if false then _KbPvojBuLa = _KbPvojBuLa + 1 end end 
+ pcall(function() local tmp = {'kiivrvnm','eeigen'} end) 
+ do local _mlBGJXsifo = 91577; if false then _mlBGJXsifo = _mlBGJXsifo + 1 end end 
+ pcall(function() local tmp = {'gekxznve','wtbett'} end) 
+ do local _XCiVbZnttR = 99481; if false then _XCiVbZnttR = _XCiVbZnttR + 1 end end 
+ pcall(function() local tmp = {'rccmsaze','zeyzzb'} end) 
+ do local _cigRKXBujS = 45197; if false then _cigRKXBujS = _cigRKXBujS + 1 end end 
+ pcall(function() local tmp = {'jdfmyirs','fttqbc'} end) 
+ do local _HPMFMFHBEr = 29247; if false then _HPMFMFHBEr = _HPMFMFHBEr + 1 end end 
+ pcall(function() local tmp = {'rvkxzcru','tdxamo'} end) 
+ do local _tIdUVLfykl = 75808; if false then _tIdUVLfykl = _tIdUVLfykl + 1 end end 
+ pcall(function() local tmp = {'hxewvqrq','hgaqzo'} end) 
+ do local _mISkNRFjgZ = 7067; if false then _mISkNRFjgZ = _mISkNRFjgZ + 1 end end 
+ pcall(function() local tmp = {'shcxlqhc','tdqdhc'} end) 
+ do local _zZhKwDxZCN = 81894; if false then _zZhKwDxZCN = _zZhKwDxZCN + 1 end end 
+ pcall(function() local tmp = {'obtkztax','ltenwn'} end) 
+ do local _yhshkOCuFu = 14687; if false then _yhshkOCuFu = _yhshkOCuFu + 1 end end 
+ pcall(function() local tmp = {'piicneyq','qdhgel'} end) 
+ do local _gykCWaDjkz = 72404; if false then _gykCWaDjkz = _gykCWaDjkz + 1 end end 
+ pcall(function() local tmp = {'gsvzhwod','rybltd'} end) 
+ do local _YSemyVYzyV = 53599; if false then _YSemyVYzyV = _YSemyVYzyV + 1 end end 
+ pcall(function() local tmp = {'hycpkljo','misgph'} end) 
+ do local _obWhorefCD = 96800; if false then _obWhorefCD = _obWhorefCD + 1 end end 
+ pcall(function() local tmp = {'gkpdrdje','qxiwtv'} end) 
+ do local _BoqldUrVBq = 63302; if false then _BoqldUrVBq = _BoqldUrVBq + 1 end end 
+ pcall(function() local tmp = {'mugfzxcj','ypcfer'} end) 
+ do local _mZaReIxapa = 24033; if false then _mZaReIxapa = _mZaReIxapa + 1 end end 
+ pcall(function() local tmp = {'goeoxezv','vymosb'} end) 
+ do local _Ajbawedpzm = 64862; if false then _Ajbawedpzm = _Ajbawedpzm + 1 end end 
+ pcall(function() local tmp = {'ltjdzmrr','hxdgmq'} end) 
+ do local _EbWvloDinK = 42619; if false then _EbWvloDinK = _EbWvloDinK + 1 end end 
+ pcall(function() local tmp = {'hjgelwah','uunjzm'} end) 
+ do local _iMSkYfOnyv = 42419; if false then _iMSkYfOnyv = _iMSkYfOnyv + 1 end end 
+ pcall(function() local tmp = {'eawuznst','jaresw'} end) 
+ do local _DhxdeEOntj = 51142; if false then _DhxdeEOntj = _DhxdeEOntj + 1 end end 
+ pcall(function() local tmp = {'liwioybm','yhgxfd'} end) 
+ do local _vWNlyzNTfB = 74082; if false then _vWNlyzNTfB = _vWNlyzNTfB + 1 end end 
+ pcall(function() local tmp = {'yprduyfw','kutzui'} end) 
+ do local _Jqzarzvags = 41402; if false then _Jqzarzvags = _Jqzarzvags + 1 end end 
+ pcall(function() local tmp = {'fcpwpxgy','kdsrwr'} end) 
+ do local _lrPDSVyGep = 47196; if false then _lrPDSVyGep = _lrPDSVyGep + 1 end end 
+ pcall(function() local tmp = {'zfoiisbl','lwlaow'} end) 
+ do local _LbWDdwEroh = 83907; if false then _LbWDdwEroh = _LbWDdwEroh + 1 end end 
+ pcall(function() local tmp = {'ukgiqzus','piihma'} end) 
+ do local _aMnyeMWecy = 1048; if false then _aMnyeMWecy = _aMnyeMWecy + 1 end end 
+ pcall(function() local tmp = {'rkspftll','vshqmm'} end) 
+ do local _LtOguiBDBK = 91336; if false then _LtOguiBDBK = _LtOguiBDBK + 1 end end 
+ pcall(function() local tmp = {'fkdzkaca','csiucw'} end) 
+ do local _ybvGYUEAxy = 30793; if false then _ybvGYUEAxy = _ybvGYUEAxy + 1 end end 
+ pcall(function() local tmp = {'agqbnfzp','njfzhm'} end) 
+ do local _lMSVowTtpn = 85912; if false then _lMSVowTtpn = _lMSVowTtpn + 1 end end 
+ pcall(function() local tmp = {'klouqikm','wumarf'} end) 
+ do local _jzqxJAXYkq = 97536; if false then _jzqxJAXYkq = _jzqxJAXYkq + 1 end end 
+ pcall(function() local tmp = {'ijqpnohe','thqytt'} end) 
+ do local _yotSLdtmms = 62073; if false then _yotSLdtmms = _yotSLdtmms + 1 end end 
+ pcall(function() local tmp = {'yrmsomul','jxvipp'} end) 
+ do local _MoLxUQMeuf = 59583; if false then _MoLxUQMeuf = _MoLxUQMeuf + 1 end end 
+ pcall(function() local tmp = {'asqvrynk','sjhtkv'} end) 
+ do local _OArHHWtxOw = 49585; if false then _OArHHWtxOw = _OArHHWtxOw + 1 end end 
+ pcall(function() local tmp = {'rlanpggf','pcsyro'} end) 
+ do local _kPnQGpGchx = 88062; if false then _kPnQGpGchx = _kPnQGpGchx + 1 end end 
+ pcall(function() local tmp = {'wfeyjnai','tashot'} end) 
+ do local _zznQxOCcuD = 12057; if false then _zznQxOCcuD = _zznQxOCcuD + 1 end end 
+ pcall(function() local tmp = {'lafaafyx','nmrlqp'} end) 
+ do local _YGKTMechhz = 24464; if false then _YGKTMechhz = _YGKTMechhz + 1 end end 
+ pcall(function() local tmp = {'yvrmppgg','mmszzw'} end) 
+ do local _LBLyZRioAN = 64096; if false then _LBLyZRioAN = _LBLyZRioAN + 1 end end 
+ pcall(function() local tmp = {'wiqeukhq','vkswsn'} end) 
+ do local _nNCURnJPHK = 90207; if false then _nNCURnJPHK = _nNCURnJPHK + 1 end end 
+ pcall(function() local tmp = {'frnifavv','aiqjyr'} end) 
+ do local _RBhJkoowLL = 21748; if false then _RBhJkoowLL = _RBhJkoowLL + 1 end end 
+ pcall(function() local tmp = {'wqcvrqlc','jfevew'} end) 
+ do local _HGmdcOUXtg = 37457; if false then _HGmdcOUXtg = _HGmdcOUXtg + 1 end end 
+ pcall(function() local tmp = {'evozdsko','mdkvjl'} end) 
+ do local _kcgmlnWPZY = 14325; if false then _kcgmlnWPZY = _kcgmlnWPZY + 1 end end 
+ pcall(function() local tmp = {'kyfvzrao','xbrscp'} end) 
+ do local _CoCCSUhHCZ = 2588; if false then _CoCCSUhHCZ = _CoCCSUhHCZ + 1 end end 
+ pcall(function() local tmp = {'qckmhmvx','isofev'} end) 
 
